@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Circular';
+    font-weight: 400;
+    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Circular-Pro-Black-Regular.eot);
+    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Circular-Pro-Black-Regular.eot?#iefix) format('embedded-opentype'), url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Circular-Pro-Black-Regular.woff2) format('woff2'), url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Circular-Pro-Black-Regular.woff) format('woff'), url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Circular-Pro-Black-Regular.ttf) format('truetype'), url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Circular-Pro-Black-Regular.svg) format('svg');
+}
+
+@font-face {
+    font-family: 'Circular';
+    font-weight: 700;
+    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Circular-Pro-Black-Bold.eot);
+    src: url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Circular-Pro-Black-Bold.eot?#iefix) format('embedded-opentype'), url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Circular-Pro-Black-Bold.woff2) format('woff2'), url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Circular-Pro-Black-Bold.woff) format('woff'), url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Circular-Pro-Black-Bold.ttf) format('truetype'), url(chrome-extension://mfidniedemcgceagapgdekdbmanojomk/font/Circular-Pro-Black-Bold.svg) format('svg');
+}
+
+.slogan {
+    font-size: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 13rem 0 0 0;
+    background: rgb(255 255 255 / 90%);
+    padding: 1rem 2rem;
+    /* width: 468px; */
+    height: 500px;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h4 {
+    font-family: sans-serif;
+    color: #333333;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: #333333;
+}
+
+p {
+    font-family: sans-serif;
+    color: #333333;
+    font-size: 14px;
+}
+
+#caption {
+    position: absolute;
+    width: 1024px;
+    text-align: center;
+    top: 520px;
+    z-index: 1;
+}
+
+a {
+    font-family: sans-serif;
+    color: #d15423;
+    text-decoration: none;
+}
+
+#displayCanvas {
+    position: absolute;
+    /* top: 10px; */
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div {}
+
+#container {
+    width: 1024px;
+    height: 576px;
+    margin: auto;
+}
+
+.ip-logo-index {
+    opacity: 0;
+    /* width: 400px; */
+}
+
+.ip-index-content {
+    opacity: 0;
+}
+
+.ip-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ip-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    border-top: 2px solid #6314a6;
+    border-left: 2px solid #6314a6;
+    z-index: 100;
+}
+
+.box2 {
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 0%;
+    border-bottom: 2px solid #6314a6;
+    border-right: 2px solid #6314a6;
+}
+
+.box-animate {
+    position: relative;
+}
+
+svg {
+    font-family: 'Russo One', sans-serif;
+    /* position: absolute; */
+    /* width: 100%; */
+    /* height: 100%; */
+    width: auto;
+    /* position: absolute; */
+    /* left: 0; */
+    width: 100%;
+    height: 230px;
+}
+
+svg text {
+    text-transform: uppercase;
+    animation: stroke 5s normal forwards ease-in-out;
+    stroke-width: 1;
+    stroke: #365fa0;
+    font-size: 40px;
+}
+
+.we-do {
+    font-size: 65px;
+    color: #6314a6;
+    font-weight: bold;
+}
+
+.white-bg-opacity {
+    background: rgb(255 255 255 / 90%);
+}
+
+@keyframes stroke {
+    0% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #6314a6;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+    70% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #6314a6;
+    }
+    80% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #6314a6;
+        stroke-width: 3;
+    }
+    100% {
+        fill: #6314a6;
+        stroke: #6314a6;
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)https://dangries.com/rectangleworld/demos/MorphingCurve/MorphingCurve_RadialGradient.html -->
+<html lang="en" coupert-item="9AF8D9A4E502F3784AD24272D81F0381" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>HTML5 Canvas</title>
+
+    <link type="text/css" href="./style.css" rel="stylesheet" media="all" />
+
+    <script src="modernizr-2.0.6.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./common.js"></script>
+</head>
+
+<body>
+    <div class="container" style="margin-top: 100px">
+        <div class="row gx-0 justify-content-center">
+            <div class="col-4 box-animate">
+                <div class="box1"></div>
+                <div class="box2"></div>
+
+                <img class="ip-logo-index w-100" src="./ip-logo.jpeg" alt="" />
+            </div>
+            <div class="col-6 box-animate p-5 ms-5 white-bg-opacity">
+                <div class="box1"></div>
+                <div class="box2"></div>
+
+                <div class="ip-index-content">
+                    <h1 class="we-do">WE DO</h1>
+
+                    <div class="mt-3 svg-container"></div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="text-center">
+            <h2 class="slogan box-animate">
+                <div class="box1"></div>
+                <div class="box2"></div>
+
+                <svg>
+            <text x="50%" y="50%" dy=".35em" text-anchor="middle">hello</text>
+          </svg>
+            </h2>
+        </div> -->
+        <!-- <ul style="margin-top: 0px">
+            <li>OUT OF BOUNDS</li>
+            <li>CREATIVE</li>
+            <li>INTERACTIVE</li>
+            <li>AWESOME THOUGHTS</li>
+        </ul> -->
+    </div>
+
+    <canvas id="displayCanvas" width="1024px" height="576px">
+      <!-- Your browser does not support HTML5 canvas. -->
+    </canvas>
+
+    <script type="text/javascript">
+        $(function() {
+            $('.box-animate .box1').delay(3000).animate({
+                    width: '100%',
+                    height: '100%',
+                },
+                500
+            );
+
+            setTimeout(() => {
+                $('.svg-container').html(
+                    '<svg> <text x="0" y="0"> <tspan x="0" dy="1.2em">Creative & Art Direction</tspan> <tspan x="0" dy="1.4em">Interactive Coding</tspan><tspan x="0" dy="1.4em">Graphic and Web Design</tspan> <tspan x="0" dy="1.4em">ECommerce</tspan> <tspan x="0" dy="1.4em">Online marketing</tspan> </text> </svg>'
+                );
+            }, 3000);
+
+            $('.box-animate .box2')
+                .delay(3000)
+                .animate({
+                        width: '100%',
+                        height: '100%',
+                    },
+                    500,
+                    function() {
+                        $('.ip-logo-index').animate({
+                                opacity: '1',
+                            },
+                            500
+                        );
+
+                        $('.ip-index-content').animate({
+                                opacity: '1',
+                            },
+                            500
+                        );
+                    }
+                );
+        });
+    </script>
+</body>
+<!-- <div id="d71e94a3-3475-463f-babf-159e069138f5" style="display: block !important; z-index: 2147483647 !important"></div> -->
+
+</html>
