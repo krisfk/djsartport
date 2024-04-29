@@ -120,3 +120,10 @@ h1 {
   top: 50%;
   transform: translate(0, -50%);
 }
+
+.h1-outer-div h1 span {
+  display: block;
+  background: #fff;
+  position: relative;
+  z-index: 100;
+}
