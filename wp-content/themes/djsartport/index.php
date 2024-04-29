@@ -24,7 +24,7 @@ get_header(); ?>
 
 
 <div>
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="">
+    <img class="header-logo" src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="">
 </div>
 
 
