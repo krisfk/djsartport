@@ -60,7 +60,7 @@
 
                 for (i = 0; i < $('.course-grid-col').length; i++) {
 
-                    $('.course-grid-col').delay(i * 10).eq(i).animate({
+                    $('.course-grid-col').delay(i * 50).eq(i).animate({
                         'opacity': '1'
                     });
                 }
