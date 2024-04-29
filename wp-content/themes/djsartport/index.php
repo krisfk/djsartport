@@ -109,7 +109,7 @@ get_header(); ?>
 
                 <div>
 
-                    <div class="short-des text-left">
+                    <div class="short-des text-start mt-3">
                         氨基酸寶石皂顏值高，係送禮首選！可以用來洗頭洗面洗身，但個個同學都當係真寶石一樣，愛不釋手，唔捨得用來洗...
                     </div>
 
