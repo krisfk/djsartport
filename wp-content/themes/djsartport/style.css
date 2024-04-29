@@ -178,7 +178,15 @@ h1 {
 
 .course-tag-ul li {
   list-style-type: none;
+  display: inline-block;
 }
 
 .course-tag-ul li a {
+  /* display: inline-block; */
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  padding: 0.2rem 1rem;
+  color: #959595;
+  background: #d6ead9;
 }
