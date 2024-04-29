@@ -190,6 +190,7 @@ h1 {
   padding: 0.2rem 1rem;
   color: #ffffff;
   background: #eec6df;
+  transition: 0.5s all;
 }
 
 .course-tag-ul li a.active {
