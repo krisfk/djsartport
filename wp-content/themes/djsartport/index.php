@@ -40,12 +40,6 @@ get_header(); ?>
 
         <ul class=" top-menu-ul">
 
-            <li class="mb-4 mt-0 mobile-logo-a">
-                <a href="https://iherbalgarden.com" class="logo-a">
-                    <img src="https://iherbalgarden.com/wp-content/themes/iherbalgarden/assets/images/logo.png" alt="">
-
-                </a>
-            </li>
             <li><a class="level-1  " href="https://iherbalgarden.com/">主頁</a></li>
             <li><a class="level-1 about " href="https://iherbalgarden.com/about/">簡介</a></li>
             <li><a class="level-1 education " href="https://iherbalgarden.com/education/">學習</a></li>
