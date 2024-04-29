@@ -31,8 +31,8 @@ get_header(); ?>
 
 
 
-<div>
-    <h1 class="center">興趣班 Interest class</h1>
+<div class="text-center">
+    <h1 class="">興趣班 Interest class</h1>
 </div>
 
 
