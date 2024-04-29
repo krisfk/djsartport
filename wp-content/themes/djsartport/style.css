@@ -188,12 +188,12 @@ h1 {
   border-radius: 1rem;
   padding: 0.2rem 1rem;
   color: #ffffff;
-  background: #a9859c;
+  background: #eec6df;
   transition: 0.5s all;
 }
 
 .course-tag-ul li a.active {
-  background: #eec6df;
+  background: #a9859c;
 }
 
 .random-text {
