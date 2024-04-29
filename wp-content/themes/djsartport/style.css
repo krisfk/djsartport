@@ -105,6 +105,10 @@ h1 {
   position: relative;
   display: block;
   font-size: 32px !important;
+  /* font-size: 72px; */
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .h1-outer-div {
