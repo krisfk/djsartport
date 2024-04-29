@@ -114,12 +114,14 @@ h1 {
 .h1-outer-div h1::before {
   content: '';
   display: block;
-  width: 100%;
+  width: 80%;
   height: 2px;
   background: #bdc5e6;
   position: absolute;
   top: 50%;
-  transform: translate(0, -50%);
+  /* text-align: center; */
+  transform: translate(-50%, -50%);
+  left: 50%;
 }
 
 .h1-outer-div h1 span {
