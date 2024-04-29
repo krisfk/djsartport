@@ -185,17 +185,15 @@ h1 {
 .course-tag-ul li a {
   /* display: inline-block; */
   text-decoration: none;
-  background: #000;
-  color: #fff;
   border-radius: 1rem;
   padding: 0.2rem 1rem;
   color: #ffffff;
-  background: #eec6df;
+  background: #a9859c;
   transition: 0.5s all;
 }
 
 .course-tag-ul li a.active {
-  background: #a9859c;
+  background: #eec6df;
 }
 
 .random-text {
