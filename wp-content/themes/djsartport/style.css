@@ -219,6 +219,7 @@ h1 {
   font-size: 1.3rem;
   /* text-decoration: none; */
   background: #edf1ff;
+  transition: 0.5s all;
 }
 
 .course-select-a:hover .bottom-txt-div {
