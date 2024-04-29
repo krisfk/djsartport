@@ -101,7 +101,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 body {
-  color: #919191;
+  color: #919191 !important;
 }
 
 h1 {
