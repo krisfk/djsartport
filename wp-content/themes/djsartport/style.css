@@ -103,3 +103,15 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 h1 {
   color: #e1e1e1;
 }
+
+.h1-outer-div {
+  display: block;
+}
+
+.h1-outer-div h1::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #f00;
+}
