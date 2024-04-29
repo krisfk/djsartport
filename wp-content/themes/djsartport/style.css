@@ -202,8 +202,16 @@ h1 {
 }
 
 .course-select-a {
+  display: block;
+  text-decoration: none;
+  color: #919191;
 }
 
 .course-select-a .bottom-txt-div {
+  text-align: left;
+  padding: 1rem;
   display: block;
+  font-size: 1.3rem;
+  /* text-decoration: none; */
+  background: #edf1ff;
 }
