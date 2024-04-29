@@ -179,6 +179,7 @@ h1 {
 .course-tag-ul li {
   list-style-type: none;
   display: inline-block;
+  margin: 0 0 0.4rem 0;
 }
 
 .course-tag-ul li a {
