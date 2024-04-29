@@ -135,3 +135,8 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.h1-outer-div h1 .text-div-outer {
+  background: #fff;
+  position: relative;
+}
