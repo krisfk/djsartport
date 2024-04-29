@@ -155,12 +155,12 @@ h1 {
 
 .top-menu-ul li a {
   text-decoration: none;
-  color: #375118;
+  color: #b3b3b3;
   padding: 0.5rem 1rem;
   font-size: 1.15rem;
 }
 
 .top-menu-ul li a:hover,
 .top-menu-ul li a.active {
-  color: #8dc21e;
+  color: #eb98cb;
 }
