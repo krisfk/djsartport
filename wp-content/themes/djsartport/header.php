@@ -46,6 +46,11 @@
             'opacity': '1'
         }, 1000)
 
+        for (i = 0; i < $('.course-tag-ul li').length; i++) {
+
+            $('.course-tag-ul li').eq(i).fadeIn(200);
+        }
+
 
     })
     </script>

@@ -189,6 +189,7 @@ h1 {
   list-style-type: none;
   display: inline-block;
   margin: 0 0 0.4rem 0;
+  display: none;
 }
 
 .course-tag-ul li a {
@@ -251,6 +252,7 @@ h1 {
   color: hsl(237, 8%, 50%);
 }
 
+/* 
 img.lazyloaded {
   -webkit-transition: opacity 0.5s linear 0.2s;
   -moz-transition: opacity 0.5s linear 0.2s;
@@ -260,4 +262,4 @@ img.lazyloaded {
 
 img.lazyloaded.opacity-0 {
   opacity: 0 !important;
-}
+} */
