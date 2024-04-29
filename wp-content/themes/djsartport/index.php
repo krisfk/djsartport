@@ -58,15 +58,16 @@ get_header(); ?>
 <div class="container h1-outer-div text-center mt-5">
 
 
-    <h1 class="">
-        <span class="text-div-outer">
-            <span class="text-div">
-                <!-- <div class="text-div-bg"></div> -->
-                興趣班 Interest class
+    <div class="text-center">
+        <h1 class="">
+            <span class="text-div-outer">
+                <span class="text-div">
+                    <!-- <div class="text-div-bg"></div> -->
+                    興趣班 Interest class
+                </span>
             </span>
-        </span>
-    </h1>
-
+        </h1>
+    </div>
 
     <ul class="course-tag-ul mt-3">
         <li> <a href="javascript:void(0);" class="active"> 顯示全部</a></li>
