@@ -191,3 +191,7 @@ h1 {
   color: #ffffff;
   background: #eec6df;
 }
+
+.course-tag-ul li a.active {
+  background: #bdc5e6;
+}
