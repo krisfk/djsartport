@@ -163,7 +163,7 @@ h1 {
   color: #919191;
   padding: 0.5rem 0.5rem;
   font-size: 1.15rem;
-  transition: 0.5s all;
+  transition: 0.2s all;
 }
 
 .top-menu-ul li a:hover,
@@ -190,7 +190,7 @@ h1 {
   padding: 0.2rem 1rem;
   color: #ffffff;
   background: #eec6df;
-  transition: 0.5s all;
+  transition: 0.2s all;
 }
 
 .course-tag-ul li a.active {
@@ -204,8 +204,8 @@ h1 {
 .course-select-a {
   display: block;
   text-decoration: none;
-  color: #75768a;
-  transition: 0.5s all;
+  color: hsl(237, 8%, 50%);
+  transition: 0.2s all;
 }
 
 .course-select-a:hover {
@@ -219,7 +219,7 @@ h1 {
   font-size: 1.3rem;
   /* text-decoration: none; */
   background: #9c9fca70;
-  transition: 0.5s all;
+  transition: 0.2s all;
 }
 
 .course-select-a:hover .bottom-txt-div {
@@ -228,7 +228,7 @@ h1 {
 }
 
 .course-select-a img {
-  transition: 0.5s all;
+  transition: 0.2s all;
 }
 
 .course-select-a:hover img {
