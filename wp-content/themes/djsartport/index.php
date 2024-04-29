@@ -36,7 +36,7 @@ get_header(); ?>
 
     <h1 class="">
         <span class="text-div">
-            <div class="text-div-bg"></div>
+            <!-- <div class="text-div-bg"></div> -->
             興趣班 Interest class
         </span>
     </h1>
