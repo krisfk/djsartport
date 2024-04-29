@@ -107,9 +107,15 @@ get_header(); ?>
                 <div class="bottom-txt-div">日本Aromatics Labo木下和美氨基酸寶石皂
                     (興趣班)</div>
 
-                <div></div>
+                <div>
+
+                    氨基酸寶石皂顏值高，係送禮首選！可以用來洗頭洗面洗身，但個個同學都當係真寶石一樣，愛不釋手，唔捨得用來洗...
+
+
+                </div>
 
             </a>
+
 
         </div>
         <?php
