@@ -250,3 +250,14 @@ h1 {
   background: #fff;
   color: hsl(237, 8%, 50%);
 }
+
+img.lazyloaded {
+  -webkit-transition: opacity 0.5s linear 0.2s;
+  -moz-transition: opacity 0.5s linear 0.2s;
+  transition: opacity 0.5s linear 0.2s;
+  opacity: 1 !important;
+}
+
+img.lazyloaded.opacity-0 {
+  opacity: 0 !important;
+}
