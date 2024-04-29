@@ -42,6 +42,10 @@
 
         })
 
+        $('.h1-outer-div h1::before').animate({
+            'width': '100%'
+        }, 200);
+
     })
     </script>
 </head>
