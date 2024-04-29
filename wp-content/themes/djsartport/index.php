@@ -43,6 +43,8 @@ get_header(); ?>
             <li><a class="level-1  " href="<?php echo get_site_url();?>">主頁</a></li>
             <li><a class="level-1  " href="javascript:void(0);">關於我們</a></li>
             <li><a class="level-1  " href="javascript:void(0);">寄賣招募</a></li>
+            <li><a class="level-1  " href="javascript:void(0);">聯絡我們</a></li>
+
 
 
         </ul>
