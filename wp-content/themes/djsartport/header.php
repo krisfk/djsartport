@@ -44,7 +44,7 @@
         $('h1').animate({
             'width': '100%',
             'opacity': '1'
-        }, 500, function() {
+        }, 1000, function() {
 
 
             for (i = 0; i < $('.course-tag-ul li').length; i++) {
