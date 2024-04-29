@@ -163,7 +163,7 @@ h1 {
   color: #919191;
   padding: 0.5rem 0.5rem;
   font-size: 1.15rem;
-  transition: 0.2s all;
+  transition: 0.5s all;
 }
 
 .top-menu-ul li a:hover,
