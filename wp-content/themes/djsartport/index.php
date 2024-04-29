@@ -68,7 +68,7 @@ get_header(); ?>
     </h1>
 
 
-    <ul>
+    <ul class="course-tag-ul">
         <li>手工班</li>
         <li>畫班</li>
         <li>生活優閒</li>
