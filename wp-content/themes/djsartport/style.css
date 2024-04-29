@@ -236,3 +236,7 @@ h1 {
 
 .short-des {
 }
+
+.course-select-a:hover .short-des {
+  background: #fff;
+}
