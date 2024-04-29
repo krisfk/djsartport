@@ -42,7 +42,8 @@
 
         })
         $('h1').animate({
-            'width': '100%'
+            'width': '100%',
+            'opacity': '1'
         })
 
 
