@@ -83,7 +83,7 @@ get_header(); ?>
         <li><a href="javascript:void(0);">證書課程</a></li>
 
     </ul>
-    <div class="text-center small random-text mt-3">:: 先後次序隨機排列 ::
+    <div class="text-center small random-text mt-2">:: 先後次序隨機排列 ::
     </div>
 
 
