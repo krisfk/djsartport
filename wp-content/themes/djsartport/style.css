@@ -224,7 +224,7 @@ h1 {
 
 .course-select-a:hover .bottom-txt-div {
   background: #9c9fca;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .course-select-a img {
