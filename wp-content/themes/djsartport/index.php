@@ -66,6 +66,30 @@ get_header(); ?>
             </span>
         </span>
     </h1>
+
+
+    <ul>
+        <li>手工班</li>
+        <li>畫班</li>
+        <li>生活優閒</li>
+        <li>運動班</li>
+        <li>實用班</li>
+        <li>烹飪班</li>
+        <li>化妝班</li>
+        <li>心理班</li>
+        <li>音樂班</li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 
