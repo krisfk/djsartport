@@ -54,9 +54,11 @@
                 });
             }
 
+
             setTimeout(() => {
 
 
+                $('.random-text').fadeIn(200)
 
                 for (i = 0; i < $('.course-grid-col').length; i++) {
 

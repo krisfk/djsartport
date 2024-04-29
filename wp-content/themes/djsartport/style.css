@@ -208,6 +208,7 @@ h1 {
 
 .random-text {
   color: #a39aa0;
+  display: none;
 }
 
 .course-select-a {
