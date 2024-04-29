@@ -48,7 +48,9 @@
 
         for (i = 0; i < $('.course-tag-ul li').length; i++) {
 
-            $('.course-tag-ul li').eq(i).fadeIn(200);
+            $('.course-tag-ul li').eq(i).animate({
+                'opacity': '1'
+            });
         }
 
 
