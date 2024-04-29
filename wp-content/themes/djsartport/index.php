@@ -23,7 +23,14 @@ get_header(); ?>
 <?php endif; ?>
 
 
-test
+<div>
+    <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="">
+</div>
+
+
+
+
+
 <?php
 
 get_footer();
