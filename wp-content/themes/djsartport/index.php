@@ -23,7 +23,7 @@ get_header(); ?>
 <?php endif; ?>
 
 
-<div>
+<div class="text-center">
     <img class="header-logo" src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="">
 </div>
 
