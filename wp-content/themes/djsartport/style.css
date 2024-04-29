@@ -114,7 +114,7 @@ h1 {
 .h1-outer-div h1::before {
   content: '';
   display: block;
-  width: 80%;
+  width: 100%;
   height: 2px;
   background: #eec6df;
   position: absolute;
