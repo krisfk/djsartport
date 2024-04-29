@@ -44,14 +44,16 @@
         $('h1').animate({
             'width': '100%',
             'opacity': '1'
-        }, 1000)
+        }, 1000, function() {
 
-        for (i = 0; i < $('.course-tag-ul li').length; i++) {
+            for (i = 0; i < $('.course-tag-ul li').length; i++) {
 
-            $('.course-tag-ul li').delay(i * 10).eq(i).animate({
-                'opacity': '1'
-            });
-        }
+                $('.course-tag-ul li').delay(i * 10).eq(i).animate({
+                    'opacity': '1'
+                });
+            }
+        })
+
 
 
     })
