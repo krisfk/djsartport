@@ -35,7 +35,10 @@ get_header(); ?>
 <div class="container h1-outer-div text-center mt-4">
 
     <h1 class="">
-        <span class="text">興趣班 Interest class</span>
+        <span class="text-div">
+            <div class="text-div-bg">
+                興趣班 Interest class</div>
+        </span>
     </h1>
 </div>
 
