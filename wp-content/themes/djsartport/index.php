@@ -92,12 +92,14 @@ get_header(); ?>
 
             <a href="javascript:void"><img class="w-100"
                     src="http://143.198.107.5/wp-content/uploads/2024/04/440419620_18426416392045554_6531587873840991221_n.jpg"
-                    alt=""></a>
+                    alt="">
+
+
+                <div>氨基酸寶石皂興趣班</div>
+
+            </a>
 
         </div>
-        <div class="col-3"></div>
-        <div class="col-3"></div>
-        <div class="col-3"></div>
     </div>
 
 
