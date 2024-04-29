@@ -23,10 +23,11 @@ get_header(); ?>
 <?php endif; ?>
 
 
-<div class="text-center">
-    <img class="header-logo" src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="">
+<div class="mt-4">
+    <div class="text-center ">
+        <img class="header-logo" src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="">
+    </div>
 </div>
-
 
 
 
