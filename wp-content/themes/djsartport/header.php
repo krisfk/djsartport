@@ -48,7 +48,7 @@
 
         for (i = 0; i < $('.course-tag-ul li').length; i++) {
 
-            $('.course-tag-ul li').eq(i).delay(100).animate({
+            $('.course-tag-ul li').eq(i).delay(i * 100).animate({
                 'opacity': '1'
             });
         }
