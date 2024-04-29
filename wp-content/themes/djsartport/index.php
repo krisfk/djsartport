@@ -31,7 +31,7 @@ get_header(); ?>
 
 
 
-<div class="text-center">
+<div class="text-center mt-4">
     <h1 class="">興趣班 Interest class</h1>
 </div>
 
