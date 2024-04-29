@@ -31,6 +31,11 @@ get_header(); ?>
 
 
 
+<div>
+    <h1 class="center">興趣班 Interest class</h1>
+</div>
+
+
 
 <?php
 
