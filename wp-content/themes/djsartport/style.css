@@ -200,3 +200,10 @@ h1 {
 .random-text {
   color: #d8b5cb;
 }
+
+.course-select-a {
+}
+
+.course-select-a .bottom-txt-div {
+  display: block;
+}

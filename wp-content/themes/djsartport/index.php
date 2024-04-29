@@ -92,12 +92,12 @@ get_header(); ?>
 
         <div class="col-3">
 
-            <a href="javascript:void"><img class="w-100"
+            <a href="javascript:void" class="course-select-a"><img class="w-100"
                     src="http://143.198.107.5/wp-content/uploads/2024/04/440419620_18426416392045554_6531587873840991221_n.jpg"
                     alt="">
 
 
-                <div>氨基酸寶石皂(興趣班)</div>
+                <div class="bottom-txt-div">氨基酸寶石皂(興趣班)</div>
 
             </a>
 
