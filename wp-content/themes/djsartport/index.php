@@ -31,8 +31,35 @@ get_header(); ?>
 
 
 
+<div class="container position-relative">
 
-<div class="container h1-outer-div text-center mt-4">
+
+
+
+    <ul class="top-menu-ul-outer-ul">
+
+        <ul class=" top-menu-ul">
+
+            <li class="mb-4 mt-0 mobile-logo-a">
+                <a href="https://iherbalgarden.com" class="logo-a">
+                    <img src="https://iherbalgarden.com/wp-content/themes/iherbalgarden/assets/images/logo.png" alt="">
+
+                </a>
+            </li>
+            <li><a class="level-1  " href="https://iherbalgarden.com/">主頁</a></li>
+            <li><a class="level-1 about " href="https://iherbalgarden.com/about/">簡介</a></li>
+            <li><a class="level-1 education " href="https://iherbalgarden.com/education/">學習</a></li>
+            <li><a class="level-1 activity-map-2023 " href="https://iherbalgarden.com/activity-map-2023/">百草園</a></li>
+            <li><a class="level-1 games " href="https://iherbalgarden.com/games/">玩學遊戲</a></li>
+            <li><a class="level-1 faq " href="https://iherbalgarden.com/faq/">常見問題</a></li>
+
+
+        </ul>
+    </ul>
+</div>
+
+
+<div class="container h1-outer-div text-center mt-5">
 
 
     <h1 class="">
