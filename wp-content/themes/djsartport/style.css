@@ -205,6 +205,11 @@ h1 {
   display: block;
   text-decoration: none;
   color: #919191;
+  transition: 0.5s all;
+}
+
+.course-select-a:hover {
+  background: #000;
 }
 
 .course-select-a .bottom-txt-div {
