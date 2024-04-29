@@ -147,16 +147,21 @@ h1 {
   text-align: center;
 }
 
+.top-menu-ul-outer-ul {
+  margin: 0;
+  padding: 0;
+}
+
 .top-menu-ul li {
   display: inline-block;
   list-style-type: none;
-  margin: 0 10px;
+  margin: 0.5rem 0.5rem 0 0.5rem;
 }
 
 .top-menu-ul li a {
   text-decoration: none;
   color: #b3b3b3;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   font-size: 1.15rem;
   transition: 0.5s all;
 }
