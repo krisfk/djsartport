@@ -226,3 +226,11 @@ h1 {
   background: #9c9fca;
   color: #fff;
 }
+
+.course-select-a img {
+  transition: 0.5s all;
+}
+
+.course-select-a:hover img {
+  scale: 1.06;
+}
