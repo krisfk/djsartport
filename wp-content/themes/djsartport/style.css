@@ -220,3 +220,6 @@ h1 {
   /* text-decoration: none; */
   background: #edf1ff;
 }
+
+.course-select-a:hover .bottom-txt-div {
+}
