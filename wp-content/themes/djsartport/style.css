@@ -252,6 +252,10 @@ h1 {
   color: hsl(237, 8%, 50%);
 }
 
+.course-grid-col {
+  opacity: 0;
+}
+
 /* 
 img.lazyloaded {
   -webkit-transition: opacity 0.5s linear 0.2s;
