@@ -40,12 +40,9 @@ get_header(); ?>
 
         <ul class=" top-menu-ul">
 
-            <li><a class="level-1  " href="https://iherbalgarden.com/">主頁</a></li>
-            <li><a class="level-1 about " href="https://iherbalgarden.com/about/">簡介</a></li>
-            <li><a class="level-1 education " href="https://iherbalgarden.com/education/">學習</a></li>
-            <li><a class="level-1 activity-map-2023 " href="https://iherbalgarden.com/activity-map-2023/">百草園</a></li>
-            <li><a class="level-1 games " href="https://iherbalgarden.com/games/">玩學遊戲</a></li>
-            <li><a class="level-1 faq " href="https://iherbalgarden.com/faq/">常見問題</a></li>
+            <li><a class="level-1  " href="<?php echo get_site_url();?>">主頁</a></li>
+            <li><a class="level-1  " href="javascript:void(0);">關於我們</a></li>
+            <li><a class="level-1  " href="javascript:void(0);">寄賣招募</a></li>
 
 
         </ul>
