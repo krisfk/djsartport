@@ -18,7 +18,7 @@
 
 <?php //get_template_part( 'template-parts/footer/footer-widgets' ); ?>
 
-<footer id="colophon" class="site-footer text-center small mb-5 mt-5">
+<footer id="colophon" class="site-footer text-center small mb-3 mt-5">
 
 
     © djsartport <?php echo Date('Y');?>
