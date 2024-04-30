@@ -21,6 +21,9 @@
 <footer id="colophon" class="site-footer">
 
 
+    © djsartport <?php echo Date('Y');?>
+
+
 </footer><!-- #colophon -->
 
 </div><!-- #page -->
