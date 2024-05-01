@@ -19,7 +19,9 @@ get_header(); ?>
 
 <div class="course-detail-banner-div">
 
-    <div class="course-detail-banner-div-1"></div>
+    <div class="course-detail-banner-div-1"
+        style="background:url(http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg)">
+    </div>
     <div class="course-detail-banner-div-2"></div>
 
 
