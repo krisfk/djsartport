@@ -134,7 +134,7 @@ h1 {
   left: 50%;
 }
 
-.h1-outer-div h1 .text-div {
+h1 .text-div {
   display: inline-block;
   /* background: #fff; */
   position: relative;
