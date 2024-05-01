@@ -75,7 +75,6 @@ get_header(); ?>
             <div>
                 <h2>簡要</h2>
             </div>
-            <!-- 日本Aromatics Labo木下和美氨基酸寶石皂課程 <br> -->
 
             日本Aromatics Labo氨基酸寶石皂課程由木下和美老師創辦<br>
 
@@ -88,6 +87,11 @@ get_header(); ?>
 
         <div class="col-6">
 
+
+
+            <div>
+                <h2>詳情</h2>
+            </div>
 
             定價：$3600 <br>
             需時：3小時或完成為止
