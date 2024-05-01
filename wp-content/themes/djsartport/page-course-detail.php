@@ -47,7 +47,7 @@ get_header(); ?>
             <span class="text-div-outer">
                 <span class="text-div">
                     <!-- <div class="text-div-bg"></div> -->
-                    興趣班 Interest class
+                    課程介紹 Course Introduction
                 </span>
             </span>
         </h1>
