@@ -58,7 +58,7 @@ get_header(); ?>
 
 
 
-    <ul class="course-tag-ul mt-3">
+    <ul class="course-tag-ul mt-3 text-center mb-4">
 
         <li> <a href="javascript:void(0);"> 手工班</a></li>
 
