@@ -264,6 +264,11 @@ h1 {
   margin: 1rem 0 0 0;
 }
 
+.course-detail-banner-div table {
+  position: relative;
+  z-index: 100;
+}
+
 .course-detail-banner-div-1 {
   display: block;
   position: absolute;
