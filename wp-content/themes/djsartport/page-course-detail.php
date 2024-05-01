@@ -23,7 +23,7 @@ get_header(); ?>
     <table>
         <tr>
             <td>
-                <h2>dfsf</h2>
+                <h2>日本Aromatics Labo木下和美氨基酸寶石皂 (興趣班)</h2>
             </td>
         </tr>
     </table>
