@@ -57,12 +57,19 @@ get_header(); ?>
 <div class="container mt-3">
 
 
+
+    <ul class="course-tag-ul mt-3">
+
+        <li> <a href="javascript:void(0);"> 手工班</a></li>
+
+
+    </ul>
+
     <div class="row">
 
+
+
         <div class="col-6">
-
-
-
 
             日本Aromatics Labo木下和美氨基酸寶石皂課程 <br><br>
 
