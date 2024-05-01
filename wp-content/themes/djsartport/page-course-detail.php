@@ -71,7 +71,7 @@ get_header(); ?>
             課程費用已包括所有星空畫所需材料(30cm x 40 cm棉布畫框及顏料等等)及導師費。
 
         </div>
-        <div class="col-6"></div>
+        <!-- <div class="col-6"></div> -->
 
     </div>
 
