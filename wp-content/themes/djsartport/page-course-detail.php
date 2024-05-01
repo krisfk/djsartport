@@ -70,7 +70,7 @@ get_header(); ?>
 
 
 
-        <div class="col-6 pe-3 left-col">
+        <div class="col-6 pe-4 left-col">
 
             <div>
                 <h2>簡介</h2>
@@ -85,7 +85,7 @@ get_header(); ?>
 
         </div>
 
-        <div class="col-6 ps-3">
+        <div class="col-6 ps-4">
 
 
 
