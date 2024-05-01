@@ -59,7 +59,9 @@ get_header(); ?>
 
     <div class="row">
 
-        <div class="col-12">
+        <div class="col-6">
+
+
 
 
             日本Aromatics Labo木下和美氨基酸寶石皂課程 <br><br>
@@ -67,9 +69,14 @@ get_header(); ?>
             日本Aromatics Labo氨基酸寶石皂課程由木下和美老師創辦<br><br>
 
             氨基酸寶石皂顏值高，係送禮首選！可以用來洗頭洗面洗身，但個個同學都當係真寶石一樣，愛不釋手，唔捨得用來洗
-            <br><br>
 
-            定價：$3600
+
+        </div>
+
+        <div class="col-6">
+
+
+            定價：$3600 <br>
             需時：3小時或完成為止
 
 
