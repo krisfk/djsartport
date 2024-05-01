@@ -117,6 +117,15 @@ h1 {
 }
 
 h2 {
+  font-size: 1.5rem !important;
+  display: inline-block;
+  /* background: #fff; */
+  position: relative;
+  z-index: 100;
+  background: -webkit-linear-gradient(45deg, #eec6df, #bdc5e6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 3px solid #eec6df;
 }
 
 .h1-outer-div {
