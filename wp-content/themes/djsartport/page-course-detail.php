@@ -72,6 +72,7 @@ get_header(); ?>
 
         <div class="col-6">
 
+            <h2>簡要</h2>
             日本Aromatics Labo木下和美氨基酸寶石皂課程 <br><br>
 
             日本Aromatics Labo氨基酸寶石皂課程由木下和美老師創辦<br><br>
