@@ -259,7 +259,8 @@ h1 {
 
 .course-detail-banner-div {
   display: block;
-  height: 400px;
+  height: 300px;
+  margin: 1rem 0 0 0;
 }
 
 .course-detail-banner-div-1 {
