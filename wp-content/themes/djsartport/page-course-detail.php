@@ -108,7 +108,7 @@ get_header(); ?>
 
 
 
-            <div>
+            <div class="mt-4">
                 <h2>報名</h2>
             </div>
 
