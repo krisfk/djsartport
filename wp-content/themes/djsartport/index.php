@@ -49,6 +49,9 @@ $(function() {
             </span>
         </h1>
     </div>
+</div>
+
+<div class="container">
 
     <ul class="course-tag-ul mt-3">
         <li> <a href="javascript:void(0);" class="active"> 顯示全部</a></li>

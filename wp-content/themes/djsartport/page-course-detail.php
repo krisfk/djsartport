@@ -42,8 +42,6 @@ get_header(); ?>
 
 
 <div class="container h1-outer-div text-center mt-5">
-
-
     <div class="text-center">
         <h1 class="">
             <span class="text-div-outer">
@@ -54,73 +52,6 @@ get_header(); ?>
             </span>
         </h1>
     </div>
-
-    <ul class="course-tag-ul mt-3">
-        <li> <a href="javascript:void(0);" class="active"> 顯示全部</a></li>
-
-        <li> <a href="javascript:void(0);"> 手工班</a></li>
-        <li><a href="javascript:void(0);">畫班</a></li>
-        <li><a href="javascript:void(0);">生活優閒</a></li>
-        <li><a href="javascript:void(0);">運動班</a></li>
-        <li><a href="javascript:void(0);">實用班</a></li>
-        <li><a href="javascript:void(0);">烹飪班</a></li>
-        <li><a href="javascript:void(0);">化妝班</a></li>
-        <li><a href="javascript:void(0);">心理班</a></li>
-        <li><a href="javascript:void(0);">音樂班</a></li>
-        <li><a href="javascript:void(0);">證書課程</a></li>
-
-    </ul>
-    <div class="text-center small random-text mt-2">:: 先後次序隨機排列 ::
-    </div>
-
-
-
-    <div class="row mt-5">
-
-
-        <?php
-    
-    for($i=0;$i<8;$i++)
-    {
-
-        ?>
-        <div class="col-3 mb-5 course-grid-col">
-
-            <a href="<?php echo get_site_url();?>/course-detail" class="course-select-a"><img class="w-100"
-                    src="http://143.198.107.5/wp-content/uploads/2024/04/440419620_18426416392045554_6531587873840991221_n.jpg"
-                    alt="">
-
-
-                <div class="bottom-txt-div">日本Aromatics Labo木下和美氨基酸寶石皂
-                    (興趣班)</div>
-
-
-            </a>
-
-
-            <div class="short-des text-start pt-3">
-                氨基酸寶石皂的外觀極具美感，是送禮的首選！不僅可用於洗頭、洗面、洗身，而且每個同學都把它視為珍貴的寶石...
-            </div>
-
-
-
-        </div>
-        <?php
-    }
-    ?>
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
 </div>
 
 <?php
