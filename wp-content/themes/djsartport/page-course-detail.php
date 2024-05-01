@@ -59,12 +59,12 @@ get_header(); ?>
 
     <!-- <h1>日本Aromatics Labo木下和美氨基酸寶石皂課程
     </h1> -->
-    <ul class="course-tag-ul mt-3 text-center mb-4">
+    <!-- <ul class="course-tag-ul mt-3 text-center mb-4">
 
         <li> <a href="javascript:void(0);"> 手工班</a></li>
 
 
-    </ul>
+    </ul> -->
 
     <div class="row">
 
