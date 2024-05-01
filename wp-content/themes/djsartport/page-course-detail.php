@@ -17,6 +17,13 @@
 get_header(); ?>
 
 
+<div class="course-detail-banner-div">
+
+    <div class="course-detail-banner-div-1"></div>
+    <div class="course-detail-banner-div-2"></div>
+
+
+</div>
 
 <div class="container h1-outer-div text-center mt-5">
 
@@ -24,8 +31,6 @@ get_header(); ?>
 
 
 
-
-    fd
 
 </div>
 
