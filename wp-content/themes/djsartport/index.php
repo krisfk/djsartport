@@ -17,6 +17,52 @@
 get_header(); ?>
 
 
+<script type="text/javascript">
+$(function() {
+
+
+    $('.course-tag-ul li a').click(function(e) {
+
+        e.preventDefault();
+
+        $('.course-tag-ul li a').removeClass('active');
+        $(this).addClass('active');
+
+
+    })
+    $('h1').animate({
+        'width': '100%',
+        'opacity': '1'
+    }, 800, function() {
+
+
+        for (i = 0; i < $('.course-tag-ul li').length; i++) {
+
+            $('.course-tag-ul li').delay(i * 10).eq(i).animate({
+                'opacity': '1'
+            });
+        }
+
+
+        setTimeout(() => {
+
+
+            $('.random-text').fadeIn(200)
+
+            for (i = 0; i < $('.course-grid-col').length; i++) {
+
+                $('.course-grid-col').delay(i * 50).eq(i).animate({
+                    'opacity': '1'
+                });
+            }
+
+        }, 500);
+    })
+
+
+
+})
+</script>
 
 <div class="container h1-outer-div text-center mt-5">
 
