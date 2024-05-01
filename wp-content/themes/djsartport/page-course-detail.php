@@ -83,12 +83,19 @@ get_header(); ?>
                 <h2>簡介</h2>
             </div>
 
-            日本Aromatics Labo氨基酸寶石皂課程由木下和美老師創辦<br>
 
-            氨基酸寶石皂的外觀極具美感，是送禮的首選！不僅可用於洗頭、洗面、洗身，而且每個同學都把它視為珍貴的寶石，捧在手上愛不釋手，捨不得拿來使用。
+            <div>
+                日本Aromatics Labo氨基酸寶石皂課程由木下和美老師創辦<br>
 
+                氨基酸寶石皂的外觀極具美感，是送禮的首選！不僅可用於洗頭、洗面、洗身，而且每個同學都把它視為珍貴的寶石，捧在手上愛不釋手，捨不得拿來使用。
 
+            </div>
 
+            <img class="w-100"
+                src="http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg" alt="">
+
+            <img class="w-100"
+                src="http://143.198.107.5/wp-content/uploads/2024/05/Screenshot-2024-05-02-at-1.12.38 AM.png" alt="">
 
         </div>
 
