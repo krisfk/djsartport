@@ -319,3 +319,7 @@ h1 {
   height: 100%;
   position: absolute;
 }
+
+.left-col {
+  border-right: 1px solid #000;
+}
