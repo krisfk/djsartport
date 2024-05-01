@@ -54,7 +54,7 @@ get_header(); ?>
     </div>
 </div>
 
-<div class="container mt-3">
+<div class="container mt-3 course-detail-bottom-content">
 
 
     <!-- <h1>日本Aromatics Labo木下和美氨基酸寶石皂課程

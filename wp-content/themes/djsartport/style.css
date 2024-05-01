@@ -116,7 +116,7 @@ h1 {
   opacity: 0;
 }
 
-h2 {
+.course-detail-bottom-content h2 {
   font-size: 1.5rem !important;
   display: inline-block;
   /* background: #fff; */
