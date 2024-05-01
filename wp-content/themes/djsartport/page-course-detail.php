@@ -75,9 +75,9 @@ get_header(); ?>
             <div>
                 <h2>簡要</h2>
             </div>
-            日本Aromatics Labo木下和美氨基酸寶石皂課程 <br><br>
+            日本Aromatics Labo木下和美氨基酸寶石皂課程 <br>
 
-            日本Aromatics Labo氨基酸寶石皂課程由木下和美老師創辦<br><br>
+            日本Aromatics Labo氨基酸寶石皂課程由木下和美老師創辦<br>
 
             氨基酸寶石皂顏值高，係送禮首選！可以用來洗頭洗面洗身，但個個同學都當係真寶石一樣，愛不釋手，唔捨得用來洗
 
