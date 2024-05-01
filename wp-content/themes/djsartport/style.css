@@ -278,12 +278,12 @@ h1 {
   padding: 1rem 1.5rem;
   display: inline-block;
   border-radius: 1rem;
-  background: rgb(9, 9, 121);
-  background: linear-gradient(
+  background: rgb(99 108 145 / 58%);
+  /* background: linear-gradient(
     180deg,
     rgb(189 197 230 / 80%) 35%,
     rgb(238 198 223 / 80%) 100%
-  );
+  ); */
   margin: 0 1.5rem;
 }
 
