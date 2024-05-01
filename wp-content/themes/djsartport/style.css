@@ -126,7 +126,8 @@ h1 {
   background: -webkit-linear-gradient(45deg, #eec6df, #bdc5e6 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border-bottom: 3px solid #eec6df;
+  padding: 0 0 0.2rem 0;
+  border-bottom: 3px dashed #eec6df;
 }
 
 .h1-outer-div {
