@@ -91,12 +91,15 @@ get_header(); ?>
 
             </div>
 
-            <img class="w-25"
-                src="http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg" alt="">
+            <div class="course-gallery-div">
+                <img class=""
+                    src="http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg"
+                    alt="">
 
-            <img class="w-25"
-                src="http://143.198.107.5/wp-content/uploads/2024/05/Screenshot-2024-05-02-at-1.12.38 AM.png" alt="">
-
+                <img class=""
+                    src="http://143.198.107.5/wp-content/uploads/2024/05/Screenshot-2024-05-02-at-1.12.38 AM.png"
+                    alt="">
+            </div>
         </div>
 
         <div class="col-6 ps-4">

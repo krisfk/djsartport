@@ -326,3 +326,7 @@ h1 {
 .left-col {
   border-right: 2px solid #eec6df;
 }
+
+.course-gallery-div img {
+  height: 200px;
+}
