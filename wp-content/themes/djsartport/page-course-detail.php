@@ -23,7 +23,7 @@ get_header(); ?>
     <table>
         <tr>
             <td>
-                <h2>日本Aromatics Labo木下和美氨基酸寶石皂 (興趣班)</h2>
+                <h2 class="h2-course-name">日本Aromatics Labo木下和美氨基酸寶石皂 (興趣班)</h2>
             </td>
         </tr>
     </table>
@@ -185,6 +185,9 @@ get_header(); ?>
 
 <script type="text/javascript">
 $(document).ready(function() {
+
+
+    $('.course-name').val($('.h2-course-name').val());
     var date = new Date();
 
     var day = date.getDate();
