@@ -369,3 +369,10 @@ h1 {
 .form-div input {
   margin: 0.3rem 0 0 0;
 }
+
+.wpcf7-not-valid-tip {
+  color: #f5adad;
+  font-size: 1em;
+  font-weight: normal;
+  display: block;
+}
