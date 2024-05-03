@@ -346,3 +346,7 @@ h1 {
 .form-div {
   width: 50%;
 }
+
+.form-div label {
+  margin: 0 0 1rem 0;
+}
