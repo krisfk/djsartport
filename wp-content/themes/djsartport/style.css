@@ -334,3 +334,7 @@ h1 {
 .course-gallery-div img {
   height: 300px;
 }
+
+.form-div {
+  width: 50%;
+}
