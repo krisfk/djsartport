@@ -187,7 +187,7 @@ get_header(); ?>
 $(document).ready(function() {
 
 
-    $('.course-name').val($('.h2-course-name').val());
+    $('.course-name').val($('.h2-course-name').html());
     var date = new Date();
 
     var day = date.getDate();
