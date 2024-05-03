@@ -331,6 +331,14 @@ h1 {
   margin: 1rem 0 0 0;
 }
 
+.course-gallery-div a {
+  transition: 0.2s all;
+}
+
+.course-gallery-div a:hover {
+  opacity: 0.8;
+}
+
 .course-gallery-div img {
   height: 300px;
 }
