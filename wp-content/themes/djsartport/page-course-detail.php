@@ -196,6 +196,7 @@ $(document).ready(function() {
 
     var today = year + "-" + month + "-" + day + "T00:00";
     $("#joinDate").attr("value", today);
+    alert(4)
 });
 </script>
 <?php
