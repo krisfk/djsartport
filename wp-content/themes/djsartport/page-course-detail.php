@@ -156,7 +156,9 @@ get_header(); ?>
 
                 <div class="form-div mt-1">
 
-                    <input type="text" class="form-control" placeholder="33">
+                    <input type="text" class="form-control" placeholder="稱呼">
+                    <input type="text" class="form-control" placeholder="Whatsapp">
+                    <input type="text" class="form-control" placeholder="報名人數">
 
 
                 </div>
