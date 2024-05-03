@@ -158,14 +158,6 @@ get_header(); ?>
 
 
 
-                    <!-- <input type="text" class="form-control mb-1" placeholder="稱呼">
-
-
-                    <input type="text" class="form-control mb-1" placeholder="稱呼">
-                    <input type="text" class="form-control mb-1" placeholder="Whatsapp">
-                    <input type="number" min="1" class="form-control  mb-1" placeholder="報名人數"> -->
-
-
 
                     <?php
                     
@@ -175,7 +167,6 @@ get_header(); ?>
             </div>
 
         </div>
-        <!-- <div class="col-6"></div> -->
 
     </div>
 
