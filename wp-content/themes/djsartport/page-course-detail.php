@@ -196,7 +196,6 @@ $(document).ready(function() {
 
     var today = year + "-" + month + "-" + day;
     $("#joinDate").attr("min", today);
-    alert(today)
 });
 </script>
 <?php
