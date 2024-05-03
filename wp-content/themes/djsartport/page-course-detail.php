@@ -156,14 +156,21 @@ get_header(); ?>
 
                 <div class="form-div mt-1">
 
-                    <input type="text" class="form-control mb-1" placeholder="稱呼">
+
+
+                    <!-- <input type="text" class="form-control mb-1" placeholder="稱呼">
 
 
                     <input type="text" class="form-control mb-1" placeholder="稱呼">
                     <input type="text" class="form-control mb-1" placeholder="Whatsapp">
-                    <input type="number" min="1" class="form-control  mb-1" placeholder="報名人數">
+                    <input type="number" min="1" class="form-control  mb-1" placeholder="報名人數"> -->
 
 
+
+                    <?php
+                    
+                    echo do_shortcode('[contact-form-7 id="ee17888" title="Contact form 1"]');
+                    ?>
                 </div>
             </div>
 
