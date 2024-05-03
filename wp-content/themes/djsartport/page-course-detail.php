@@ -195,7 +195,7 @@ $(document).ready(function() {
     if (day < 10) day = "0" + day;
 
     var today = year + "-" + month + "-" + day;
-    $("#joinDate").attr("value", today);
+    $("#joinDate").attr("min", today);
     alert(today)
 });
 </script>
