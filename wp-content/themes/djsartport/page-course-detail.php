@@ -195,7 +195,7 @@ $(document).ready(function() {
     if (day < 10) day = "0" + day;
 
     var today = year + "-" + month + "-" + day + "T00:00";
-    $("#theDate").attr("value", today);
+    $("#joinDate").attr("value", today);
 });
 </script>
 <?php
