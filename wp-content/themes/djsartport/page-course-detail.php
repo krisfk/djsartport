@@ -154,7 +154,7 @@ get_header(); ?>
             <div class="mt-4">
                 <h2>報名</h2>
 
-                <div class="form-div mt-1">
+                <div class="form-div ">
 
 
 
