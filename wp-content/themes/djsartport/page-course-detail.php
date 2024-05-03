@@ -158,7 +158,7 @@ get_header(); ?>
 
                     <input type="text" class="form-control" placeholder="稱呼">
                     <input type="text" class="form-control" placeholder="Whatsapp">
-                    <input type="number" class="form-control" placeholder="報名人數">
+                    <input type="number" min="1" class="form-control" placeholder="報名人數">
 
 
                 </div>
