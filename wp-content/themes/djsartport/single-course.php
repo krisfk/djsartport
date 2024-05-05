@@ -23,7 +23,7 @@ get_header(); ?>
     <table>
         <tr>
             <td>
-                <h2 class="h2-course-name"><?php echo get_field('course-name');?>32</h2>
+                <h2 class="h2-course-name"><?php echo get_field('course-name');?></h2>
             </td>
         </tr>
     </table>
