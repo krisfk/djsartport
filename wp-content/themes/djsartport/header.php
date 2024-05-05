@@ -111,7 +111,30 @@
                     <div class="container position-relative mt-4">
                         <ul class="top-menu-ul-outer-ul ">
 
-                            <ul class=" top-menu-ul">
+
+                            <ul class="top-menu-ul">
+
+                                <?php
+                                
+                                $main_menu = wp_get_menu_array('main menu');
+                                foreach ($main_menu as $menu_item) {
+                                
+                                $url = $menu_item['url'];
+                                $title = $menu_item['title'];
+                                ?>
+                                <!-- <li><a href="<?php echo $url;?>"><?php echo $title;?></a></li> -->
+
+                                <li><a class="level-1  " href="<?php echo $url;?>"><?php echo $title;?></a></li>
+
+
+                                <?php
+                                }
+                                ?>
+
+
+                            </ul>
+
+                            <!-- <ul class=" top-menu-ul">
 
                                 <li><a class="level-1  " href="<?php echo get_site_url();?>">主頁</a></li>
                                 <li><a class="level-1  " href="javascript:void(0);">關於我們</a></li>
@@ -127,6 +150,6 @@
 
 
 
-                            </ul>
+                            </ul> -->
                         </ul>
                     </div>
