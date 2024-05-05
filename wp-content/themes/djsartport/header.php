@@ -99,8 +99,10 @@
 
                     <div class="mt-4">
                         <div class="text-center ">
-                            <img class="header-logo"
-                                src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="">
+                            <a href="<?php echo get_site_url();?>">
+                                <img class="header-logo"
+                                    src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="">
+                            </a>
                         </div>
                     </div>
 
