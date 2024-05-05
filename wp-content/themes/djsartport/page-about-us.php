@@ -17,112 +17,181 @@
 get_header(); ?>
 
 
-<script type="text/javascript">
-$(function() {
+<div class="course-detail-banner-div">
 
 
-    $('.course-tag-ul li a').click(function(e) {
+    <table>
+        <tr>
+            <td>
+                <h2 class="h2-course-name">日本Aromatics Labo木下和美氨基酸寶石皂 (興趣班)</h2>
+            </td>
+        </tr>
+    </table>
 
-        e.preventDefault();
-
-        $('.course-tag-ul li a').removeClass('active');
-        $(this).addClass('active');
-
-
-    })
+    <div class="course-detail-banner-div-1"
+        style="background: url(http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
+    </div>
+    <div class="course-detail-banner-div-2"
+        style="background: url(http://143.198.107.5/wp-content/uploads/2024/05/Screenshot-2024-05-02-at-1.12.38 AM.png) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
 
 
+    </div>
 
-})
-</script>
+
+</div>
+
 
 <div class="container h1-outer-div text-center mt-5">
-
-
     <div class="text-center">
         <h1 class="">
             <span class="text-div-outer">
                 <span class="text-div">
                     <!-- <div class="text-div-bg"></div> -->
-                    興趣班 Interest class
+                    課程介紹 Course Introduction
                 </span>
             </span>
         </h1>
     </div>
 </div>
 
-<div class="container">
+<div class="container mt-3 course-detail-bottom-content">
 
-    <ul class="course-tag-ul mt-3 text-center">
-        <li> <a href="javascript:void(0);" class="active"> 顯示全部</a></li>
+
+    <!-- <h1>日本Aromatics Labo木下和美氨基酸寶石皂課程
+    </h1> -->
+    <!-- <ul class="course-tag-ul mt-3 text-center mb-4">
 
         <li> <a href="javascript:void(0);"> 手工班</a></li>
-        <li><a href="javascript:void(0);">畫班</a></li>
-        <li><a href="javascript:void(0);">生活優閒</a></li>
-        <li><a href="javascript:void(0);">運動班</a></li>
-        <li><a href="javascript:void(0);">實用班</a></li>
-        <li><a href="javascript:void(0);">烹飪班</a></li>
-        <li><a href="javascript:void(0);">化妝班</a></li>
-        <li><a href="javascript:void(0);">心理班</a></li>
-        <li><a href="javascript:void(0);">音樂班</a></li>
-        <li><a href="javascript:void(0);">證書課程</a></li>
 
-    </ul>
-    <div class="text-center small random-text mt-2">:: 先後次序隨機排列 ::
-    </div>
+
+    </ul> -->
 
 
 
-    <div class="row mt-5">
 
 
-        <?php
-    
-    for($i=0;$i<8;$i++)
-    {
-
-        ?>
-        <div class="col-3 mb-5 course-grid-col">
-
-            <a href="<?php echo get_site_url();?>/course-detail" class="course-select-a"><img class="w-100"
-                    src="http://143.198.107.5/wp-content/uploads/2024/04/440419620_18426416392045554_6531587873840991221_n.jpg"
-                    alt="">
+    <div class="row">
 
 
-                <div class="bottom-txt-div">日本Aromatics Labo木下和美氨基酸寶石皂
-                    (興趣班)</div>
 
 
-            </a>
 
 
-            <div class="short-des text-start pt-3">
-                氨基酸寶石皂的外觀極具美感，是送禮的首選！不僅可用於洗頭、洗面、洗身，而且每個同學都把它視為珍貴的寶石...
+        <div class="col-6 pe-4 left-col">
+
+            <div>
+                <h2>簡介</h2>
+            </div>
+
+
+            <div>
+                日本Aromatics Labo氨基酸寶石皂課程由木下和美老師創辦<br>
+
+                氨基酸寶石皂的外觀極具美感，是送禮的首選！不僅可用於洗頭、洗面、洗身，而且每個同學都把它視為珍貴的寶石，捧在手上愛不釋手，捨不得拿來使用。
+
+            </div>
+
+            <div class="course-gallery-div">
+
+                <a href="http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg"
+                    data-lightbox="image-1">
+                    <img class=""
+                        src="http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg"
+                        alt="">
+                </a>
+                <a href="http://143.198.107.5/wp-content/uploads/2024/05/Screenshot-2024-05-02-at-1.12.38 AM.png"
+                    data-lightbox="image-2">
+                    <img class=""
+                        src="http://143.198.107.5/wp-content/uploads/2024/05/Screenshot-2024-05-02-at-1.12.38 AM.png"
+                        alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="col-6 ps-4">
+
+
+
+            <div>
+                <h2>詳情</h2>
+            </div>
+
+            <div>
+                定價：$3600 <br>
+                需時：3小時或完成為止 <br>
+                地點：觀塘
+            </div>
+
+            <div class="mt-4">
+
+                <div>
+                    <div>
+                        <h2>適合人仕</h2>
+                    </div>
+                    - 無需任何繪畫經驗 <br>
+                    - 任何對繪畫星空畫有興趣既朋友
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="mt-4">
+
+                <div>
+                    <h2>注意事項</h2>
+                </div>
+                - 若在上課當日懸掛八號或以上強風信號，或黑色暴雨警告信號已經生效，我們將與導師商討活動是否需要改期至其他日期。 <br>
+                - 考慮到緊湊的課程安排，請參與者準時到達。
+
+
             </div>
 
 
 
+            <div class="mt-4">
+                <h2>報名</h2>
+
+                <div class="form-div ">
+
+
+
+
+                    <?php
+                    
+                    echo do_shortcode('[contact-form-7 id="ee17888" title="Contact form 1"]');
+                    ?>
+                </div>
+            </div>
+
         </div>
-        <?php
-    }
-    ?>
-
-
 
     </div>
-
-
-
-
-
-
 
 
 
 </div>
 
+<script type="text/javascript">
+$(document).ready(function() {
 
 
+    $('.course-name').val($('.h2-course-name').html());
+    var date = new Date();
+
+    var day = date.getDate();
+    var month = date.getMonth() + 1;
+    var year = date.getFullYear();
+
+    if (month < 10) month = "0" + month;
+    if (day < 10) day = "0" + day;
+
+    var today = year + "-" + month + "-" + day;
+    $("#joinDate").attr("min", today);
+});
+</script>
 <?php
 
 get_footer();
