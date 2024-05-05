@@ -327,8 +327,8 @@ h1 {
   display: block;
   height: 400px;
   top: 0;
-  right: 0;
-  width: 100%;
+  left: 0;
+  width: 100% !important;
   height: 100%;
   position: absolute;
 }
