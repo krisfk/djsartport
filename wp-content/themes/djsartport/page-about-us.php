@@ -35,7 +35,7 @@ get_header(); ?>
             <span class="text-div-outer">
                 <span class="text-div">
                     <!-- <div class="text-div-bg"></div> -->
-                    課程介紹 Course Introduction
+                    關於我們 About Us
                 </span>
             </span>
         </h1>
