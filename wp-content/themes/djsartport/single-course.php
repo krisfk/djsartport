@@ -16,7 +16,7 @@
 
 get_header(); ?>
 
-
+11
 <div class="course-detail-banner-div">
 
 
