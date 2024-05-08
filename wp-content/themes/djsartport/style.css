@@ -273,7 +273,7 @@ h1 {
 .course-select-a .bottom-txt-div .course-type li {
   display: inline-block;
   padding: 0.2rem 0.4rem;
-  margin: 0 0 0 0;
+  margin: 0 0.2rem 0 0;
   background: #d1abc2;
   color: #fff;
 }
