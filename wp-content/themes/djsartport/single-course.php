@@ -16,7 +16,7 @@
 
 get_header(); ?>
 
-11
+<!-- 11 -->
 <div class="course-detail-banner-div">
 
 
@@ -29,10 +29,10 @@ get_header(); ?>
     </table>
 
     <div class="course-detail-banner-div-1"
-        style="background: url(<?php echo wp_get_attachment_image_src(get_sub_field('course_banner_image_1'),'full')[0];?>) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
+        style="background: url(<?php echo wp_get_attachment_image_src(get_field('course_banner_image_1'),'full')[0];?>) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
     </div>
     <div class="course-detail-banner-div-2"
-        style="background: url(<?php echo wp_get_attachment_image_src(get_sub_field('course_banner_image_2'),'full')[0];?>) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
+        style="background: url(<?php echo wp_get_attachment_image_src(get_field('course_banner_image_2'),'full')[0];?>) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
 
 
     </div>
