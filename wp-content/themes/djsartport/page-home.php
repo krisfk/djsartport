@@ -55,13 +55,24 @@ $(function() {
 
     <ul class="course-tag-ul mt-3 text-center">
         <li> <a href="javascript:void(0);" class="active"> 顯示全部</a></li>
+
         <?php
-        
         $args = array(
             'post_type' => 'course',
             'taxonomy'  => 'course_type'
-          );
-          $categories = get_terms( $args );
+        );
+        $categories = get_terms( $args );
+
+        for($i=0;$i<sizeof($categories);$i++)
+        {
+            ?>
+
+        <li><a href="javascript:void(0);"><?php
+                 echo $categories[$i]->name;
+                 ?></a></li>
+        <?php
+        }
+        
           echo $categories[0]->name;
         ?>
 
