@@ -17,6 +17,7 @@
 get_header(); ?>
 
 
+
 <div class="course-detail-banner-div">
 
 
@@ -35,7 +36,7 @@ get_header(); ?>
             <span class="text-div-outer">
                 <span class="text-div">
                     <!-- <div class="text-div-bg"></div> -->
-                    關於我們 About Us
+                    店鋪位置 Store Location
                 </span>
             </span>
         </h1>
