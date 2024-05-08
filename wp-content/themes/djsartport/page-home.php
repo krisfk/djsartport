@@ -106,7 +106,14 @@ if ( $the_query->have_posts() ) {
 
 
 
-                    <div class="course-type">手工班</div>
+                    <div class="course-type">
+
+                        <ul>
+                            <li>手工班</li>
+                        </ul>
+
+
+                    </div>
                 </div>
 
 

@@ -265,6 +265,10 @@ h1 {
   color: #fff;
 }
 
+.course-select-a .bottom-txt-div .course-type li {
+  display: inline-block;
+}
+
 .course-select-a img {
   transition: 0.2s all;
 }
