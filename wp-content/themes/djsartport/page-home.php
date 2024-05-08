@@ -114,7 +114,7 @@ if ( $the_query->have_posts() ) {
                         
                         $terms = get_the_terms( $post->ID, 'course_type' ); 
                         foreach($terms as $term) {
-                          echo $term->name;
+                          echo '<li>'.$term->name.'</li>';
                         }
                         
                         ?>
