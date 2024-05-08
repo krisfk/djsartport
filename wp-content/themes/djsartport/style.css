@@ -96,8 +96,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 /* Categories 01 to 03 are the basics. */
 
-a {
-  color: #c6a1b8;
+.course-detail-bottom-content a {
+  color: #c6a1b8 !important;
   text-decoration: underline;
 }
 
