@@ -120,7 +120,7 @@ if ( $the_query->have_posts() ) {
                
                $terms = get_the_terms( $post->ID, 'course_type' ); 
                foreach($terms as $term) {
-                 echo '.course-type-'.$term->term_id.' ';
+                 echo 'course-type-'.$term->term_id.' ';
                }?>">
 
             <a href="<?php echo get_permalink();?>" class="course-select-a">
