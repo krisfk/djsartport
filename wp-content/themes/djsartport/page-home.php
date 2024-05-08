@@ -31,7 +31,14 @@ $(function() {
         $('.course-grid-col').fadeOut(0);
         var course_type_id = $(this).attr('rel');
         // alert(course_type_id)
-        $('.course-grid-col.course-type-' + course_type_id).fadeIn(200);
+
+        if (course_type_id == 0) {
+            $('.course-grid-col').fadeIn(200);
+
+        } else {
+            $('.course-grid-col.course-type-' + course_type_id).fadeIn(200);
+
+        }
 
 
     })
@@ -59,7 +66,7 @@ $(function() {
 <div class="container">
 
     <ul class="course-tag-ul mt-3 text-center">
-        <li> <a href="javascript:void(0);" class="active"> 顯示全部</a></li>
+        <li> <a href="javascript:void(0);" class="active" rel="0"> 顯示全部</a></li>
 
         <?php
         $args = array(
