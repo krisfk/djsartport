@@ -111,7 +111,7 @@ if ( $the_query->have_posts() ) {
 		$the_query->the_post();
     
         ?>
-        <div class="col-3 mb-5 course-grid-col">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6  mb-5 course-grid-col">
 
             <a href="<?php echo get_permalink();?>" class="course-select-a <?php
                
