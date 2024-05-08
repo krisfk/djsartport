@@ -55,8 +55,18 @@ $(function() {
 
     <ul class="course-tag-ul mt-3 text-center">
         <li> <a href="javascript:void(0);" class="active"> 顯示全部</a></li>
+        <?php
+        
+        $args = array(
+            'post_type' => 'course',
+            'taxonomy'  => 'course_type'
+          );
+          $categories = get_terms( $args );
+          print_r($categories);
+          
+        ?>
 
-        <li> <a href="javascript:void(0);">手工班</a></li>
+        <!-- <li> <a href="javascript:void(0);">手工班</a></li>
         <li><a href="javascript:void(0);">畫班</a></li>
         <li><a href="javascript:void(0);">生活優閒</a></li>
         <li><a href="javascript:void(0);">運動班</a></li>
@@ -65,7 +75,7 @@ $(function() {
         <li><a href="javascript:void(0);">化妝班</a></li>
         <li><a href="javascript:void(0);">心理班</a></li>
         <li><a href="javascript:void(0);">音樂班</a></li>
-        <li><a href="javascript:void(0);">證書課程</a></li>
+        <li><a href="javascript:void(0);">證書課程</a></li> -->
 
     </ul>
     <div class="text-center small random-text mt-2">:: 先後次序隨機排列 ::
