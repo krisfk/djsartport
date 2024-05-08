@@ -28,6 +28,10 @@ $(function() {
         $('.course-tag-ul li a').removeClass('active');
         $(this).addClass('active');
 
+        $('.course-tag-ul li a').fadeOut(0);
+        var course_type_id = $(this).attr('rel');
+        $('.course-type-' + course_type_id).fadeIn(0);
+
 
     })
 
