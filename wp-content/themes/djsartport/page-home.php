@@ -77,12 +77,36 @@ $(function() {
 
 
         <?php
-    
-    for($i=0;$i<8;$i++)
-    {
+$query_args = array(
+	'post_type' => 'course',
+	'post_status' => '',
+);
+
+// The Query
+$the_query = new WP_Query( $query_args );
+
+// The Loop
+if ( $the_query->have_posts() ) {
+	while ( $the_query->have_posts() ) {
+		$the_query->the_post();
+        echo 1;
+	}
+	/* Restore original Post Data */
+	wp_reset_postdata();
+} else {
+	// no posts found
+}
+
+
+
+
+    // for($i=0;$i<8;$i++)
+    // {
 
         ?>
-        <div class="col-3 mb-5 course-grid-col">
+
+
+        <!-- <div class="col-3 mb-5 course-grid-col">
 
             <a href="<?php echo get_site_url();?>/course-detail" class="course-select-a"><img class="w-100"
                     src="http://143.198.107.5/wp-content/uploads/2024/04/440419620_18426416392045554_6531587873840991221_n.jpg"
@@ -102,9 +126,11 @@ $(function() {
 
 
 
-        </div>
+        </div> -->
+
+
         <?php
-    }
+    // }
     ?>
 
 
