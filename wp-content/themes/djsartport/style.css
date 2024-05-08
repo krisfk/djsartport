@@ -254,6 +254,12 @@ h1 {
   color: #fff;
 }
 
+.course-select-a .bottom-txt-div .course-type {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 .course-select-a img {
   transition: 0.2s all;
 }
