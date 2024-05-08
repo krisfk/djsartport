@@ -93,13 +93,22 @@ if ( $the_query->have_posts() ) {
         ?>
         <div class="col-3 mb-5 course-grid-col">
 
-            <a href="<?php echo get_permalink();?>" class="course-select-a"><img class="w-100"
+            <a href="<?php echo get_permalink();?>" class="course-select-a">
+
+
+                <img class="w-100"
                     src="<?php echo wp_get_attachment_image_src(get_field('course_square_image'),'full')[0];?>" alt="">
 
 
 
 
-                <div class="bottom-txt-div"><?php echo get_field('course_name');?></div>
+                <div class="bottom-txt-div"><?php echo get_field('course_name');?>
+
+
+
+                    <div class="course-type">手工班</div>
+                </div>
+
 
 
             </a>

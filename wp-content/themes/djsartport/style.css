@@ -246,6 +246,7 @@ h1 {
   /* text-decoration: none; */
   background: #9c9fca70;
   transition: 0.2s all;
+  position: relative;
 }
 
 .course-select-a:hover .bottom-txt-div {
