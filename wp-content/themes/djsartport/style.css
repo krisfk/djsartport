@@ -259,10 +259,10 @@ h1 {
   bottom: -2.3rem;
   left: 0;
   display: inline-block;
-  background: #d1abc2;
+  /* background: #d1abc2; */
   /* padding: 0.1rem 0.6rem; */
   font-size: 1rem;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .course-select-a .bottom-txt-div .course-type ul {
@@ -273,6 +273,9 @@ h1 {
 .course-select-a .bottom-txt-div .course-type li {
   display: inline-block;
   padding: 0.2rem 0.4rem;
+  margin: 0 0 0 0;
+  background: #d1abc2;
+  color: #fff;
 }
 
 .course-select-a img {
