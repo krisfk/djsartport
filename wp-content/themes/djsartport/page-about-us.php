@@ -43,7 +43,10 @@ get_header(); ?>
 </div>
 
 <div class="container mt-3 course-detail-bottom-content">
-    tets
+    <?php
+    
+    echo get_the_content();
+    ?>
 
 </div>
 
