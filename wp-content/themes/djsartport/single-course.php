@@ -100,16 +100,25 @@ get_header(); ?>
                 <?php
             
             // Check rows exists.
-if( have_rows('repeater_field_name') ){
+if( have_rows('course_images') ){
 
     // Loop through rows.
-    while( have_rows('repeater_field_name') ) { the_row();
+    while( have_rows('course_images') ) { the_row();
 
         // Load sub field value.
-        $sub_value = get_sub_field('sub_field');
+        // $sub_value = get_sub_field('course_image');
         // Do something, but make sure you escape the value if outputting directly...
 
     // End loop.
+
+    ?>
+
+
+                <a href="<?php echo get_sub_field('course_image');?>" data-lightbox="image-1">
+                    <img class="" src="<?php echo get_sub_field('course_image');?>" alt="">
+                </a>
+
+                <?php
     }
     
     
