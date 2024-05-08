@@ -30,6 +30,7 @@ $(function() {
 
         $('.course-select-a').fadeOut(0);
         var course_type_id = $(this).attr('rel');
+        alert(course_type_id)
         $('.course-select-a.course-type-' + course_type_id).fadeIn(0);
 
 
