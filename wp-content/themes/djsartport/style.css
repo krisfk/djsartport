@@ -117,6 +117,12 @@ h1 {
 }
 
 .course-detail-bottom-content a {
+  color: #c09ab1;
+  transition: 0.2s all;
+}
+
+.course-detail-bottom-content a:hover {
+  color: #969db8;
 }
 
 .course-detail-bottom-content h2 {
