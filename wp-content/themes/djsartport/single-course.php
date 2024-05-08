@@ -96,6 +96,27 @@ get_header(); ?>
 
             <div class="course-gallery-div">
 
+
+                <?php
+            
+            // Check rows exists.
+if( have_rows('repeater_field_name') ){
+
+    // Loop through rows.
+    while( have_rows('repeater_field_name') ) { the_row();
+
+        // Load sub field value.
+        $sub_value = get_sub_field('sub_field');
+        // Do something, but make sure you escape the value if outputting directly...
+
+    // End loop.
+    }
+    
+    
+}
+
+            ?>
+
                 <!-- <a href="http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg"
                     data-lightbox="image-1">
                     <img class=""
