@@ -30,7 +30,7 @@ $(function() {
 
         $('.course-grid-col').fadeOut(0);
         var course_type_id = $(this).attr('rel');
-        alert(course_type_id)
+        // alert(course_type_id)
         $('.course-grid-col.course-type-' + course_type_id).fadeIn(0);
 
 
