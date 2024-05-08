@@ -99,6 +99,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .course-detail-bottom-content a {
   color: #c6a1b8 !important;
   text-decoration: underline;
+  transition: 0.2s all;
+}
+
+.course-detail-bottom-content a:hover {
+  color: #8c92ae !important;
+  text-decoration: underline;
 }
 
 .header-logo {
