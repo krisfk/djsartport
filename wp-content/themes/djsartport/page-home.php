@@ -56,7 +56,7 @@ $(function() {
     <ul class="course-tag-ul mt-3 text-center">
         <li> <a href="javascript:void(0);" class="active"> 顯示全部</a></li>
 
-        <li> <a href="javascript:void(0);"> 手工班</a></li>
+        <li> <a href="javascript:void(0);">手工班</a></li>
         <li><a href="javascript:void(0);">畫班</a></li>
         <li><a href="javascript:void(0);">生活優閒</a></li>
         <li><a href="javascript:void(0);">運動班</a></li>
@@ -93,7 +93,7 @@ if ( $the_query->have_posts() ) {
         ?>
         <div class="col-3 mb-5 course-grid-col">
 
-            <a href="<?php echo get_site_url();?>/course-detail" class="course-select-a"><img class="w-100"
+            <a href="<?php echo get_permanent();?>" class="course-select-a"><img class="w-100"
                     src="<?php echo wp_get_attachment_image_src(get_field('course_square_image'),'full')[0];?>" alt="">
 
 
