@@ -109,9 +109,19 @@ if ( $the_query->have_posts() ) {
                     <div class="course-type">
 
                         <ul>
+
+                            <?php
+                        
+                        $terms = get_the_terms( $post->ID, 'course_type' ); 
+                        foreach($terms as $term) {
+                          echo $term->name;
+                        }
+                        
+                        ?>
+                            <!-- <li>手工班</li>
                             <li>手工班</li>
-                            <li>手工班</li>
-                            <li>手工班</li>
+                            <li>手工班</li> -->
+
                         </ul>
 
 
