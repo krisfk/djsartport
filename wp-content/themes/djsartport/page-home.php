@@ -28,10 +28,10 @@ $(function() {
         $('.course-tag-ul li a').removeClass('active');
         $(this).addClass('active');
 
-        $('.course-select-a').fadeOut(0);
+        $('.course-grid-col').fadeOut(0);
         var course_type_id = $(this).attr('rel');
         alert(course_type_id)
-        $('.course-select-a.course-type-' + course_type_id).fadeIn(0);
+        $('.course-grid-col.course-type-' + course_type_id).fadeIn(0);
 
 
     })
@@ -116,14 +116,14 @@ if ( $the_query->have_posts() ) {
 		$the_query->the_post();
     
         ?>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-6  mb-5 course-grid-col">
-
-            <a href="<?php echo get_permalink();?>" class="course-select-a <?php
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6  mb-5 course-grid-col <?php
                
                $terms = get_the_terms( $post->ID, 'course_type' ); 
                foreach($terms as $term) {
                  echo '.course-type-'.$term->term_id.' ';
                }?>">
+
+            <a href="<?php echo get_permalink();?>" class="course-select-a">
 
 
                 <img class="w-100"
