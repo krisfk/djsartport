@@ -22,7 +22,7 @@ get_header(); ?>
 
 
     <div class="course-detail-banner-div-3"
-        style="background: url(http://143.198.107.5/wp-content/uploads/2024/05/shop-img.jpg) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
+        style="background: url(http://143.198.107.5/wp-content/uploads/2024/05/S__47595671.jpg) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
     </div>
 
 
