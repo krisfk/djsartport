@@ -93,16 +93,12 @@ if ( $the_query->have_posts() ) {
         ?>
         <div class="col-3 mb-5 course-grid-col">
 
-            <a href="<?php echo get_permalink();?>" class="course-select-a
-            <?php
+            <a href="<?php echo get_permalink();?>" class="course-select-a <?php
                
                $terms = get_the_terms( $post->ID, 'course_type' ); 
                foreach($terms as $term) {
-                 echo '.course-type-'.$term->id.' ';
-               }
-               
-            ?>
-            ">
+                 echo '.course-type-'.$term->term_id.' ';
+               }?>">
 
 
                 <img class="w-100"
