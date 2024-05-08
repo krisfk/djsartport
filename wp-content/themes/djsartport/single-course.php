@@ -112,7 +112,7 @@ if( have_rows('course_images') ){
     // End loop.
 
     ?>
-
+                1
 
                 <a href="<?php echo get_sub_field('course_image');?>" data-lightbox="image-1">
                     <img class="" src="<?php echo get_sub_field('course_image');?>" alt="">
