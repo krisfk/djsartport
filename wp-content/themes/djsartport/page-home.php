@@ -67,13 +67,13 @@ $(function() {
         {
             ?>
 
-        <li><a href="javascript:void(0);"><?php
+        <li><a href="javascript:void(0);" rel="<?php echo $categories[$i]->term_id?>"><?php
                  echo $categories[$i]->name;
                  ?></a></li>
         <?php
         }
         
-          echo $categories[0]->name;
+        //   echo $categories[0]->name;
         ?>
 
         <!-- <li> <a href="javascript:void(0);">手工班</a></li>
