@@ -112,10 +112,12 @@ if( have_rows('course_images') ){
     // End loop.
 
     ?>
-                1
 
-                <a href="<?php echo get_sub_field('course_image');?>" data-lightbox="image-1">
-                    <img class="" src="<?php echo get_sub_field('course_image');?>" alt="">
+
+                <a href="<?php echo wp_get_attachment_image_src(get_sub_field('course_image'),'full')[0];?>"
+                    data-lightbox="image-1">
+                    <img class=""
+                        src="<?php echo wp_get_attachment_image_src(get_sub_field('course_image'),'full')[0];?>" alt="">
                 </a>
 
                 <?php
