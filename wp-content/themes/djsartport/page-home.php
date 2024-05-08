@@ -62,8 +62,7 @@ $(function() {
             'taxonomy'  => 'course_type'
           );
           $categories = get_terms( $args );
-          print_r($categories);
-          
+          echo $categories[0]->name;
         ?>
 
         <!-- <li> <a href="javascript:void(0);">手工班</a></li>
