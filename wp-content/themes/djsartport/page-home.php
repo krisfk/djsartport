@@ -94,8 +94,10 @@ if ( $the_query->have_posts() ) {
         <div class="col-3 mb-5 course-grid-col">
 
             <a href="<?php echo get_site_url();?>/course-detail" class="course-select-a"><img class="w-100"
-                    src="http://143.198.107.5/wp-content/uploads/2024/04/440419620_18426416392045554_6531587873840991221_n.jpg"
+                    src="<?php echo wp_get_attachment_image_src(get_sub_field('course_square_image'),'full')[0];?>"
                     alt="">
+
+
 
 
                 <div class="bottom-txt-div"><?php echo get_field('course_name');?></div>
