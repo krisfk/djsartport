@@ -29,10 +29,10 @@ get_header(); ?>
     </table>
 
     <div class="course-detail-banner-div-1"
-        style="background: url(http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
+        style="background: url(<?php echo wp_get_attachment_image_src(get_sub_field('course_banner_image_1'),'full')[0];?>) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
     </div>
     <div class="course-detail-banner-div-2"
-        style="background: url(http://143.198.107.5/wp-content/uploads/2024/05/Screenshot-2024-05-02-at-1.12.38 AM.png) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
+        style="background: url(<?php echo wp_get_attachment_image_src(get_sub_field('course_banner_image_2'),'full')[0];?>) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
 
 
     </div>
@@ -85,15 +85,18 @@ get_header(); ?>
 
 
             <div>
-                日本Aromatics Labo氨基酸寶石皂課程由木下和美老師創辦<br>
+                <!-- 日本Aromatics Labo氨基酸寶石皂課程由木下和美老師創辦<br>
 
-                氨基酸寶石皂的外觀極具美感，是送禮的首選！不僅可用於洗頭、洗面、洗身，而且每個同學都把它視為珍貴的寶石，捧在手上愛不釋手，捨不得拿來使用。
+                氨基酸寶石皂的外觀極具美感，是送禮的首選！不僅可用於洗頭、洗面、洗身，而且每個同學都把它視為珍貴的寶石，捧在手上愛不釋手，捨不得拿來使用。 -->
 
+                <?php
+                echo get_field('intro');
+                ?>
             </div>
 
             <div class="course-gallery-div">
 
-                <a href="http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg"
+                <!-- <a href="http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg"
                     data-lightbox="image-1">
                     <img class=""
                         src="http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg"
@@ -104,7 +107,9 @@ get_header(); ?>
                     <img class=""
                         src="http://143.198.107.5/wp-content/uploads/2024/05/Screenshot-2024-05-02-at-1.12.38 AM.png"
                         alt="">
-                </a>
+                </a> -->
+
+
             </div>
         </div>
 
@@ -117,9 +122,13 @@ get_header(); ?>
             </div>
 
             <div>
-                定價：$3600 <br>
+                <!-- 定價：$3600 <br>
                 需時：3小時或完成為止 <br>
-                地點：觀塘
+                地點：觀塘 -->
+                <?php
+                
+                echo get_field('detail');
+                ?>
             </div>
 
             <div class="mt-4">
@@ -128,9 +137,12 @@ get_header(); ?>
                     <div>
                         <h2>適合人仕</h2>
                     </div>
-                    - 無需任何繪畫經驗 <br>
-                    - 任何對繪畫星空畫有興趣既朋友
+                    <!-- - 無需任何繪畫經驗 <br>
+                    - 任何對繪畫星空畫有興趣既朋友 -->
+                    <?php
 
+echo get_field('suitable_people_content');
+?>
                 </div>
 
 
@@ -143,9 +155,13 @@ get_header(); ?>
                 <div>
                     <h2>注意事項</h2>
                 </div>
-                - 若在上課當日懸掛八號或以上強風信號，或黑色暴雨警告信號已經生效，我們將與導師商討活動是否需要改期至其他日期。 <br>
-                - 考慮到緊湊的課程安排，請參與者準時到達。
+                <!-- - 若在上課當日懸掛八號或以上強風信號，或黑色暴雨警告信號已經生效，我們將與導師商討活動是否需要改期至其他日期。 <br>
+                - 考慮到緊湊的課程安排，請參與者準時到達。 -->
 
+                <?php
+                
+                echo get_field('notice');
+                ?>
 
             </div>
 
