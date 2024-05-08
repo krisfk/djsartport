@@ -116,6 +116,9 @@ h1 {
   opacity: 0;
 }
 
+.course-detail-bottom-content a {
+}
+
 .course-detail-bottom-content h2 {
   font-size: 1.5rem !important;
   display: inline-block;
