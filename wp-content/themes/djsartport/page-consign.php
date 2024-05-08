@@ -35,7 +35,7 @@ get_header(); ?>
             <span class="text-div-outer">
                 <span class="text-div">
                     <!-- <div class="text-div-bg"></div> -->
-                    關於我們 About Us
+                    寄賣招募 consignment
                 </span>
             </span>
         </h1>
