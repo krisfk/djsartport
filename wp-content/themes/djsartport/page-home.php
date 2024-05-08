@@ -89,7 +89,30 @@ $the_query = new WP_Query( $query_args );
 if ( $the_query->have_posts() ) {
 	while ( $the_query->have_posts() ) {
 		$the_query->the_post();
-        echo 1;
+    
+        ?>
+        <div class="col-3 mb-5 course-grid-col">
+
+            <a href="<?php echo get_site_url();?>/course-detail" class="course-select-a"><img class="w-100"
+                    src="http://143.198.107.5/wp-content/uploads/2024/04/440419620_18426416392045554_6531587873840991221_n.jpg"
+                    alt="">
+
+
+                <div class="bottom-txt-div"><?php echo get_field('course_name');?></div>
+
+
+            </a>
+
+
+            <div class="short-des text-start pt-3">
+                <!-- 氨基酸寶石皂的外觀極具美感，是送禮的首選！不僅可用於洗頭、洗面、洗身，而且每個同學都把它視為珍貴的寶石... -->
+            </div>
+
+
+
+        </div>
+
+        <?php
 	}
 	/* Restore original Post Data */
 	wp_reset_postdata();
