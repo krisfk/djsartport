@@ -110,6 +110,8 @@ if ( $the_query->have_posts() ) {
 
                         <ul>
                             <li>手工班</li>
+                            <li>手工班</li>
+                            <li>手工班</li>
                         </ul>
 
 
