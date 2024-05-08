@@ -105,12 +105,8 @@ if ( $the_query->have_posts() ) {
             </a>
 
 
-            <div class="short-des text-start pt-3">
-                <?php
-echo get_field('intro');
-?>
-                <!-- 氨基酸寶石皂的外觀極具美感，是送禮的首選！不僅可用於洗頭、洗面、洗身，而且每個同學都把它視為珍貴的寶石... -->
-            </div>
+            <!-- <div class="short-des text-start pt-3">
+            </div> -->
 
 
 
