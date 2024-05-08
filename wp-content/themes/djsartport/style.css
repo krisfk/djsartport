@@ -96,17 +96,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 /* Categories 01 to 03 are the basics. */
 
-.course-detail-bottom-content a {
-  color: #c6a1b8 !important;
-  text-decoration: underline;
-  transition: 0.2s all;
-}
-
-.course-detail-bottom-content a:hover {
-  color: #8c92ae !important;
-  text-decoration: underline;
-}
-
 .header-logo {
   height: 120px;
 }
@@ -354,6 +343,7 @@ h1 {
 
 .course-gallery-div a {
   transition: 0.2s all;
+  display: inline-block;
 }
 
 .course-gallery-div a:hover {
@@ -361,7 +351,10 @@ h1 {
 }
 
 .course-gallery-div img {
-  height: 300px;
+  height: 175px;
+  display: inline-block;
+  float: left;
+  border-radius: 1rem;
 }
 
 .form-div {
