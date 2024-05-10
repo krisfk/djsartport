@@ -47,6 +47,8 @@ $(function() {
         return array;
     }
 
+    shuffle();
+
 
 
 
