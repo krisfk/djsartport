@@ -34,6 +34,7 @@ $(function() {
         elementsArray.forEach(function(element) {
             container.appendChild(element);
         })
+        alert(1);
     }
 
 
