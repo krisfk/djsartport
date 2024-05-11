@@ -35,8 +35,11 @@ get_header(); ?>
 
         ?>
     <div class="course-detail-banner-div-3" style="">
-        <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_field('course_banner_image_1'),'full')[0];?>"
-            alt="">
+        <img class="w-100 course-detail-banner-desktop"
+            src="<?php echo wp_get_attachment_image_src(get_field('course_banner_image_1'),'full')[0];?>" alt="">
+        <img class="w-100 course-detail-banner-mobile"
+            src="<?php echo wp_get_attachment_image_src(get_field('course_banner_square'),'full')[0];?>" alt="">
+
     </div>
 
 

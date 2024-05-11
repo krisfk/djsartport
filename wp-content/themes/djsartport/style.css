@@ -425,9 +425,23 @@ h1 {
   display: block;
 }
 
+.course-detail-banner-desktop {
+  display: block;
+}
+
+.course-detail-banner-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 991px) {
   .course-select-a .bottom-txt-div {
     font-size: 1.1rem;
+  }
+  .course-detail-banner-desktop {
+    display: none;
+  }
+  .course-detail-banner-mobile {
+    display: block;
   }
 }
 
