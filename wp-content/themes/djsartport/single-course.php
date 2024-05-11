@@ -143,6 +143,8 @@ if( have_rows('course_images') ){
 
 
             </div>
+
+            <div>fds</div>
         </div>
 
         <div class="col-6 ps-4">
