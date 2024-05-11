@@ -17,7 +17,13 @@
 get_header(); ?>
 
 <!-- 11 -->
-<div class="course-detail-banner-div">
+<div class="course-detail-banner-div" style="<?php
+
+if(!get_field('course_banner_image_2'))
+{
+    echo 'height:300px';
+}
+?>">
 
 
     <!-- <table>
