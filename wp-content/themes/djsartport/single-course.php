@@ -34,8 +34,9 @@ get_header(); ?>
     {
 
         ?>
-    <div class="course-detail-banner-div-3"
-        style="background: url(<?php echo wp_get_attachment_image_src(get_field('course_banner_image_1'),'full')[0];?>) center center no-repeat; width: 100%; background-position: center; background-size: 100%;">
+    <div class="course-detail-banner-div-3" style="">
+        <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_field('course_banner_image_1'),'full')[0];?>"
+            alt="">
     </div>
 
 
