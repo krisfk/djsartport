@@ -144,7 +144,7 @@ if( have_rows('course_images') ){
 
             </div>
 
-            <div>
+            <div class="mt-4">
 
                 <?php
 
