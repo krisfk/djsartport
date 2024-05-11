@@ -364,7 +364,7 @@ h1 {
   left: 0;
   width: 100% !important;
   height: 100%;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .left-col {
