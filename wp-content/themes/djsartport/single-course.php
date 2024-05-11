@@ -144,7 +144,15 @@ if( have_rows('course_images') ){
 
             </div>
 
-            <div>fds</div>
+            <div>
+
+                <?php
+
+echo get_field('video');
+?>
+
+
+            </div>
         </div>
 
         <div class="col-6 ps-4">
