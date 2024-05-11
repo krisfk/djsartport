@@ -190,6 +190,10 @@ if( have_rows('course_images') ){
 
             <div class="mt-4">
 
+                <div>
+                    <h2>影片介紹</h2>
+                </div>
+
                 <?php
 
 echo get_field('video');
