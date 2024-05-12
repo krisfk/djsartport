@@ -298,7 +298,7 @@ echo get_field('notice');
 
 
             <div class="mt-4">
-                <h2>報名</h2>
+                <h2>報名表格</h2>
 
                 <div class="form-div ">
 
