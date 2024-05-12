@@ -127,6 +127,8 @@ if(get_field('course_banner_image_2'))
                 <h2>簡介</h2>
             </div>
 
+            <h1><?php echo get_the_title();?></h1>
+
 
             <div>
                 <!-- 日本Aromatics Labo氨基酸寶石皂課程由木下和美老師創辦<br>
