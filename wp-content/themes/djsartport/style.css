@@ -334,7 +334,7 @@ h1 {
   padding: 1rem 1.5rem;
   display: inline-block;
   border-radius: 1rem;
-  background: rgb(99 108 145 / 58%);
+  /* background: rgb(99 108 145 / 58%); */
   /* background: linear-gradient(
     180deg,
     rgb(189 197 230 / 80%) 35%,
@@ -342,6 +342,11 @@ h1 {
   ); */
   margin: 0 1.5rem;
   font-size: 1.8rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(238 198 223 / 80%),
+    rgb(189 197 230 / 80%)
+  );
 }
 
 .course-detail-banner-div-1 {
