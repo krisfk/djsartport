@@ -321,7 +321,7 @@ h1 {
 }
 
 .course-detail-banner-div table {
-  position: relative;
+  position: absolute;
   z-index: 100;
   width: 100%;
   color: #fff;
