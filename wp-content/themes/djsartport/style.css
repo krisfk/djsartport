@@ -343,7 +343,7 @@ h1 {
   margin: 0 1.5rem;
   font-size: 1.8rem;
   background-image: linear-gradient(
-    to bottom,
+    135deg,
     rgb(238 198 223 / 80%),
     rgb(189 197 230 / 80%)
   );
