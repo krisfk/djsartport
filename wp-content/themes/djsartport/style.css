@@ -445,7 +445,7 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
-  .h2-course-name {
+  .course-detail-banner-div table {
     display: none;
   }
   .course-select-a .bottom-txt-div {
