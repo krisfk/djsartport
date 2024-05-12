@@ -135,7 +135,7 @@ if(get_field('show_banner_title'))
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 pe-4 left-col mb-4">
 
             <div>
-                <h2>簡介</h2>
+                <h2>課程簡介</h2>
             </div>
 
             <h1><?php echo get_the_title();?></h1>
