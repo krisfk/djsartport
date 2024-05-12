@@ -132,7 +132,7 @@ if(get_field('show_banner_title'))
 
 
 
-        <div class="col-6 pe-4 left-col">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 pe-4 left-col">
 
             <div>
                 <h2>簡介</h2>
@@ -226,7 +226,7 @@ echo get_field('video');
 
         </div>
 
-        <div class="col-6 ps-4">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 ps-4">
 
 
 
