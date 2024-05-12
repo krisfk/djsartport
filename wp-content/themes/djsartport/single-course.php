@@ -42,13 +42,13 @@ if(get_field('course_banner_image_2'))
 
 }
 ?>
-    <!-- <table>
+    <table class="banner-course-name">
         <tr>
             <td>
                 <h2 class="h2-course-name"><?php echo get_field('course_name');?></h2>
             </td>
         </tr>
-    </table> -->
+    </table>
 
     <?php
     
