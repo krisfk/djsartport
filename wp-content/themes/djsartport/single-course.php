@@ -206,7 +206,7 @@ if( have_rows('course_images') ){
             if(get_field('video'))
             {
                 ?>
-            <div class="mt-4">
+            <div class="mt-4 mb-4">
 
                 <div>
                     <h2>影片介紹</h2>
