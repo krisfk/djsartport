@@ -42,6 +42,13 @@ if(get_field('course_banner_image_2'))
 
 }
 ?>
+
+    <?php
+
+if(get_field('show_banner_title'))
+{
+    ?>
+
     <table class="banner-course-name">
         <tr>
             <td>
@@ -49,6 +56,10 @@ if(get_field('course_banner_image_2'))
             </td>
         </tr>
     </table>
+
+    <?php
+}
+?>
 
     <?php
     
