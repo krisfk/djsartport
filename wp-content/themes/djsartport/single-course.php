@@ -224,6 +224,14 @@ echo get_field('video');
             }
             ?>
 
+            <div class="mt-4 mb-4">
+
+                <div>
+                    <h2>報名方法</h2>
+                    <div>填寫網上表格 或 whatsapp 94444920 報名</div>
+                </div>
+            </div>
+
         </div>
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 ps-4">
