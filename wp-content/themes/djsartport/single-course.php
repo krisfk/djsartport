@@ -188,6 +188,11 @@ if( have_rows('course_images') ){
 
             </div>
 
+            <?php 
+            
+            if(get_field('video'))
+            {
+                ?>
             <div class="mt-4">
 
                 <div>
@@ -201,6 +206,11 @@ echo get_field('video');
 
 
             </div>
+
+            <?php
+            }
+            ?>
+
         </div>
 
         <div class="col-6 ps-4">
