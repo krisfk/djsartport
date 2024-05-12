@@ -317,6 +317,13 @@ h1 {
 
 .course-detail-banner-div {
   display: block;
+  height: 300px;
+  position: relative;
+  margin: 1rem 0 0 0;
+}
+
+.single .course-detail-banner-div {
+  display: block;
   /* height: 300px; */
   position: relative;
   margin: 1rem 0 0 0;
