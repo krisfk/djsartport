@@ -155,7 +155,7 @@ if ( $the_query->have_posts() ) {
 		$the_query->the_post();
     
         ?>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3 course-grid-col <?php
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4 course-grid-col <?php
                
                $terms = get_the_terms( $post->ID, 'course_type' ); 
                foreach($terms as $term) {
