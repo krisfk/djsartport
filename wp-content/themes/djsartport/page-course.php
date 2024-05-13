@@ -137,7 +137,7 @@ $(function() {
 
 
 
-    <div class="row mt-5" id="course-row">
+    <div class="row  mt-lg-5 mt-md-3 mt-sm-3 mt-3 " id="course-row">
 
 
         <?php
