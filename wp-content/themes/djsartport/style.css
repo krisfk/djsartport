@@ -470,10 +470,10 @@ h1 {
     color: #5b5b5b;
     font-size: 1.5rem !important;
   }
-  .course-gallery-div {
+  /* .course-gallery-div {
     margin: 1rem 0 0 0;
     text-align: center;
-  }
+  } */
   .h1-outer-div h1 .text-div {
     display: inline-block;
     /* background: #fff; */
