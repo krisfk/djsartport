@@ -20,14 +20,13 @@ get_header(); ?>
 <div class="course-detail-banner-div">
 
 
+    <img class="w-100 course-detail-banner-desktop"
+        src="http://143.198.107.5/wp-content/uploads/2024/05/artport-banner4-scaled.jpg" alt="">
 
-    <div class="course-detail-banner-div-3"
-        style="background: url(http://143.198.107.5/wp-content/uploads/2024/05/S__47595671.jpg) center center no-repeat; width: 50%; background-position: center; background-size: 100%;">
-    </div>
-
+    <img class="w-100 course-detail-banner-mobile" src="http://143.198.107.5/wp-content/uploads/2024/05/artport-sq.jpg"
+        alt="">
 
 </div>
-
 
 <div class="container h1-outer-div text-center mt-5">
     <div class="text-center">
