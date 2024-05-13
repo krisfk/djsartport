@@ -462,6 +462,17 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
+  .h1-outer-div h1 .text-div {
+    display: inline-block;
+    /* background: #fff; */
+    position: relative;
+    z-index: 100;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    background: -webkit-linear-gradient(45deg, #eec6df, #bdc5e6 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .h1-outer-div h1::before {
     content: '';
     display: block;
