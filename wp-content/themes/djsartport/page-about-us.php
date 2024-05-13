@@ -29,7 +29,7 @@ get_header(); ?>
 </div>
 
 
-<div class="container h1-outer-div text-center mt-5">
+<div class="container h1-outer-div text-center mt-lg-5 mt-md-3 mt-sm-3 mt-3 ">
     <div class="text-center">
         <h1 class="">
             <span class="text-div-outer">
