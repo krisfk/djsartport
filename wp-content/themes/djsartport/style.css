@@ -462,6 +462,14 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
+  .course-detail-bottom-content h1 {
+    /* background: -webkit-linear-gradient(45deg, #eec6df, #bdc5e6 80%); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    margin: 0.5rem 0 1rem 0;
+    color: #5b5b5b;
+    font-size: 1.5rem !important;
+  }
   .course-gallery-div {
     margin: 1rem 0 0 0;
     text-align: center;
