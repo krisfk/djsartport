@@ -704,3 +704,12 @@ function wp_get_menu_array($current_menu='Main Menu') {
 	return $menu;
 
 }
+
+function add_slug_body_class( $classes ) {
+	global $post;
+	if ( isset( $post ) ) {
+	$classes[] = $post->post_type . '-' . $post->post_name;
+	}
+	return $classes;
+	}
+	add_filter( 'body_class', 'add_slug_body_class' );
