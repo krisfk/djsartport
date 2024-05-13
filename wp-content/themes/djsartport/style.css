@@ -122,7 +122,7 @@ h1 {
 
 .course-detail-bottom-content a {
   color: #c09ab1;
-  transition: 0.2s all;
+  /* transition: 0.2s all; */
 }
 
 .course-detail-bottom-content a:hover {
