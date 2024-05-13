@@ -216,13 +216,7 @@ echo get_field('video');
             }
             ?>
 
-            <div class="mt-4 mb-4">
 
-                <div>
-                    <h2>報名方法</h2>
-                    <div>填寫網上表格 或 whatsapp 94444920 報名</div>
-                </div>
-            </div>
 
         </div>
 
@@ -288,6 +282,14 @@ echo get_field('notice');
 
 
 
+
+            <div class="mt-4">
+
+                <div>
+                    <h2>報名方法</h2>
+                    <div>填寫網上表格 或 whatsapp 94444920 報名</div>
+                </div>
+            </div>
 
             <div class="mt-4">
                 <h2>報名表格</h2>
