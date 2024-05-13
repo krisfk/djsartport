@@ -226,7 +226,7 @@ echo get_field('video');
 
         </div>
 
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12 ps-4">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 ps-lg-4">
 
 
 
