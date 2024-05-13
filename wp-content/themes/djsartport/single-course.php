@@ -287,7 +287,7 @@ echo get_field('notice');
 
                 <div>
                     <h2>報名方法</h2>
-                    <div>填寫網上表格 或 whatsapp <a href="https://wa.me/+8529444492" target="_blank">94444920</a> 報名</div>
+                    <div>填寫網上表格 或 whatsapp <a href="https://wa.me/+85294444920" target="_blank">94444920</a> 報名</div>
                 </div>
             </div>
 
