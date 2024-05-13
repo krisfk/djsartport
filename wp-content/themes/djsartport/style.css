@@ -257,9 +257,11 @@ h1 {
   display: block;
   font-size: 1.3rem;
   /* text-decoration: none; */
-  background: #9c9fca12;
+  background: rgb(156 159 202 / 9%);
   transition: 0.2s all;
   position: relative;
+  /* border-bottom-left-radius: 1rem; */
+  /* border-bottom-right-radius: 1rem; */
 }
 
 .course-select-a:hover .bottom-txt-div {
