@@ -116,6 +116,10 @@ h1 {
   opacity: 0;
 }
 
+.course-detail-bottom-content {
+  text-align: justify;
+}
+
 .course-detail-bottom-content a {
   color: #c09ab1;
   transition: 0.2s all;
