@@ -155,7 +155,7 @@ if ( $the_query->have_posts() ) {
 		$the_query->the_post();
     
         ?>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-6  mb-5 course-grid-col <?php
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-5 course-grid-col <?php
                
                $terms = get_the_terms( $post->ID, 'course_type' ); 
                foreach($terms as $term) {
@@ -175,26 +175,27 @@ if ( $the_query->have_posts() ) {
 
 
 
-                    <div class="course-type">
 
-                        <ul>
+                </div>
+                <div class="course-type">
 
-                            <?php
-                        
-                        $terms = get_the_terms( $post->ID, 'course_type' ); 
-                        foreach($terms as $term) {
-                          echo '<li>'.$term->name.'</li>';
-                        }
-                        
-                        ?>
-                            <!-- <li>手工班</li>
-                            <li>手工班</li>
-                            <li>手工班</li> -->
+                    <ul>
 
-                        </ul>
+                        <?php
+
+$terms = get_the_terms( $post->ID, 'course_type' ); 
+foreach($terms as $term) {
+  echo '<li>'.$term->name.'</li>';
+}
+
+?>
+                        <!-- <li>手工班</li>
+    <li>手工班</li>
+    <li>手工班</li> -->
+
+                    </ul>
 
 
-                    </div>
                 </div>
 
 
