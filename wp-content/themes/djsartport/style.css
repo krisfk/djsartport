@@ -245,6 +245,7 @@ h1 {
   text-decoration: none;
   color: hsl(237, 8%, 50%);
   transition: 0.2s all;
+  overflow: hidden;
 }
 
 .course-select-a:hover {
