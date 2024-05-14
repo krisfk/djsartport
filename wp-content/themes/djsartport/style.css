@@ -470,7 +470,7 @@ h1 {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  display: block;
+  display: none;
   padding: 0;
   margin: 1.3rem 1rem 0 0;
   float: right;
@@ -530,6 +530,9 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
+  .mobile-menu-btn {
+    display: block;
+  }
   .top-menu-ul-outer-ul-div {
     /* display: none; */
     /* position: fixed; */
