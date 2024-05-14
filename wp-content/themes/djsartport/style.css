@@ -470,6 +470,7 @@ h1 {
     height: 60px;
   }
   .course-detail-bottom-content h1 {
+    opacity: 1;
     /* background: -webkit-linear-gradient(45deg, #eec6df, #bdc5e6 80%); */
     /* -webkit-background-clip: text; */
     /* -webkit-text-fill-color: transparent; */
