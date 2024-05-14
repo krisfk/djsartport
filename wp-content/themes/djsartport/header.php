@@ -53,10 +53,12 @@
 
             if ($(this).hasClass('opened')) {
 
-                $('.top-menu-ul-outer-ul').fadeOut(0);
-            } else {
-
                 $('.top-menu-ul-outer-ul').slideDown(200);
+
+
+            } else {
+                $('.top-menu-ul-outer-ul').fadeOut(0);
+
 
             }
         })
