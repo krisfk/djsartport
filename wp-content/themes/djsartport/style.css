@@ -461,6 +461,10 @@ h1 {
   display: none;
 }
 
+.gm-style iframe + div {
+  border: none !important;
+}
+
 @media only screen and (max-width: 991px) {
   .header-logo {
     height: 60px;
