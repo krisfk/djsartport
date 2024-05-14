@@ -50,6 +50,7 @@
 
 
         $('.mobile-menu-btn').click(function() {
+
             if ($(this).hasClass('opened')) {
 
                 $('.top-menu-ul-outer-ul').fadeOut(0);
