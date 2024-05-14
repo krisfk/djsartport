@@ -529,6 +529,11 @@ h1 {
   z-index: 500;
 }
 
+.progress-wrap.btn-right-side {
+  right: 50px;
+  bottom: 4rem;
+}
+
 @media only screen and (max-width: 991px) {
   .mobile-menu-btn {
     display: block;
