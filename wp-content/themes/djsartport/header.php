@@ -49,6 +49,18 @@
             ?>
 
 
+        $('.mobile-menu-btn').click(function() {
+            if ($(this).hasClass('opened')) {
+
+                $('.top-menu-ul-outer-ul').fadeOut(0);
+            } else {
+
+                $('.top-menu-ul-outer-ul').slideDown(200);
+
+            }
+        })
+
+
         if ($('body').hasClass('single-course')) {
 
             $('.top-menu-ul a.course').addClass('active');
