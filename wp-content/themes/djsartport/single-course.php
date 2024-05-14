@@ -96,6 +96,11 @@ if(get_field('show_banner_title'))
 </div>
 
 
+<div class="breadcrumb">
+
+    <a href="<?php echo get_site_url();?>">主頁</a> > <a href="<?php echo get_site_url();?>">主頁</a>
+
+</div>
 <div class="container h1-outer-div text-center mt-lg-5 mt-md-3 mt-sm-3 mt-3 ">
     <div class="text-center">
         <h1 class="">
