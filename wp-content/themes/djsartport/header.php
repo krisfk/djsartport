@@ -40,6 +40,23 @@
     $(function() {
 
 
+        $(window).resize(function() {
+
+            if ($(window).width() >= 991) {
+
+                $('.mobile-menu-btn').removeClass('opened');
+                $('.top-menu-ul-outer-ul').fadeIn(0);
+
+            } else {
+
+                $('.mobile-menu-btn').removeClass('opened');
+                $('.top-menu-ul-outer-ul').fadeOut(0);
+
+            }
+
+        })
+
+
         <?php
              global $post;
              $post_slug = $post->post_name;
