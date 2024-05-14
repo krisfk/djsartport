@@ -37,22 +37,27 @@
 
 
     <script type="text/javascript">
+    function reizeWin() {
+        if ($(window).width() >= 991) {
+
+            $('.mobile-menu-btn').removeClass('opened');
+            $('.top-menu-ul-outer-ul').fadeIn(0);
+
+        } else {
+
+            $('.mobile-menu-btn').removeClass('opened');
+            $('.top-menu-ul-outer-ul').fadeOut(0);
+
+        }
+    }
     $(function() {
 
 
+        reizeWin();
+
         $(window).resize(function() {
 
-            if ($(window).width() >= 991) {
-
-                $('.mobile-menu-btn').removeClass('opened');
-                $('.top-menu-ul-outer-ul').fadeIn(0);
-
-            } else {
-
-                $('.mobile-menu-btn').removeClass('opened');
-                $('.top-menu-ul-outer-ul').fadeOut(0);
-
-            }
+            reizeWin();
 
         })
 
