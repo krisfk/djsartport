@@ -142,7 +142,7 @@
 
                     <div class="mt-4">
                         <div class="text-center ">
-                            <a href="<?php echo get_site_url();?>">
+                            <a class="header-logo-a" href="<?php echo get_site_url();?>">
                                 <img class="header-logo"
                                     src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="">
                             </a>
