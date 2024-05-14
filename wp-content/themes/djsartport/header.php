@@ -43,7 +43,7 @@
         <?php
              global $post;
              $post_slug = $post->post_name;
-             echo 'var slug ='.$post_slug.';';
+             echo 'var slug ="'.$post_slug.'";';
             ?>
 
         $('h1').animate({
