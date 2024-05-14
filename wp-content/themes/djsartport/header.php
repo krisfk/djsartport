@@ -155,7 +155,7 @@
                     <?php endif; ?>
 
 
-                    <div class="mt-4">
+                    <div class="mt-lg-4 mt-md-3 mt-sm-3 mt-3 ">
                         <div class="text-center ">
                             <a class="header-logo-a" href="<?php echo get_site_url();?>">
                                 <img class="header-logo"
