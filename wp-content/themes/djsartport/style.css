@@ -199,7 +199,7 @@ h1 {
 .top-menu-ul li a {
   text-decoration: none;
   color: #919191;
-  padding: 0.5rem 0.5rem;
+  padding: 0.8rem 0.8rem;
   font-size: 1.15rem;
   transition: 0.5s all;
 }
@@ -536,8 +536,9 @@ h1 {
     position: absolute;
     top: 0;
     z-index: 200;
-    height: 100%;
+    /* height: 100%; */
     background: rgb(255 255 255 / 86%);
+    /* padding: 0 0 1rem 0; */
   }
   .top-menu-ul-outer-ul-div ul {
     margin: 6rem 0 0 0;
@@ -545,6 +546,12 @@ h1 {
   .top-menu-ul-outer-ul-div ul li {
     display: block;
     /* background: #fff; */
+    margin: 0;
+  }
+  .top-menu-ul li a {
+    width: 100%;
+    display: block;
+    border-top: 2px dashed rgb(189 197 230);
   }
   .header-logo {
     height: 60px;
