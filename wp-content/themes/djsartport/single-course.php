@@ -183,16 +183,16 @@ if( have_rows('course_images') ){
 
             ?>
 
-                <!-- <a href="http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg"
+                <!-- <a href="https://djsartport.com/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg"
                     data-lightbox="image-1">
                     <img class=""
-                        src="http://143.198.107.5/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg"
+                        src="https://djsartport.com/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-20-at-22.45.34.jpeg"
                         alt="">
                 </a>
-                <a href="http://143.198.107.5/wp-content/uploads/2024/05/Screenshot-2024-05-02-at-1.12.38 AM.png"
+                <a href="https://djsartport.com/wp-content/uploads/2024/05/Screenshot-2024-05-02-at-1.12.38 AM.png"
                     data-lightbox="image-2">
                     <img class=""
-                        src="http://143.198.107.5/wp-content/uploads/2024/05/Screenshot-2024-05-02-at-1.12.38 AM.png"
+                        src="https://djsartport.com/wp-content/uploads/2024/05/Screenshot-2024-05-02-at-1.12.38 AM.png"
                         alt="">
                 </a> -->
 

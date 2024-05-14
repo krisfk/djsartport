@@ -22,10 +22,10 @@ get_header(); ?>
 
 
     <img class="w-100 course-detail-banner-desktop"
-        src="http://143.198.107.5/wp-content/uploads/2024/05/artport-banner4-scaled.jpg" alt="">
+        src="https://djsartport.com/wp-content/uploads/2024/05/artport-banner4-scaled.jpg" alt="">
 
-    <img class="w-100 course-detail-banner-mobile" src="http://143.198.107.5/wp-content/uploads/2024/05/artport-sq.jpg"
-        alt="">
+    <img class="w-100 course-detail-banner-mobile"
+        src="https://djsartport.com/wp-content/uploads/2024/05/artport-sq.jpg" alt="">
 
 </div>
 
@@ -243,7 +243,7 @@ foreach($terms as $term) {
         <!-- <div class="col-3 mb-5 course-grid-col">
 
             <a href="<?php echo get_site_url();?>/course-detail" class="course-select-a"><img class="w-100"
-                    src="http://143.198.107.5/wp-content/uploads/2024/04/440419620_18426416392045554_6531587873840991221_n.jpg"
+                    src="https://djsartport.com/wp-content/uploads/2024/04/440419620_18426416392045554_6531587873840991221_n.jpg"
                     alt="">
 
 
