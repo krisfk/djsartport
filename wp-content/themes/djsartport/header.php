@@ -39,6 +39,13 @@
     <script type="text/javascript">
     $(function() {
 
+
+        <?php
+             global $post;
+             $post_slug = $post->post_name;
+             echo 'var slug ='.$post_slug.';';
+            ?>
+
         $('h1').animate({
             'width': '100%',
             'opacity': '1'
