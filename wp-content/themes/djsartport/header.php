@@ -141,8 +141,11 @@
                                 <!-- <li><a href="<?php echo $url;?>"><?php echo $title;?></a></li> -->
 
                                 <?php
-                                 global $post;
-                                 $post_slug = $post->post_name;
+                                $temp_arr=explode(get_site_url(),$url);
+                                $post_slug=str_replace('/zh/','',$temp_arr[1]);
+                                $post_slug=str_replace('/en/','',$slug);
+                                $post_slug=str_replace('/','',$slug);
+                                
                                 ?>
                                 <li><a class="level-1 <?php echo $post_slug; ?>"
                                         href="<?php echo $url;?>"><?php echo $title;?></a></li>
