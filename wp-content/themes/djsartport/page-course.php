@@ -17,6 +17,17 @@
 get_header(); ?>
 
 
+<div class="course-detail-banner-div">
+
+
+    <img class="w-100 course-detail-banner-desktop"
+        src="http://143.198.107.5/wp-content/uploads/2024/05/artport-banner4-scaled.jpg" alt="">
+
+    <img class="w-100 course-detail-banner-mobile" src="http://143.198.107.5/wp-content/uploads/2024/05/artport-sq.jpg"
+        alt="">
+
+</div>
+
 <script type="text/javascript">
 $(function() {
 
