@@ -96,13 +96,13 @@ if(get_field('show_banner_title'))
 </div>
 
 
-<div class="breadcrumb justify-content-center">
+<div class="breadcrumb justify-content-center mt-3">
 
     <a href="<?php echo get_site_url();?>">主頁</a> > <a href="<?php echo get_site_url();?>">興趣班</a> >
     <span><?php echo get_the_title();?></span>
 
 </div>
-<div class="container h1-outer-div text-center mt-lg-5 mt-md-3 mt-sm-3 mt-3 ">
+<div class="container h1-outer-div text-center mt-lg-0 mt-md-0 mt-sm-0 mt-0 ">
     <div class="text-center">
         <h1 class="">
             <span class="text-div-outer">
