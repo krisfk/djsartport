@@ -129,7 +129,12 @@
                                 ?>
                                 <!-- <li><a href="<?php echo $url;?>"><?php echo $title;?></a></li> -->
 
-                                <li><a class="level-1  " href="<?php echo $url;?>"><?php echo $title;?></a></li>
+                                <?php
+                                 global $post;
+                                 $post_slug = $post->post_name;
+                                ?>
+                                <li><a class="level-1  <?php echo $post_slug; ?>"
+                                        href="<?php echo $url;?>"><?php echo $title;?></a></li>
 
 
                                 <?php
