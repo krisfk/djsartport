@@ -461,8 +461,14 @@ h1 {
   display: none;
 }
 
-.gm-style iframe + div {
+iframe {
   border: none !important;
+  outline: none;
+}
+
+iframe:focus {
+  border: none !important;
+  outline: none;
 }
 
 @media only screen and (max-width: 991px) {
