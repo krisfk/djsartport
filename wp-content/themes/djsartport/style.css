@@ -533,6 +533,7 @@ h1 {
   .top-menu-ul-outer-ul-div {
     /* display: none; */
     /* position: fixed; */
+    position: absolute;
     top: 0;
     z-index: 200;
     height: 100%;
