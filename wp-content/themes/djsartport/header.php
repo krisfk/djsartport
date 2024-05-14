@@ -44,7 +44,11 @@
              global $post;
              $post_slug = $post->post_name;
              echo 'var slug ="'.$post_slug.'";';
+
+             
             ?>
+
+        $('.top-menu-ul a.' + slug).addClass('active');
 
         $('h1').animate({
             'width': '100%',
