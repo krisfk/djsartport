@@ -129,6 +129,15 @@ h1 {
   color: #969db8;
 }
 
+.breadcrumb a {
+  color: #c09ab1;
+  transition: 0.2s all;
+}
+
+.breadcrumb a:hover {
+  color: #969db8;
+}
+
 .course-detail-bottom-content h2 {
   font-size: 1.5rem !important;
   display: inline-block;
