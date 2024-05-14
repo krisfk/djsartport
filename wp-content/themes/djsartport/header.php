@@ -143,8 +143,8 @@
                                 <?php
                                 $temp_arr=explode(get_site_url(),$url);
                                 $post_slug=str_replace('/zh/','',$temp_arr[1]);
-                                $post_slug=str_replace('/en/','',$slug);
-                                $post_slug=str_replace('/','',$slug);
+                                $post_slug=str_replace('/en/','',$post_slug);
+                                $post_slug=str_replace('/','',$post_slug);
                                 
                                 ?>
                                 <li><a class="level-1 <?php echo $post_slug; ?>"
