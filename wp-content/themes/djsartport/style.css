@@ -525,6 +525,9 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
+  .top-menu-ul-outer-ul-div {
+    display: none;
+  }
   .header-logo {
     height: 60px;
   }
