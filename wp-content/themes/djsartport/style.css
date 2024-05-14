@@ -524,6 +524,11 @@ h1 {
   stroke-width: 6;
 }
 
+.header-logo-a {
+  position: relative;
+  z-index: 500;
+}
+
 @media only screen and (max-width: 991px) {
   .top-menu-ul-outer-ul-div {
     /* display: none; */
