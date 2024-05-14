@@ -133,7 +133,7 @@
                                  global $post;
                                  $post_slug = $post->post_name;
                                 ?>
-                                <li><a class="level-1  <?php echo $post_slug; ?>"
+                                <li><a class="level-1 <?php echo $post_slug; ?>"
                                         href="<?php echo $url;?>"><?php echo $title;?></a></li>
 
 
