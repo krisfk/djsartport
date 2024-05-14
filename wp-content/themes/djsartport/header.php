@@ -48,7 +48,15 @@
              
             ?>
 
-        $('.top-menu-ul a.' + slug).addClass('active');
+
+        if ($('body').hasClass('single-course')) {
+
+            $('.top-menu-ul a.course').addClass('active');
+        } else {
+            $('.top-menu-ul a.' + slug).addClass('active');
+        }
+
+
 
         $('h1').animate({
             'width': '100%',
