@@ -98,7 +98,7 @@ if(get_field('show_banner_title'))
 
 <div class="breadcrumb justify-content-center mt-3">
 
-    <a href="<?php echo get_site_url();?>">主頁</a> > <a href="<?php echo get_site_url();?>">興趣班</a> >
+    <a href="<?php echo get_site_url();?>">主頁</a> &lt; <a href="<?php echo get_site_url();?>">興趣班</a> &lt;
     <span><?php echo get_the_title();?></span>
 
 </div>
