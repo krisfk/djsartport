@@ -327,6 +327,7 @@ h1 {
   /* -webkit-text-fill-color: transparent; */
   margin: 0.5rem 0 1rem 0;
   color: #5b5b5b;
+  opacity: 1;
 }
 
 .course-detail-banner-div {
