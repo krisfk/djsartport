@@ -98,8 +98,8 @@ if(get_field('show_banner_title'))
 
 <div class="breadcrumb">
 
-    <a href="<?php echo get_site_url();?>">主頁</a> > <a href="<?php echo get_site_url();?>">興趣班</a> > <a
-        href="<?php echo get_field('course_name');?>"></a>
+    <a href="<?php echo get_site_url();?>">主頁</a> > <a href="<?php echo get_site_url();?>">興趣班</a> >
+    <span><?php echo get_the_title();?></span>
 
 </div>
 <div class="container h1-outer-div text-center mt-lg-5 mt-md-3 mt-sm-3 mt-3 ">
