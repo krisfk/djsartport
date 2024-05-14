@@ -53,7 +53,7 @@
 
             if ($(this).hasClass('opened')) {
 
-                $('.top-menu-ul-outer-ul').slideDown(200);
+                $('.top-menu-ul-outer-ul').fadeIn(200);
 
 
             } else {
