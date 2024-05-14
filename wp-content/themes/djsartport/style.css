@@ -526,7 +526,19 @@ h1 {
 
 @media only screen and (max-width: 991px) {
   .top-menu-ul-outer-ul-div {
-    display: none;
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    z-index: 200;
+    height: 100%;
+    background: rgb(255 255 255 / 86%);
+  }
+  .top-menu-ul-outer-ul-div ul {
+    margin: 6rem 0 0 0;
+  }
+  .top-menu-ul-outer-ul-div ul li {
+    display: block;
+    /* background: #fff; */
   }
   .header-logo {
     height: 60px;
