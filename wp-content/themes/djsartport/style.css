@@ -550,7 +550,7 @@ h1 {
 }
 
 .wp-video {
-  max-width: 65%;
+  max-width: 65% !important;
   height: auto;
 }
 
