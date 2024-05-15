@@ -244,9 +244,9 @@
                                 }
                                 ?>
 
-
+                                <!-- 
                                 <li><a class="level-1 " href="https://www.instagram.com/djs_artport"
-                                        target="_blank">Instagram</a></li>
+                                        target="_blank">Instagram</a></li> -->
 
                             </ul>
 
