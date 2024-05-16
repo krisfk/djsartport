@@ -35,7 +35,7 @@ get_header(); ?>
             <span class="text-div-outer">
                 <span class="text-div">
                     <!-- <div class="text-div-bg"></div> -->
-                    店鋪位置 Store Location
+                    課室場地租用 Classroom Rental
                 </span>
             </span>
         </h1>
