@@ -18,7 +18,8 @@ get_header(); ?>
 
 
 <div class="video-bg-div">
-    <iframe src="https://www.youtube.com/embed/osREhK0q7OY?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1"
+    <iframe
+        src="https://www.youtube.com/embed/osREhK0q7OY?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=osREhK0q7OY"
         frameborder="0" allowfullscreen></iframe>
 </div>
 <!-- <iframe class="l-keyHome2__video" id="youtube" frameborder="0" allowfullscreen=""
