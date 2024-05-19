@@ -740,6 +740,32 @@ h1 {
 }
 
 @media only screen and (max-width: 480px) {
+  .video-banner-text-layer {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    z-index: 200;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 1rem;
+    background-image: linear-gradient(
+      135deg,
+      rgb(238 198 223 / 80%),
+      rgb(189 197 230 / 80%)
+    );
+  }
+  .video-banner-text-layer .t1 {
+    color: #fff;
+    font-size: 1rem;
+    padding: 0 0 0.5rem 0;
+  }
+  .video-banner-text-layer .t2 {
+    color: #fff;
+    border-top: 1px solid;
+    font-size: 1rem;
+    padding: 0.5rem 0 0 0;
+  }
 }
 
 @media only screen and (max-width: 360px) {
