@@ -17,10 +17,13 @@
 get_header(); ?>
 
 
-<iframe class="l-keyHome2__video" id="youtube" frameborder="0" allowfullscreen=""
+<iframe src="https://www.youtube.com/embed/ShbC5yVqOdI?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1"
+    frameborder="0" allowfullscreen></iframe>
+
+<!-- <iframe class="l-keyHome2__video" id="youtube" frameborder="0" allowfullscreen=""
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin" title="アートスクール大阪" width="640" height="360"
-    src="https://www.youtube.com/embed/nf2rUY05XZM?playsinline=1&amp;autoplay=1&amp;fs=0&amp;rel=0&amp;controls=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;start=50&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.art-school.co.jp&amp;widgetid=1"></iframe>
+    src="https://www.youtube.com/embed/nf2rUY05XZM?playsinline=1&amp;autoplay=1&amp;fs=0&amp;rel=0&amp;controls=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;start=50&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.art-school.co.jp&amp;widgetid=1"></iframe> -->
 
 <!-- <div class="course-detail-banner-div"> -->
 
