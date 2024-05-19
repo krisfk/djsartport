@@ -692,7 +692,7 @@ h1 {
 
 @media (min-aspect-ratio: 16/9) {
   .video-bg-div {
-    height: 300%;
+    height: auto;
     top: -100%;
   }
 }
