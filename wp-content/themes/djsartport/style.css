@@ -562,6 +562,13 @@ h1 {
   transform: scale(1.2);
 }
 
+.video-bg-div {
+  position: relative;
+}
+
+.video-bg-div iframe {
+}
+
 @media only screen and (max-width: 991px) {
   .wp-video {
     max-width: 100% !important;
