@@ -748,7 +748,7 @@ h1 {
     z-index: 200;
     transform: translate(-50%, -50%);
     text-align: center;
-    padding: 1rem;
+    padding: 0.7rem;
     background-image: linear-gradient(
       135deg,
       rgb(238 198 223 / 80%),
@@ -763,7 +763,7 @@ h1 {
   .video-banner-text-layer .t2 {
     color: #fff;
     border-top: 1px solid;
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 0.5rem 0 0 0;
   }
 }
