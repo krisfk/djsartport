@@ -364,7 +364,7 @@ h1 {
 .course-detail-banner-div table h2 {
   padding: 1rem 1.5rem;
   display: inline-block;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
   /* background: rgb(99 108 145 / 58%); */
   /* background: linear-gradient(
     180deg,
