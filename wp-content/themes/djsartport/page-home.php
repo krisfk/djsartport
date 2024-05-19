@@ -17,17 +17,37 @@
 get_header(); ?>
 
 
+<div class="video-bg-div-outer mt-3">
+    <div class="video-bg-div">
+        <div class="mask"></div>
 
-<div class="course-detail-banner-div">
+        <div class="video-banner-text-layer">
+
+            <div class="t1">這裡是一個獨特放鬆和互動的空間</div>
+            <div class="t2">興趣班/寄賣/Art Jamming/配對活動/講座</div>
+        </div>
+        <iframe
+            src="https://www.youtube.com/embed/osREhK0q7OY?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=osREhK0q7OY&playbackRate=0.5"
+            frameborder="0" allowfullscreen></iframe>
+    </div>
+
+</div>
+
+<!-- <iframe class="l-keyHome2__video" id="youtube" frameborder="0" allowfullscreen=""
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" title="アートスクール大阪" width="640" height="360"
+    src="https://www.youtube.com/embed/nf2rUY05XZM?playsinline=1&amp;autoplay=1&amp;fs=0&amp;rel=0&amp;controls=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;start=50&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.art-school.co.jp&amp;widgetid=1"></iframe> -->
+
+<!-- <div class="course-detail-banner-div"> -->
 
 
-    <img class="w-100 course-detail-banner-desktop"
+<!-- <img class="w-100 course-detail-banner-desktop"
         src="https://djsartport.com/wp-content/uploads/2024/05/artport-banner4-scaled.jpg" alt="">
 
     <img class="w-100 course-detail-banner-mobile"
-        src="https://djsartport.com/wp-content/uploads/2024/05/artport-sq-short.jpg" alt="">
+        src="https://djsartport.com/wp-content/uploads/2024/05/artport-sq-short.jpg" alt=""> -->
 
-</div>
+<!-- </div> -->
 
 
 <script type="text/javascript">
