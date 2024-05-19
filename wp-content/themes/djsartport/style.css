@@ -564,6 +564,7 @@ h1 {
 
 .video-bg-div {
   position: relative;
+  overflow: hidden;
 }
 
 .video-bg-div iframe {
