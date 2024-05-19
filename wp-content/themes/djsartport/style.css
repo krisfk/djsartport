@@ -588,9 +588,6 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
-  .video-bg-div {
-    height: auto;
-  }
   .video-bg-div iframe {
     width: 100%;
     height: 100vw;
@@ -704,6 +701,7 @@ h1 {
   .video-bg-div {
     width: 300%;
     left: -100%;
+    height: auto;
   }
 }
 
