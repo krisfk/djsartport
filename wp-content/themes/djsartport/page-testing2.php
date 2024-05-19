@@ -17,17 +17,16 @@
 get_header(); ?>
 
 
+<!-- <div class="course-detail-banner-div"> -->
 
-<div class="course-detail-banner-div">
 
-
-    <img class="w-100 course-detail-banner-desktop"
+<!-- <img class="w-100 course-detail-banner-desktop"
         src="https://djsartport.com/wp-content/uploads/2024/05/artport-banner4-scaled.jpg" alt="">
 
     <img class="w-100 course-detail-banner-mobile"
-        src="https://djsartport.com/wp-content/uploads/2024/05/artport-sq-short.jpg" alt="">
+        src="https://djsartport.com/wp-content/uploads/2024/05/artport-sq-short.jpg" alt=""> -->
 
-</div>
+<!-- </div> -->
 
 
 <script type="text/javascript">
