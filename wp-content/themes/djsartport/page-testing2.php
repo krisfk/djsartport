@@ -17,7 +17,7 @@
 get_header(); ?>
 
 
-<div class="video-bg-div-outer">
+<div class="video-bg-div-outer mt-3">
     <div class="video-bg-div">
         <div class="mask"></div>
         <iframe
