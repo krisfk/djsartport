@@ -17,12 +17,16 @@
 get_header(); ?>
 
 
-<div class="video-bg-div">
-    <div class="mask"></div>
-    <iframe
-        src="https://www.youtube.com/embed/osREhK0q7OY?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=osREhK0q7OY"
-        frameborder="0" allowfullscreen></iframe>
+<div class="video-bg-div-outer">
+    <div class="video-bg-div">
+        <div class="mask"></div>
+        <iframe
+            src="https://www.youtube.com/embed/osREhK0q7OY?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=osREhK0q7OY"
+            frameborder="0" allowfullscreen></iframe>
+    </div>
+
 </div>
+
 <!-- <iframe class="l-keyHome2__video" id="youtube" frameborder="0" allowfullscreen=""
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin" title="アートスクール大阪" width="640" height="360"

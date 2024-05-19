@@ -581,6 +581,10 @@ h1 {
   z-index: 100;
 }
 
+.video-bg-div-outer {
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 991px) {
   .wp-video {
     max-width: 100% !important;
