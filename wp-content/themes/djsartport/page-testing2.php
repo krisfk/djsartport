@@ -24,7 +24,7 @@ get_header(); ?>
         <div class="video-banner-text-layer">
 
             <div class="t1">這裡是一個獨特放鬆和互動的空間</div>
-            <div class="t2">興趣班/寄賣/Art Jamming/配對活動</div>
+            <div class="t2">興趣班/寄賣/Art Jamming/配對活動/講座</div>
         </div>
         <iframe
             src="https://www.youtube.com/embed/osREhK0q7OY?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=osREhK0q7OY&playbackRate=0.5"
