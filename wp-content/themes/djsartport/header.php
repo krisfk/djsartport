@@ -114,7 +114,7 @@
         }
 
 
-        $('.video-banner-text-layer').fadeIn(200);
+        // $('.video-banner-text-layer').fadeIn(200);
 
         $('h1').animate({
             'width': '100%',
