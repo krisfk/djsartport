@@ -35,7 +35,7 @@ get_header(); ?>
             <span class="text-div-outer">
                 <span class="text-div">
                     <!-- <div class="text-div-bg"></div> -->
-                    自由繪畫 Art Jamming
+                    自由繪畫使用規則 Art Jamming Rule
                 </span>
             </span>
         </h1>
