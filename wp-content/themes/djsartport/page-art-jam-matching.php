@@ -1,73 +1,17 @@
-<?php
-/**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
+<!DOCTYPE html>
+<html lang="en">
 
-get_header(); ?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
+<body>
 
+    <script type="text/javascript">
+    window.location = 'https://docs.google.com/forms/d/1BCex_7mOsv-jYTYbDkwX-g8RDl15bZ1oceBwcOrSzWo';
+    </script>
+</body>
 
-<div class="course-detail-banner-div">
-
-
-    <img class="w-100 course-detail-banner-desktop"
-        src="https://djsartport.com/wp-content/uploads/2024/05/artport-banner4-scaled.jpg" alt="">
-
-    <img class="w-100 course-detail-banner-mobile"
-        src="https://djsartport.com/wp-content/uploads/2024/05/artport-sq-short.jpg" alt="">
-
-</div>
-
-<div class="container h1-outer-div text-center mt-lg-5 mt-md-3 mt-sm-3 mt-3 ">
-    <div class="text-center">
-        <h1 class="">
-            <span class="text-div-outer">
-                <span class="text-div">
-                    <!-- <div class="text-div-bg"></div> -->
-                    自由繪畫 Art Jamming
-                </span>
-            </span>
-        </h1>
-    </div>
-</div>
-
-<div class="container mt-3 course-detail-bottom-content">
-    <?php
-    
-    echo get_the_content();
-    ?>
-
-</div>
-
-<script type="text/javascript">
-$(document).ready(function() {
-
-
-    $('.course-name').val($('.h2-course-name').html());
-    var date = new Date();
-
-    var day = date.getDate();
-    var month = date.getMonth() + 1;
-    var year = date.getFullYear();
-
-    if (month < 10) month = "0" + month;
-    if (day < 10) day = "0" + day;
-
-    var today = year + "-" + month + "-" + day;
-    $("#joinDate").attr("min", today);
-});
-</script>
-<?php
-
-get_footer();
+</html>
