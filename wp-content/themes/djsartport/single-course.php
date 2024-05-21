@@ -45,11 +45,11 @@ if(get_field('course_banner_image_2'))
 
     <?php
 
-if(get_field('show_banner_title'))
-{
+//if(get_field('show_banner_title'))
+//{
     ?>
 
-    <table class="banner-course-name">
+    <table class="banner-course-name <?php if(!get_field('show_banner_title')){ echo 'd-none';}?>">
         <tr>
             <td>
                 <h2 class="h2-course-name"><?php echo get_field('course_name');?></h2>
@@ -58,7 +58,7 @@ if(get_field('show_banner_title'))
     </table>
 
     <?php
-}
+//}
 ?>
 
     <?php
