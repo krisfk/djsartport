@@ -161,16 +161,19 @@ get_header(); ?>
 
                     <?php
                     
-            echo get_field('special_form') ? get_field('special_form') : do_shortcode('[contact-form-7 id="ee17888" title="Contact form 1"]');
-                    // if(get_field('special_form'))
-                    // {
-                    //     echo get_field('special_form');
-                    // }
-                    // else
-                    // {
-                    //     echo do_shortcode('[contact-form-7 id="ee17888" title="Contact form 1"]');
+            // echo get_field('special_form') ? get_field('special_form') : do_shortcode('[contact-form-7 id="ee17888" title="Contact form 1"]');
+                    if(get_field('special_form'))
+                    {
+                        echo 1;
+                        echo get_field('special_form');
+                    }
+                    else
+                    {
+
+                        echo 2;
+                        echo do_shortcode('[contact-form-7 id="ee17888" title="Contact form 1"]');
                    
-                    // }
+                    }
                     
                     // [contact-form-7 id="5914911" title="enrollment form(drawing)"]
                     ?>
