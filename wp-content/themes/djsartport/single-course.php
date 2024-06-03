@@ -278,7 +278,7 @@ echo get_field('suitable_people_content');
 
 echo get_field('notice');
 ?>
-
+                <br>
                 - 若在上課當日懸掛八號或以上強風信號，或黑色暴雨警告信號已經生效，我們將與導師商討活動是否需要改期至其他日期。 <br>
                 - 考慮到緊湊的課程安排，請參與者準時到達。
 
