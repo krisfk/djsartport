@@ -106,6 +106,8 @@
         })
 
 
+        $('select').addClass('form-control');
+
         if ($('body').hasClass('single-course')) {
 
             $('.top-menu-ul a.course').addClass('active');
