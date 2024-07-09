@@ -128,7 +128,9 @@ h1 {
 .course-detail-bottom-content a:hover {
   color: #969db8;
 }
-
+.breadcrumb br{
+  display: none;
+}
 .breadcrumb a {
   color: #c09ab1;
   transition: 0.2s all;
