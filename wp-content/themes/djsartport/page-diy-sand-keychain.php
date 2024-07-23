@@ -10,7 +10,7 @@
 <body>
 
     <script type="text/javascript">
-    window.location = 'https://djsartport.com/course/diy%e6%b2%99%e6%bc%8f%e7%95%ab%e9%8e%96%e5%8c%99%e6%89%a3workshop%e5%bf%83%e6%b5%81%e6%b2%99%e7%95%ab%e8%97%9d%e8%a1%93%e5%ad%b8%e9%99%a2/';
+    window.location = 'https://djsartport.com/course/diy%E6%B2%99%E6%BC%8F%E7%95%AB%E9%8E%96%E5%8C%99%E6%89%A3workshop/';
     </script>
 </body>
 

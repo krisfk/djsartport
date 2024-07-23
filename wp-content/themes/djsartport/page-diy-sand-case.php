@@ -10,7 +10,7 @@
 <body>
 
     <script type="text/javascript">
-    window.location = 'https://djsartport.com/course/diy%e6%b2%99%e7%95%abiphone-case-workshop%e5%bf%83%e6%b5%81%e6%b2%99%e7%95%ab%e8%97%9d%e8%a1%93%e5%ad%b8%e9%99%a2/';
+    window.location = 'https://djsartport.com/course/diy%E6%B2%99%E7%95%ABiphone-case-workshop/';
     </script>
 </body>
 
