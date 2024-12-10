@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
     background: url(./pap/bg.jpg) no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center center;
     position: relative;
     max-width: 768px;
