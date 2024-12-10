@@ -22,6 +22,7 @@ const verifyOTP = () => {
             $('.error-msg').fadeIn(200);
 
             $('input').val('');
+            $('input').removeClass('filled');
                 // alert('not correct');
         }
         else
