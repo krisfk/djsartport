@@ -20,6 +20,8 @@ const verifyOTP = () => {
     if(text!='395')
         {
             $('.error-msg').fadeIn(200);
+
+            $('input').val('');
                 // alert('not correct');
         }
         else
