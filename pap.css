@@ -129,3 +129,8 @@
     font-size: 16px;
     border: none; */
   }
+
+  .error-msg{
+    color: #ff0000;
+    font-size:2rem;
+  }
