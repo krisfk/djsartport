@@ -24,6 +24,9 @@
 }
 .instruction{
     display: block;
-    background: #ff0000;
-
+    background: rgb(255 0 0 / 42%);
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
