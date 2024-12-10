@@ -104,4 +104,9 @@ $(function(){
     $('.close-btn-a').click(function(){
         $('.lightbox').fadeOut(0);
     })
+
+    $('.try-to-open-btn').click(function(){
+        $('.lightbox').fadeIn(200);
+        
+    })
 })
