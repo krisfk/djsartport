@@ -73,6 +73,8 @@ inputs.forEach((input, currentIndex) => {
   input.addEventListener("keydown", (e) => {
     if (e.keyCode === 8) {
       e.preventDefault();
+      $('.error-msg').fadeOut(0);
+
       input.value = "";
       // console.log(input.value);
       toggleFilledClass(input);
