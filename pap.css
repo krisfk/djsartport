@@ -31,8 +31,9 @@
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 .tip-block{
-    background: #2a3050;
+    background: rgb(42 48 80 / 58%);
     color: #fff;
     height: 100%;
     padding: 1rem;
+    border: 1px solid #00000026;
 }
