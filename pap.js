@@ -19,7 +19,7 @@ const verifyOTP = () => {
     const text = getOtpText();
     if(text!='395')
         {
-            $('.error-msg').fadeIn(500);
+            $('.error-msg').fadeIn(200);
                 // alert('not correct');
         }
         else
@@ -41,10 +41,11 @@ const toggleFilledClass = (field) => {
 form.addEventListener("input", (e) => {
   const target = e.target;
   const value = target.value;
-  console.log({ target, value });
+//   console.log({ target, value });
   toggleFilledClass(target);
   if (target.nextElementSibling) {
     target.nextElementSibling.focus();
+    $('.error-msg').fadeOut(0);
   }
 //   verifyOTP();
 });
