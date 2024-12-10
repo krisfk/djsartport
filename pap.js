@@ -99,3 +99,9 @@ inputs.forEach((input, currentIndex) => {
 verifyBtn.addEventListener("click", () => {
   verifyOTP();
 });
+
+$(function(){
+    $('.close-btn-a').click(function(){
+        $('.lightbox').fadeOut(0);
+    })
+})
