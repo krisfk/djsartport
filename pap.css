@@ -6,7 +6,7 @@
     background-size: cover;
     background-position: center center;
     position: relative;
-    max-width: 768px;
+    /* max-width: 768px; */
 }
 .djs-logo{
     width: 100px;
