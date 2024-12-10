@@ -19,12 +19,12 @@ const verifyOTP = () => {
     const text = getOtpText();
     if(text!='395')
         {
-                alert('not correct');
+            $('.error-msg').fadeIn(500);
+                // alert('not correct');
         }
         else
         {
             alert(' correct');
-
         }
     // alert(`Your OTP is "${text}". OTP is correct`);
   }
