@@ -17,7 +17,16 @@ const getOtpText = () => {
 const verifyOTP = () => {
   if (isAllInputFilled()) {
     const text = getOtpText();
-    alert(`Your OTP is "${text}". OTP is correct`);
+    if(text!='395')
+        {
+                alert('not correct');
+        }
+        else
+        {
+            alert(' correct');
+
+        }
+    // alert(`Your OTP is "${text}". OTP is correct`);
   }
 };
 
