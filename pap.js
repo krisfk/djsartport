@@ -103,6 +103,8 @@ verifyBtn.addEventListener("click", () => {
 $(function(){
     $('.close-btn-a').click(function(){
         $('.lightbox').fadeOut(0);
+        $('.error-msg').fadeOut(0);
+
     })
 
     $('.try-to-open-btn').click(function(){
