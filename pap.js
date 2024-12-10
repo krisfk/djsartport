@@ -23,6 +23,7 @@ const verifyOTP = () => {
 
             $('input').val('');
             $('input').removeClass('filled');
+            $('input').eq(0).focus();
                 // alert('not correct');
         }
         else
