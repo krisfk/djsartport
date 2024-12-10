@@ -28,6 +28,9 @@ const verifyOTP = () => {
         }
         else
         {
+            $('.lightbox-inner').fadeOut(0);
+            $('.success-div').fadeIn(200);
+
             // alert(' correct');
         }
     // alert(`Your OTP is "${text}". OTP is correct`);
