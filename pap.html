@@ -21,39 +21,39 @@ const inputs = document.querySelectorAll('.otp-input input');
           // Simulating an email for demonstration
         //   emailSpan.textContent = "user@example.com";
 
-          function startTimer() {
-              timerId = setInterval(() => {
-                  if (timeLeft <= 0) {
-                      clearInterval(timerId);
-                      timerDisplay.textContent = "Code expired";
-                      timerDisplay.classList.add('expired');
-                      inputs.forEach(input => input.disabled = true);
-                      canResend = false;
-                  } else {
-                      const minutes = Math.floor(timeLeft / 60);
-                      const seconds = timeLeft % 60;
-                      timerDisplay.textContent = `(${minutes}:${seconds.toString().padStart(2, '0')})`;
-                      timeLeft--;
-                  }
-              }, 1000);
-          }
+        //   function startTimer() {
+        //       timerId = setInterval(() => {
+        //           if (timeLeft <= 0) {
+        //               clearInterval(timerId);
+        //               timerDisplay.textContent = "Code expired";
+        //               timerDisplay.classList.add('expired');
+        //               inputs.forEach(input => input.disabled = true);
+        //               canResend = false;
+        //           } else {
+        //               const minutes = Math.floor(timeLeft / 60);
+        //               const seconds = timeLeft % 60;
+        //               timerDisplay.textContent = `(${minutes}:${seconds.toString().padStart(2, '0')})`;
+        //               timeLeft--;
+        //           }
+        //       }, 1000);
+        //   }
 
-          function resendOTP() {
-              if (canResend) {
-                  alert("New OTP sent!");
-                  timeLeft = 120;
-                  inputs.forEach(input => {
-                      input.value = '';
-                      input.disabled = false;
-                  });
-                  inputs[0].focus();
-                  clearInterval(timerId);
-                  timerDisplay.classList.remove('expired');
-                  startTimer();
-              } else {
-                  alert("Cannot resend code. Time has expired.");
-              }
-          }
+        //   function resendOTP() {
+        //       if (canResend) {
+        //           alert("New OTP sent!");
+        //           timeLeft = 120;
+        //           inputs.forEach(input => {
+        //               input.value = '';
+        //               input.disabled = false;
+        //           });
+        //           inputs[0].focus();
+        //           clearInterval(timerId);
+        //           timerDisplay.classList.remove('expired');
+        //           startTimer();
+        //       } else {
+        //           alert("Cannot resend code. Time has expired.");
+        //       }
+        //   }
 
           inputs.forEach((input, index) => {
               input.addEventListener('input', (e) => {
