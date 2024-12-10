@@ -28,7 +28,7 @@ const verifyOTP = () => {
         }
         else
         {
-            alert(' correct');
+            // alert(' correct');
         }
     // alert(`Your OTP is "${text}". OTP is correct`);
   }
