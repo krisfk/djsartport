@@ -17,7 +17,7 @@ const getOtpText = () => {
 const verifyOTP = () => {
   if (isAllInputFilled()) {
     const text = getOtpText();
-    alert(`Your OTP is "${text}". OTP is correct`);
+    // alert(`Your OTP is "${text}". OTP is correct`);
   }
 };
 
@@ -37,7 +37,7 @@ form.addEventListener("input", (e) => {
   if (target.nextElementSibling) {
     target.nextElementSibling.focus();
   }
-  verifyOTP();
+//   verifyOTP();
 });
 
 inputs.forEach((input, currentIndex) => {
@@ -54,7 +54,7 @@ inputs.forEach((input, currentIndex) => {
         item.focus();
         item.value = text[index - currentIndex] || "";
         toggleFilledClass(item);
-        verifyOTP();
+        // verifyOTP();
       }
     });
   });
