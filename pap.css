@@ -33,4 +33,6 @@
 .tip-block{
     background: #2a3050;
     color: #fff;
+    height: 100%;
+    padding: 1rem;
 }
