@@ -107,6 +107,8 @@ $(function(){
 
     $('.try-to-open-btn').click(function(){
         $('.lightbox').fadeIn(200);
+        $('.error-msg').fadeOut(0);
+
         
     })
 })
