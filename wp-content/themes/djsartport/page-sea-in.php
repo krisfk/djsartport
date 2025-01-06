@@ -11,7 +11,7 @@
 <style type="text/css">
 
     video{
-        /* width: 100%; */
+        width: 100%;
     }
 
 </style>
