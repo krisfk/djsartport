@@ -20,7 +20,7 @@
 
 <div class="container main-container">
 
-<video src="https://djsartport.com/sea.mp4"></video>
+<video src="https://djsartport.com/sea.mp4" autoplay loop muted playsinline></video>
 </div>
 </body>
 </html>
