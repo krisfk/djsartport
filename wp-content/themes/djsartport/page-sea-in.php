@@ -18,7 +18,7 @@
 <body>
     
 
-<div class="container main-container">
+<div class="container main-container g-0">
 
 <video src="https://djsartport.com/sea.mp4" autoplay loop muted playsinline></video>
 </div>
