@@ -22,7 +22,7 @@ video{
     display:block;
     background: #0771a6;
     padding: 1rem;
-    min-width: 200px;
+    min-width: 190px;
     border-radius: 0.5rem;
     text-decoration: none;
     color: #fff;
@@ -31,4 +31,8 @@ video{
     -webkit-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
     -moz-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
     box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
+}
+
+.main-container{
+    max-width:475px
 }
