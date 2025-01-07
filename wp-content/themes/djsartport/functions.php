@@ -733,6 +733,8 @@ function djsartport_route() {
 function test_func($request)
 {
 
+	$wts = $request['wts'];
+
 	$query_args = array(
 	'post_type' => 'sea_member',
 	'post_status' => '',
@@ -745,7 +747,9 @@ $the_query = new WP_Query( $query_args );
 if ( $the_query->have_posts() ) {
 	while ( $the_query->have_posts() ) {
 		$the_query->the_post();
-		echo 1;
+
+		echo get_field('whatsapp');
+
 	}
 	/* Restore original Post Data */
 	wp_reset_postdata();
