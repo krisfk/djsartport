@@ -17,6 +17,12 @@
 
 <div class="container main-container g-0 position-relative">
 
+<div class="sea-lightbox">
+
+
+</div>
+
+
 <video src="https://djsartport.com/sea.mp4" autoplay  muted playsinline></video>
 
 
