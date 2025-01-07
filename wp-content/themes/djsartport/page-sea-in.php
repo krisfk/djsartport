@@ -19,6 +19,12 @@
 
 <div class="sea-lightbox">
 
+<h1>B: 隨意撈起</h1>
+
+請輸入你的whatsapp號碼(我們24小時內會send結果給你)：
+<input type="text" name="wts" class="form-input">
+
+
 
 </div>
 
