@@ -723,7 +723,7 @@ add_action( 'rest_api_init', 'djsartport_route');
 function djsartport_route() {
 
 	register_rest_route( 'api', '/search-wts/', array(
-		'methods'  => 'P',
+		'methods'  => 'GET',
 		'callback' => 'search_wts'
 )
 );
