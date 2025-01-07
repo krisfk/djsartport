@@ -4,19 +4,31 @@ video{
 
 .bottom-div{
     position: absolute;
-    bottom: 0;
+    /* height: 100px; */
     width: 100%;
     z-index: 100;
+    bottom: 2rem;
 }
 
 .bottom-div ul{
-    
-
+    padding: 0;
+    text-align: center;
+    margin: 0;
 }
 
 
-.bottom-div ul li{
-
-    display:  inline-block;
-
+.bottom-div ul li{display: inline-block;margin: 0 0.2rem;}
+.bottom-div ul li a{
+    display:block;
+    background: #0771a6;
+    padding: 1rem;
+    min-width: 200px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    border: 3px solid #091081;
+    -webkit-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
+    -moz-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
+    box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
 }
