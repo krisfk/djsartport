@@ -722,15 +722,15 @@ add_action( 'rest_api_init', 'djsartport_route');
 
 function djsartport_route() {
 
-	register_rest_route( 'api', '/test/', array(
-		'methods'  => 'GET',
-		'callback' => 'test_func'
+	register_rest_route( 'api', '/search-wts/', array(
+		'methods'  => 'P',
+		'callback' => 'search_wts'
 )
 );
 }
 
 
-function test_func($request)
+function search_wts($request)
 {
 
 	$wts = $request['wts'];
