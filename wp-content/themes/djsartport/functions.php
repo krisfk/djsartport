@@ -713,3 +713,33 @@ function add_slug_body_class( $classes ) {
 	return $classes;
 	}
 	add_filter( 'body_class', 'add_slug_body_class' );
+
+
+
+
+
+add_action( 'rest_api_init', 'djsartport_route');
+
+function djsartport_route() {
+
+	register_rest_route( 'api', '/test/', array(
+		'methods'  => 'GET',
+		'callback' => 'test_func'
+)
+);
+
+
+}
+
+
+function test_func($request)
+{
+	echo 111;
+	// $to= 'krisfk@gmail.com';
+	// $subject= '視角文化資源新會員註冊認證郵件';
+	// $body= '<!DOCTYPE html><html lang="en"><head> <meta charset="UTF-8" /> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>Document</title></head><body> <div style="text-align: center; margin-top: 30px"> <a href="https://perspectivecr.org/"> <img style="height: 66px" src="https://perspectivecr.org/wp-content/themes/pcr/assets/images/logo.png" alt="" /></a> <br /><br /><span style="font-size: 16px; font-weight: bold"> (會員登記名稱) 您好︰</span > <br /><br /> 多謝您支持，並已成功登記成為視角文化資源會員。 <br /> <br /> 請立即按下面連結啟動您的帳戶 <br /> <br /> (activate link) <br /><br /><br /> 感謝您的使用與支持。 <br /><br /><br />視角文化資源 <br /> <br /> <a href="https://www.perspectivecr.org/" target="_blank"> <img style="height: 18px" src="https://perspectivecr.org/wp-content/uploads/2021/05/edm-icon-1.png" alt="" /> </a> <a href="https://www.facebook.com/%E8%A6%96%E8%A7%92%E6%96%87%E5%8C%96-100798228820297" target="_blank"> <img style="height: 18px" src="https://perspectivecr.org/wp-content/uploads/2021/05/edm-icon-2.png" alt="" /> </a> <a href="https://www.instagram.com/pers.cul/" target="_blank"> <img style="height: 18px" src="https://perspectivecr.org/wp-content/uploads/2021/05/edm-icon-3.png" alt="" /> </a> </div> </body></html>';
+	// $headers = array('Content-Type: text/html; charset=UTF-8');
+	// $mailResult = false;
+	// $mailResult= wp_mail( $to, $subject, $body, $headers );
+}
+
