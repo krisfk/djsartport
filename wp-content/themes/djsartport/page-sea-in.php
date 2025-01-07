@@ -21,6 +21,16 @@
 <div class="container main-container g-0">
 
 <video src="https://djsartport.com/sea.mp4" autoplay  muted playsinline></video>
+
+
+<div class="bottom-div">
+
+<ul>
+<li> <a href="javascript:void(0);"> A: 製作飄流瓶</a></li>
+<li> <a href="javascript:void(0);"> B: 隨意撈起</a></li>
+</ul>
+
+</div>
 </div>
 </body>
 </html>
