@@ -24,7 +24,7 @@
 <div class="bottom-div">
 
 <ul>
-<li> <a href="javascript:void(0);"> A: 製作飄流瓶</a></li>
+<li> <a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank"> A: 製作飄流瓶</a></li>
 <li> <a href="javascript:void(0);"> B: 隨意撈起</a></li>
 </ul>
 
