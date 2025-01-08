@@ -40,11 +40,14 @@ $(function(){
                 wts: form_wts,
               },
 
-              function(data,status){
+              function(found,status){
 
-                if(data)
+                  if(found)
                     {
-                        alert('found');
+                        // alert('found');
+                    }
+                    else{
+
                     }
                     
               });
