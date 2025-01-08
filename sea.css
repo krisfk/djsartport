@@ -118,6 +118,7 @@ width: 60%;
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  margin: 2rem auto 0 auto;
   box-sizing: border-box;
   color: #FFFFFF;
   display: flex;
@@ -127,7 +128,7 @@ width: 60%;
   line-height: 1em;
   max-width: 100%;
   min-width: 140px;
-  padding: 19px 24px;
+  padding: 15px 14px;
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
@@ -143,7 +144,7 @@ width: 60%;
 
 @media (min-width: 768px) {
   .submit-btn {
-    font-size: 24px;
+    font-size: 16px;
     min-width: 196px;
   }
 }
