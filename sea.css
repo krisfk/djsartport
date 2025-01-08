@@ -137,10 +137,10 @@ width: 60%;
   cursor: pointer;
   transition: 0.2s all;
 
-  -webkit-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
-  -moz-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
-  box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
-  
+  -webkit-box-shadow: 6px 6px 8px -8px rgba(0,0,0,0.78);
+  -moz-box-shadow: 6px 6px 8px -8px rgba(0,0,0,0.78);
+  box-shadow: 6px 6px 8px -8px rgba(0,0,0,0.78);
+
 }
 
 .submit-btn:active,
