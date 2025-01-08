@@ -6,4 +6,8 @@ $(function(){
         $(this).addClass('active');
     })
 
+    $('.close-btn-a').click(function(){
+        $('.lightbox').fadeOut(200);
+    })
+
 })
