@@ -39,7 +39,8 @@
 </ul>
 
 
-請輸入你的whatsapp號碼(我們24小時內會send結果給你)：
+請輸入你的whatsapp號碼 <br>
+(我們24小時內會send結果給你)：
 <input type="text" name="form-wts" class="form-control">
 
 </div>
