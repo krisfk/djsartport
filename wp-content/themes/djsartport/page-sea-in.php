@@ -52,7 +52,7 @@
 
 
 
-<button class="submit-btn" role="button">隨機一抽!</button>
+<button class="submit-btn" role="button">隨機一抽!🔥(一星期只可抽一次)</button>
 
 
 </div>
