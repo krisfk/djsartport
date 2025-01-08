@@ -47,7 +47,7 @@
 
 
 
-<input type="text" name="" class="form-control mt-2 form-wts" maxlength="8" >
+<input type="text" name="" class="form-control mt-2 form-wts" >
 
 
 
