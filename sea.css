@@ -104,7 +104,7 @@ width: 60%;
     box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
 }
 
-.gender-a:nth-child(2n).active{
+.gender-a.gender-a-2.active{
     color: #870457;
     text-decoration: none;
     display: block;
