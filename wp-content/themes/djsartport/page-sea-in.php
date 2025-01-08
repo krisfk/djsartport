@@ -55,8 +55,7 @@
 
 <input type="text" name="" class="form-control mt-2 form-wts" >
 
-
-
+<input type="hidden" name="find_gender" class="find-gender">
 
 <button class="submit-btn" role="button">💞 隨機一抽 🫶🏻</button>
 <div class="small mt-2">(一星期只可抽一次)</div>

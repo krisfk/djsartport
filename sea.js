@@ -18,4 +18,9 @@ $(function(){
 
     })
 
+    $('.submit-btn').click(function(){
+        alert(6);
+    })
+
+
 })
