@@ -5,7 +5,7 @@ $(function(){
         $('.gender-a').removeClass('active');
         $(this).addClass('active');
 
-        var idx=$(this).parent('li').eq();
+        var idx=$(this).parent('li').index();
         alert(idx)
 
 
