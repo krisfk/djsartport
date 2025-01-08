@@ -22,7 +22,7 @@
 <div class="sea-lightbox text-center">
 
 <h1 class="mt-5">B: 隨意撈起</h1>
-<div>必須完成 [A:製作飄流瓶] 才可參加這活動</div>
+<div class="small">必須完成 [A:製作飄流瓶] 才可參加這活動</div>
 
 
 <ul class="gender-ul">
