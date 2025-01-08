@@ -733,35 +733,40 @@ function djsartport_route() {
 function search_wts($request)
 {
 	
-	
+	$found=false;
 	$wts = $request['wts'];
 	// $find_gender = $request['find_gender'];
 
-	$found = false;
-	
+
 	$query_args = array(
-	'post_type' => 'sea_member',
-	'post_status' => '',
+		'post_type' => 'sea_member',
+		'meta_query' => array(
+			'0' => array(
+				'key' => 'whatsapp',
+				'value' => $wts,
+				'compare' => '=',
+			),
+		),
 	);
-
+	// The Query
 	$the_query = new WP_Query( $query_args );
-
-	if ( $the_query->have_posts() ) {
-	while ( $the_query->have_posts() ) {
-		$the_query->the_post();
-
-		if(get_field('whatsapp')==$wts)
-		{
-			$found=true;
-		}
-		
-	}
 	
-
+	// The Loop
+	if ( $the_query->have_posts() ) {
+		$found =true;
 	}
-
 
 	echo $found;
+	
+	// 	while ( $the_query->have_posts() ) {
+	// 		$the_query->the_post();
+	// 	}
+	// 	/* Restore original Post Data */
+	// 	wp_reset_postdata();
+	// } else {
+	// 	// no posts found
+	// }
+
 
 }
 
