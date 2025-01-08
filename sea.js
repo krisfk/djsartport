@@ -12,8 +12,7 @@ $(function(){
 
     $('.b-btn').click(function(){
         $('.sea-lightbox').fadeIn(200);
-
-        body.animate({
+        $('body,html').animate({
             scrollTop:0
           });
 
