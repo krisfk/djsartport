@@ -42,18 +42,18 @@ $(function(){
 
               function(found,status){
 
-                alert(found)
-                  if(found)
-                    {
-                        alert('found');
-                        // $('.msg').fadeOut(0);
+                alert(found);
+                //   if(found)
+                //     {
+                //         alert('found');
+                //         // $('.msg').fadeOut(0);
 
-                    }
-                    else{
-                        alert('NOT found');
+                //     }
+                //     else{
+                //         alert('NOT found');
    
-                        // $('.msg').fadeIn(200);
-                    }
+                //         // $('.msg').fadeIn(200);
+                //     }
                     
               });
             
