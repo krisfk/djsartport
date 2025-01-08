@@ -164,5 +164,11 @@ width: 60%;
 }
 
 .close-btn-a{
-    
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.close-btn-a img{
+    width: 20px;
 }
