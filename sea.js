@@ -44,12 +44,14 @@ $(function(){
 
                   if(found)
                     {
-                        // alert('found');
-                        $('.msg').fadeOut(0);
+                        alert('found');
+                        // $('.msg').fadeOut(0);
 
                     }
                     else{
-                        $('.msg').fadeIn(200);
+                        alert('NOT found');
+   
+                        // $('.msg').fadeIn(200);
                     }
                     
               });
