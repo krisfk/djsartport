@@ -51,6 +51,11 @@ video{
     z-index: 200;
 }
 
+.sea-lightbox a{
+    color: #fff;
+
+}
+
 .gender-ul{
     margin: 2rem 0 2rem 0;
     padding: 0;
