@@ -733,7 +733,7 @@ function djsartport_route() {
 function search_wts($request)
 {
 	
-	$found=false;
+	$found=0;
 	$wts = $request['wts'];
 	// $find_gender = $request['find_gender'];
 
@@ -753,11 +753,7 @@ function search_wts($request)
 	
 	// The Loop
 	if ( $the_query->have_posts() ) {
-		$found=true;
-	}
-	else
-	{
-		$found=0;
+		$found=1;
 	}
 
 	echo $found;
