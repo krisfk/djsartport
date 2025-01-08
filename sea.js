@@ -14,7 +14,7 @@ $(function(){
 
         if(idx==1)
         {
-            $('.find-gender').val('女')；
+            $('.find-gender').val('女');
         }
 
     })
