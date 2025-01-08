@@ -24,15 +24,16 @@
 
 <ul class="gender-ul">
 <li>
-
+<a href="javascript:void(0);" class="gender-a">
 <img class="bottle-img" src="https://djsartport.com/blue-bottle.png" alt="">
 <div>男</div>
-
+</a>
 </li>
 <li>
-
+<a href="javascript:void(0);" class="gender-a">
 <img class="bottle-img" src="https://djsartport.com/red-bottle.png" alt="">
 <div>女</div>
+</a>
 
 
 </li>
