@@ -22,7 +22,7 @@
 <div class="sea-lightbox text-center">
 
 <h1 class="mt-5">B: 隨意撈起</h1>
-<div class="small">必須完成  <a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">[A:製作飄流瓶]</a> 才可參加這活動</div>
+<div class="small">注意：必須完成  <a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">[A:製作飄流瓶]</a> 才可參加這活動</div>
 
 
 <ul class="gender-ul">
@@ -43,7 +43,7 @@
 </ul>
 
 
-請輸入你的whatsapp號碼:
+請輸入你的whatsapp號碼(**省去852/853和space位):
 <div class="small">(我們會在24小時內會send結果給你)</div>
 
 
