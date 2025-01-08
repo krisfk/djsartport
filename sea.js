@@ -9,7 +9,7 @@ $(function(){
 
         if(idx==0)
         {
-                $('.find-gender').val('男');
+            $('.find-gender').val('男');
         }
 
         if(idx==1)
@@ -32,8 +32,8 @@ $(function(){
     })
 
     $('.submit-btn').click(function(){
-        // var find_gender = $('').val();  
         var form_wts = $('.form-wts').val();
+        var find_gender = $('.find-gender').val();
     })
 
 
