@@ -50,7 +50,8 @@ $(function(){
                   if(found)
                     {
                         // alert('found');
-                        $('.msg').fadeOut(0);
+
+                        $('.msg ,.info-block-1').fadeOut(0);
 
                     }
                     else{

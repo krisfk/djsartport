@@ -27,7 +27,7 @@
 <h1 class="mt-5">B: 隨意撈起</h1>
 <div class="small">注意：必須完成  <a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">[A: 製作飄流瓶]</a> 才可參加這活動</div>
 
-
+<div class="info-block info-block-1">
 
 <h4 class="mt-4">想抽的對象性別:</h4>
 <ul class="gender-ul">
@@ -63,6 +63,9 @@
 
 <div class="msg mt-4 text-warning">這個wts號碼沒有用作登記[A: 製作飄流瓶] <br>
 <a class="text-warning" href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">請先完成A步驟</a>(24小時內完成認証)</div>
+
+
+</div>
 
 </div>
 
