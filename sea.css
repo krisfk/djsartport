@@ -103,3 +103,16 @@ width: 60%;
     -moz-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
     box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
 }
+
+.gender-a:nth-child(2n).active{
+    color: #870457;
+    text-decoration: none;
+    display: block;
+    border: 2px solid;
+    background: rgb(255 255 255 / 56%);
+    border-radius: 1rem;
+    padding: 2rem;
+    -webkit-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
+    -moz-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
+    box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
+}
