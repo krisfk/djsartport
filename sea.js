@@ -4,6 +4,11 @@ $(function(){
 
         $('.gender-a').removeClass('active');
         $(this).addClass('active');
+
+        var idx=$(this).parent('li').eq();
+        alert(idx)
+
+
     })
 
     $('.close-btn-a').click(function(){
@@ -19,7 +24,8 @@ $(function(){
     })
 
     $('.submit-btn').click(function(){
-        alert(6);
+        // var find_gender = $('').val();  
+        var form_wts = $('.form-wts').val();
     })
 
 
