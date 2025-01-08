@@ -53,7 +53,7 @@
 
 
 <button class="submit-btn" role="button">💞 隨機一抽 🫶🏻</button>
-<div class="small">(一星期只可抽一次)</div>
+<div class="small mt-2">(一星期只可抽一次)</div>
 
 
 </div>
