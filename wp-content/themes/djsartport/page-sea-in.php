@@ -25,13 +25,13 @@
 <ul>
 <li>
 
-<img src="https://djsartport.com/blue-bottle.png" alt="">
+<img class="bottle-img" src="https://djsartport.com/blue-bottle.png" alt="">
 <div>男</div>
 
 </li>
 <li>
 
-<img src="https://djsartport.com/red-bottle.png" alt="">
+<img class="bottle-img" src="https://djsartport.com/red-bottle.png" alt="">
 <div>女</div>
 
 
