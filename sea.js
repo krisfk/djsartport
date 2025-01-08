@@ -47,7 +47,7 @@ $(function(){
                         // alert('found');
                     }
                     else{
-
+                        $('.msg').fadeIn(200);
                     }
                     
               });

@@ -173,3 +173,6 @@ width: 60%;
 .close-btn-a img{
     width: 20px;
 }
+.msg{
+    display: none;
+}
