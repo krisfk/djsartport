@@ -34,16 +34,18 @@ $(function(){
     $('.submit-btn').click(function(){
         var form_wts = $('.form-wts').val();
         var find_gender = $('.find-gender').val();
-        // alert(find_gender+' '+form_wts);
-        
-              $.post("https://djsartport.com/wp-json/api/search-wts",
+
+        $.post("https://djsartport.com/wp-json/api/search-wts",
               {
                 wts: form_wts,
-                find_gender: find_gender
               },
               function(data,status){
-                alert(data);
-                // alert("Data: " + data + "\nStatus: " + status);
+
+                if(data)
+                    {
+                        alert('found');
+                    }
+                    
               });
             
               

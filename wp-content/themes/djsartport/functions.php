@@ -735,35 +735,33 @@ function search_wts($request)
 	
 	
 	$wts = $request['wts'];
-	$find_gender = $request['find_gender'];
+	// $find_gender = $request['find_gender'];
 
-	echo 111;
+	$found = false;
 	
-	// $found = false;
-	
-	// $query_args = array(
-	// 'post_type' => 'sea_member',
-	// 'post_status' => '',
-	// );
+	$query_args = array(
+	'post_type' => 'sea_member',
+	'post_status' => '',
+	);
 
-	// $the_query = new WP_Query( $query_args );
+	$the_query = new WP_Query( $query_args );
 
-	// if ( $the_query->have_posts() ) {
-	// while ( $the_query->have_posts() ) {
-	// 	$the_query->the_post();
+	if ( $the_query->have_posts() ) {
+	while ( $the_query->have_posts() ) {
+		$the_query->the_post();
 
-	// 	if(get_field('whatsapp')==$wts)
-	// 	{
-	// 		$found=true;
-	// 	}
+		if(get_field('whatsapp')==$wts)
+		{
+			$found=true;
+		}
 		
-	// }
+	}
 	
 
-	// }
+	}
 
 
-	// echo $found;
+	echo $found;
 
 }
 
