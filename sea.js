@@ -7,7 +7,7 @@ $(function(){
     })
 
     $('.close-btn-a').click(function(){
-        $('.lightbox').fadeOut(200);
+        $('.sea-lightbox').fadeOut(200);
     })
 
 })
