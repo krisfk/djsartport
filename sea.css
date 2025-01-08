@@ -135,6 +135,7 @@ width: 60%;
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
+  transition: 0.2s all;
 }
 
 .submit-btn:active,
@@ -142,6 +143,9 @@ width: 60%;
   outline: 0;
 }
 
+.submit-btn:hover{
+    opacity: 0.8;
+}
 @media (min-width: 768px) {
   .submit-btn {
     font-size: 16px;
