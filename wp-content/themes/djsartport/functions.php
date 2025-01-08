@@ -757,7 +757,7 @@ function search_wts($request)
 	}
 	else
 	{
-		
+		$found='no';
 	}
 
 	echo $found;
