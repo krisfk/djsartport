@@ -21,6 +21,24 @@
 
 <h1>B: 隨意撈起</h1>
 
+
+<ul>
+<li>
+
+<img src="https://djsartport.com/blue-bottle.png" alt="">
+<div>男</div>
+
+</li>
+<li>
+
+<img src="https://djsartport.com/red-bottle.png" alt="">
+<div>女</div>
+
+
+</li>
+</ul>
+
+
 請輸入你的whatsapp號碼(我們24小時內會send結果給你)：
 <input type="text" name="wts" class="form-input">
 
