@@ -144,7 +144,7 @@ width: 60%;
 }
 
 .submit-btn:hover{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 @media (min-width: 768px) {
   .submit-btn {
