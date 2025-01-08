@@ -41,7 +41,7 @@
 
 請輸入你的whatsapp號碼 <br>
 (我們24小時內會send結果給你)：
-<input type="text" name="form-wts" class="form-control">
+<input type="text" name="form-wts" class="form-control mt-3">
 
 </div>
 
