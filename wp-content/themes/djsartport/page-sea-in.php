@@ -22,7 +22,7 @@
 <h1>B: 隨意撈起</h1>
 
 
-<ul>
+<ul class="gender-ul">
 <li>
 
 <img class="bottle-img" src="https://djsartport.com/blue-bottle.png" alt="">
