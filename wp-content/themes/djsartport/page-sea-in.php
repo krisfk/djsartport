@@ -21,7 +21,7 @@
 
 <div class="sea-lightbox text-center">
 
-<h1>B: 隨意撈起</h1>
+<h1 class="mt-5">B: 隨意撈起</h1>
 
 
 <ul class="gender-ul">
