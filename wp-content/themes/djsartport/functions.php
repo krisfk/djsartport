@@ -723,7 +723,7 @@ add_action( 'rest_api_init', 'djsartport_route');
 function djsartport_route() {
 
 	register_rest_route( 'api', '/search-wts/', array(
-		'methods'  => 'GET',
+		'methods'  => 'POST',
 		'callback' => 'search_wts'
 )
 );
@@ -732,33 +732,37 @@ function djsartport_route() {
 
 function search_wts($request)
 {
-	// echo 1;
-
+	
+	
 	$wts = $request['wts'];
-	$found = false;
+	$find_gender = $request['find_gender'];
+
+	echo 111;
 	
-	$query_args = array(
-	'post_type' => 'sea_member',
-	'post_status' => '',
-	);
+	// $found = false;
+	
+	// $query_args = array(
+	// 'post_type' => 'sea_member',
+	// 'post_status' => '',
+	// );
 
-	$the_query = new WP_Query( $query_args );
+	// $the_query = new WP_Query( $query_args );
 
-	if ( $the_query->have_posts() ) {
-	while ( $the_query->have_posts() ) {
-		$the_query->the_post();
+	// if ( $the_query->have_posts() ) {
+	// while ( $the_query->have_posts() ) {
+	// 	$the_query->the_post();
 
-		if(get_field('whatsapp')==$wts)
-		{
-			$found=true;
-		}
+	// 	if(get_field('whatsapp')==$wts)
+	// 	{
+	// 		$found=true;
+	// 	}
 		
-	}
+	// }
 	
 
-	}
+	// }
 
-echo 11;
+
 	// echo $found;
 
 }

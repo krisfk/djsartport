@@ -36,15 +36,14 @@ $(function(){
         var find_gender = $('.find-gender').val();
         // alert(find_gender+' '+form_wts);
         
-
-
-              $.post("demo_test_post.asp",
+              $.post("https://djsartport.com/wp-json/api/search-wts",
               {
-                name: "Donald Duck",
-                city: "Duckburg"
+                wts: form_wts,
+                find_gender: find_gender
               },
               function(data,status){
-                alert("Data: " + data + "\nStatus: " + status);
+                alert(data);
+                // alert("Data: " + data + "\nStatus: " + status);
               });
             
               
