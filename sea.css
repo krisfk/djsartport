@@ -52,7 +52,7 @@ video{
 }
 
 .gender-ul{
-    margin: 0 0 2rem 0;
+    margin: 2rem 0 2rem 0;
     padding: 0;
     display: block;
 }
@@ -80,5 +80,13 @@ width: 60%;
 
 
 .gender-a{
-    
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    border: 2px solid;
+    border-radius: 1rem;
+    padding: 2rem;
+    -webkit-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
+    -moz-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
+    box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.78);
 }
