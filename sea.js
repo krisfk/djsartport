@@ -34,7 +34,23 @@ $(function(){
     $('.submit-btn').click(function(){
         var form_wts = $('.form-wts').val();
         var find_gender = $('.find-gender').val();
-        alert(find_gender+' '+form_wts);
+        // alert(find_gender+' '+form_wts);
+        
+
+
+              $.post("demo_test_post.asp",
+              {
+                name: "Donald Duck",
+                city: "Duckburg"
+              },
+              function(data,status){
+                alert("Data: " + data + "\nStatus: " + status);
+              });
+            
+              
+            
+
+
     })
 
 

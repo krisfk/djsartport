@@ -732,33 +732,31 @@ function djsartport_route() {
 
 function search_wts($request)
 {
+	echo 1;
 
-	$wts = $request['wts'];
-	$found = false;
+	// $wts = $request['wts'];
+	// $found = false;
 	
-	$query_args = array(
-	'post_type' => 'sea_member',
-	'post_status' => '',
-	);
+	// $query_args = array(
+	// 'post_type' => 'sea_member',
+	// 'post_status' => '',
+	// );
 
-	// The Query
-	$the_query = new WP_Query( $query_args );
+	// $the_query = new WP_Query( $query_args );
 
-	// The Loop
-	if ( $the_query->have_posts() ) {
-	while ( $the_query->have_posts() ) {
-		$the_query->the_post();
+	// if ( $the_query->have_posts() ) {
+	// while ( $the_query->have_posts() ) {
+	// 	$the_query->the_post();
 
-		if(get_field('whatsapp')==$wts)
-		{
-			$found=true;
-		}
+	// 	if(get_field('whatsapp')==$wts)
+	// 	{
+	// 		$found=true;
+	// 	}
 		
-	}
-	/* Restore original Post Data */
-	wp_reset_postdata();
+	// }
+	
 
-	echo $found;
+	// echo $found;
 } 
 
 }
