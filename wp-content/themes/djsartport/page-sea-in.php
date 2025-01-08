@@ -49,7 +49,11 @@
 
 <input type="text" name="" class="form-control mt-2 form-wts" >
 
-<input type="text">
+
+
+
+<button class="submit-btn" role="button">隨機一抽!</button>
+
 
 </div>
 
@@ -66,7 +70,6 @@
 
 
 
-<button class="submit-btn" role="button">隨機一抽!</button>
 
 
 
