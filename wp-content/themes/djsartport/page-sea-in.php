@@ -39,8 +39,9 @@
 </ul>
 
 
-請輸入你的whatsapp號碼 <br>
-(我們24小時內會send結果給你)：
+請輸入你的whatsapp號碼
+<div class="small">(我們24小時內會send結果給你)：</div>
+
 <input type="text" name="" class="form-control mt-2 form-wts" >
 
 </div>
