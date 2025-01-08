@@ -43,7 +43,7 @@
 </ul>
 
 
-請輸入你的whatsapp號碼(**省去852/853和space位):
+<div class="small">請輸入你的whatsapp號碼(**省去852/853和space位):</div>
 <div class="small">(我們會在24小時內會send結果給你)</div>
 
 
