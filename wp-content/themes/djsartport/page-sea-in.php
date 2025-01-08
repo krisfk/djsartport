@@ -61,7 +61,8 @@
 <div class="small mt-2">(一星期只可抽一次)</div>
 
 
-<div class="msg">逅個wts號碼沒有用作登記[A: 製作飄流瓶]，<a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">請先登記</a></div>
+<div class="msg">這個wts號碼沒有用作登記[A: 製作飄流瓶] <br>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">請先登記</a>(24小時內完成認証)</div>
 
 </div>
 
