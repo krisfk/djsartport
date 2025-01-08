@@ -6,8 +6,16 @@ $(function(){
         $(this).addClass('active');
 
         var idx=$(this).parent('li').index();
-        alert(idx)
 
+        if(idx==0)
+        {
+
+        }
+
+        if(idx==1)
+        {
+            
+        }
 
     })
 
