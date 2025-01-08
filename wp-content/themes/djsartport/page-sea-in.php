@@ -25,7 +25,7 @@
     <img src="https://djsartport.com/close-btn.png" alt="">
     </a>
 <h1 class="mt-4">B: 隨意撈起</h1>
-<div class="small">注意：必須完成  <a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">[A:製作飄流瓶]</a> 才可參加這活動</div>
+<div class="small">注意：必須完成  <a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">[A: 製作飄流瓶]</a> 才可參加這活動</div>
 
 
 
