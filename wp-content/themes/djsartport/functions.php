@@ -757,7 +757,7 @@ function search_wts($request)
 	}
 	else
 	{
-		echo 2123324;
+		
 	}
 
 	echo $found;
