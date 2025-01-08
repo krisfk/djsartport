@@ -28,6 +28,8 @@
 <div class="small">注意：必須完成  <a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">[A:製作飄流瓶]</a> 才可參加這活動</div>
 
 
+
+<h2>想抽既性別:</h2>
 <ul class="gender-ul">
 <li>
 <a href="javascript:void(0);" class="gender-a gender-a-1">
