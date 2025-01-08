@@ -755,6 +755,10 @@ function search_wts($request)
 	if ( $the_query->have_posts() ) {
 		$found=true;
 	}
+	else
+	{
+		echo 2123324;
+	}
 
 	echo $found;
 	
