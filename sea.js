@@ -10,4 +10,8 @@ $(function(){
         $('.sea-lightbox').fadeOut(200);
     })
 
+    $('.b-btn').click(function(){
+        $('.sea-lightbox').fadeIn(200);
+    })
+
 })
