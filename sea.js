@@ -42,22 +42,22 @@ $(function(){
 
               function(found,status){
 
-                console.log(found);
-                console.log(status);
+                // console.log(found);
+                // console.log(status);
 
                 // alert(45345);
                 // alert(found);
-                //   if(found)
-                //     {
-                //         alert('found');
-                //         // $('.msg').fadeOut(0);
+                  if(found)
+                    {
+                        // alert('found');
+                        $('.msg').fadeOut(0);
 
-                //     }
-                //     else{
-                //         alert('NOT found');
+                    }
+                    else{
+                        // alert('NOT found');
    
-                //         // $('.msg').fadeIn(200);
-                //     }
+                        $('.msg').fadeIn(200);
+                    }
                     
               });
             
