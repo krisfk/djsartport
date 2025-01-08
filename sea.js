@@ -9,12 +9,12 @@ $(function(){
 
         if(idx==0)
         {
-
+                $('.find-gender').val('男');
         }
 
         if(idx==1)
         {
-            
+            $('.find-gender').val('女')；
         }
 
     })
