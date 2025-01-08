@@ -52,16 +52,21 @@ video{
 }
 
 .gender-ul{
-    
+    margin: 0 0 2rem 0;
+    padding: 0;
+    display: block;
 }
 
 
 .gender-ul li{
-    
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
 }
 
 
 .gender-ul li 
 .bottle-img{
     width: 100px;
+    margin: 0 0 0.5rem 0;
 }
