@@ -29,7 +29,7 @@
 
 
 
-<h2>想抽既性別:</h2>
+<h2>想抽既對象的性別:</h2>
 <ul class="gender-ul">
 <li>
 <a href="javascript:void(0);" class="gender-a gender-a-1">
