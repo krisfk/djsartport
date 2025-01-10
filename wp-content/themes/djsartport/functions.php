@@ -761,6 +761,7 @@ function search_wts($request)
 
 		$query_args2 = array(
 			'post_type' => 'sea_member',
+			'orderby' => 'rand',
 			'meta_query' => array(
 				'0' => array(
 					'key' => 'gender',
