@@ -39,6 +39,8 @@ $(function(){
         $.ajax({
             type: 'POST',
             url: 'https://djsartport.com/wp-json/api/search-wts',
+            contentType: 'application/json; charset=utf-8',
+
             // dataType: "json",
             // contentType: "application/json",
             data: {'wts': form_wts,'find_gender':find_gender},
