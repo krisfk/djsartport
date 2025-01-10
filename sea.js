@@ -42,7 +42,7 @@ $(function(){
             dataType: "json",
             contentType: "application/json",
             data: {wts: form_wts,find_gender:find_gender},
-            // dataType: 'json', //**** REMOVE THIS LINE ****//
+            dataType: 'json', //**** REMOVE THIS LINE ****//
             cache: false,
             success: function (found)
             {
