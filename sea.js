@@ -50,7 +50,10 @@ $(function(){
             encode: true,
           }).done(function (data) {
             console.log(data);
-          })
+          }).fail(function (jqXHR, textStatus) {
+            console.log(jqXHR);
+            console.log(textStatus);
+        });
         //   .error(function(e){
         //     console.log(e);
 
