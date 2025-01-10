@@ -34,7 +34,7 @@ $(function(){
     $('.submit-btn').click(function(){
         var form_wts = $('.form-wts').val();
         var find_gender = $('.find-gender').val();
-        alert(find_gender)
+        // alert(find_gender)
 
         $.post("https://djsartport.com/wp-json/api/search-wts",
               {
