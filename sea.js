@@ -48,8 +48,17 @@ $(function(){
             data: formData,
             dataType: "text",
             encode: true,
-          }).done(function (data) {
-            console.log(data);
+          }).done(function (found) {
+        
+                    if(found)
+                    {
+                        $('.msg ,.info-block-1').fadeOut(0);
+                    }
+                    else{
+                        $('.msg').fadeIn(200);
+                    }
+
+            
           }).fail(function (jqXHR, textStatus) {
             console.log(jqXHR);
             console.log(textStatus);

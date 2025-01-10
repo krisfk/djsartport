@@ -736,7 +736,7 @@ function search_wts($request)
 	$wts = $request['wts'];
 	$find_gender = $request['find_gender'];
 
-	echo $find_gender;
+	// echo $find_gender;
 	// echo 111;
 
 	$query_args = array(
@@ -755,9 +755,6 @@ function search_wts($request)
 	// The Loop
 	if ( $the_query->have_posts() ) {
 		
-		// echo 999;
-		// echo 123;
-		// echo $find_gender;
 
 		$query_args2 = array(
 			'post_type' => 'sea_member',
@@ -772,11 +769,8 @@ function search_wts($request)
 
 		$the_query2 = new WP_Query( $query_args2 );
 		$the_query2->the_post();
-		$the_query2->the_ID();
+		echo $the_query2->get_the_ID();
 
-		// echo get_the_ID();
-
-		// echo 999;
 		
 	}
 	else
