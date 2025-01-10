@@ -50,15 +50,17 @@ $(function(){
             encode: true,
           }).done(function (found) {
         
-                    if(found)
+                    if(found =='0')
                     {
-                        alert(found);
-                        $('.msg ,.info-block-1').fadeOut(0);
-                    }
-                    else{
                         $('.msg').fadeIn(200);
                     }
+                    else
+                    {
+                        // alert(found);
+                        $('.msg ,.info-block-1').fadeOut(0);
+                    }
 
+                    
             
           }).fail(function (jqXHR, textStatus) {
             console.log(jqXHR);
