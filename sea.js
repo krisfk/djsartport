@@ -40,7 +40,7 @@ $(function(){
             type: 'POST',
             url: 'https://djsartport.com/wp-json/api/search-wts',
             dataType: "json",
-            contentType: "application/json",
+            // contentType: "application/json",
             data: {'wts': form_wts,'find_gender':find_gender},
             dataType: 'json', //**** REMOVE THIS LINE ****//
             cache: false,
