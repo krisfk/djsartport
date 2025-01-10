@@ -48,6 +48,7 @@ $(function(){
             cache: false,
             success: function (found)
             {
+                console.log('hello1');
                 console.log(found);
                     // if(found)
                     // {
@@ -59,6 +60,8 @@ $(function(){
             },
             error: function (error)
             {
+
+                console.log('hello2');
                 console.log(error);
                 // just error callback
             }
