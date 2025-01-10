@@ -43,6 +43,8 @@ $(function(){
               },
 
               function(found,status){
+                console.log(found);
+                console.log(status);
 
                 // alert(found);
                   if(found)
