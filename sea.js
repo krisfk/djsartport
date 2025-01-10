@@ -39,13 +39,12 @@ $(function(){
         $.post("https://djsartport.com/wp-json/api/search-wts",
               {
                 wts: form_wts,
-                find_gender:find_gender
+                gender:find_gender
               },
 
               function(found,status){
 
-            
-                alert(found);
+                // alert(found);
                   if(found)
                     {
                         $('.msg ,.info-block-1').fadeOut(0);
