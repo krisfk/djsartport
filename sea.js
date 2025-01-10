@@ -36,36 +36,53 @@ $(function(){
         var form_wts = $('.form-wts').val();
         var find_gender = $('.find-gender').val();
 
-        $.ajax({
-            type: 'POST',
-            url: 'https://djsartport.com/wp-json/api/search-wts',
-            // contentType: 'application/json; charset=utf-8',
 
-            // dataType: "json",
-            // contentType: "application/json",
-            data: {'wts': form_wts,'find_gender':find_gender},
-            // dataType: 'text', //**** REMOVE THIS LINE ****//
-            cache: false,
-            success: function (found)
-            {
-                console.log('hello1');
-                console.log(found);
-                    // if(found)
-                    // {
-                    //     $('.msg ,.info-block-1').fadeOut(0);
-                    // }
-                    // else{
-                    //     $('.msg').fadeIn(200);
-                    // }
-            },
-            error: function (error)
-            {
+        var formData = {
+            form_wts: $(".form-wts").val(),
+            find_gender: $(".find-gender").val()          
+        };
+      
+          $.ajax({
+            type: "POST",
+            url: "https://djsartport.com/wp-json/api/search-wts",
+            data: formData,
+            dataType: "json",
+            encode: true,
+          }).done(function (data) {
+            console.log(data);
+          });
 
-                console.log('hello2');
-                console.log(error);
-                // just error callback
-            }
-        });
+
+        // $.ajax({
+        //     type: 'POST',
+        //     url: 'https://djsartport.com/wp-json/api/search-wts',
+        //     // contentType: 'application/json; charset=utf-8',
+
+        //     // dataType: "json",
+        //     // contentType: "application/json",
+        //     data: {'wts': form_wts,'find_gender':find_gender},
+        //     // dataType: 'text', //**** REMOVE THIS LINE ****//
+        //     cache: false,
+        //     success: function (found)
+        //     {
+        //         console.log('hello1');
+        //         console.log(found);
+        //             // if(found)
+        //             // {
+        //             //     $('.msg ,.info-block-1').fadeOut(0);
+        //             // }
+        //             // else{
+        //             //     $('.msg').fadeIn(200);
+        //             // }
+        //     },
+        //     error: function (error)
+        //     {
+
+        //         console.log('hello2');
+        //         console.log(error);
+        //         // just error callback
+        //     }
+        // });
 
         // alert(find_gender)
 
