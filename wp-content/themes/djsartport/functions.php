@@ -724,10 +724,48 @@ function djsartport_route() {
 
 	register_rest_route( 'api', '/search-wts/', array(
 		'methods'  => 'POST',
-		'callback' => 'search_wts'
-)
-);
+		'callback' => 'search_wts'))
+
+// 	register_rest_route( 'api', '/draw-bottom/', array(
+// 			'methods'  => 'POST',
+// 			'callback' => 'draw_bottle'
+// )
+// );
 }
+
+// function draw_bottle($request)
+// {
+// 	$find_gender = $request['find_gender'];
+// 	$wts = $request['wts'];
+
+
+// 	// 'orderby' => 'rand',
+//     // 'order' => 'DESC',
+	
+// 	$query_args = array(
+// 		'post_type' => 'sea_member',
+// 		'orderby' => 'rand',
+// 	    'order' => 'DESC',
+// 		'meta_query' => array(
+// 			'0' => array(
+// 				'key' => 'find_gender',
+// 				'value' => $find_gender,
+// 				'compare' => '=',
+// 			),
+// 		),
+// 	);
+// 	// The Query
+// 	$the_query = new WP_Query( $query_args );
+	
+// 	// The Loop
+// 	if ( $the_query->have_posts() ) {
+// 		$the_query->the_post();
+// 		echo get_the_ID();
+// 	//	$found=1;
+// 	}
+
+	
+// }
 
 
 function search_wts($request)
@@ -735,7 +773,7 @@ function search_wts($request)
 	
 	$found=0;
 	$wts = $request['wts'];
-	// $find_gender = $request['find_gender'];
+	$find_gender = $request['find_gender'];
 
 
 	$query_args = array(
@@ -753,7 +791,26 @@ function search_wts($request)
 	
 	// The Loop
 	if ( $the_query->have_posts() ) {
-		$found=1;
+		// $found=1;
+
+
+
+		$query_args2 = array(
+			'post_type' => 'find_gender',
+			'meta_query' => array(
+				'0' => array(
+					'key' => 'find_gender',
+					'value' => $find_gender,
+					'compare' => '=',
+				),
+			),
+		);
+
+		$the_query2 = new WP_Query( $query_args2 );
+		$the_query2->the_post();
+
+		echo $the_query2->get_the_ID();
+
 	}
 
 	echo $found;

@@ -38,25 +38,18 @@ $(function(){
         $.post("https://djsartport.com/wp-json/api/search-wts",
               {
                 wts: form_wts,
+                find_gender:find_gender
               },
 
               function(found,status){
 
-                // console.log(found);
-                // console.log(status);
-
-                // alert(45345);
-                // alert(found);
+            
                   if(found)
                     {
-                        // alert('found');
-
                         $('.msg ,.info-block-1').fadeOut(0);
-
+                        console.log(found);
                     }
                     else{
-                        // alert('NOT found');
-   
                         $('.msg').fadeIn(200);
                     }
                     
@@ -70,3 +63,9 @@ $(function(){
 
 
 })
+
+
+function draw_bottle()
+{
+
+}
