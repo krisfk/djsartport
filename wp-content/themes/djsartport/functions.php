@@ -757,7 +757,7 @@ function search_wts($request)
 		
 
 
-		echo 'A';
+		// echo 'A';
 
 		$query_args2 = array(
 			'post_type' => 'sea_member',
@@ -779,7 +779,7 @@ function search_wts($request)
 	}
 	else
 	{
-		echo 'B';
+		// echo 'B';
 		echo $found;
 	}
 
