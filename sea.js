@@ -52,6 +52,7 @@ $(function(){
         
                     if(found)
                     {
+                        alert(found);
                         $('.msg ,.info-block-1').fadeOut(0);
                     }
                     else{
