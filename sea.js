@@ -42,6 +42,7 @@ $(function(){
             type: 'POST',
             data: {wts: form_wts,find_gender:find_gender},
             dataType: "json",
+            contentType: 'application/json',
             // data: 'json',
             success: function (found)
             {
