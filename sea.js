@@ -35,24 +35,24 @@ $(function(){
     $('.submit-btn').click(function(){
         var form_wts = $('.form-wts').val();
         var find_gender = $('.find-gender').val();
-        // alert(find_gender)
 
         $.ajax({
-            url: 'https://djsartport.com/wp-json/api/search-wts',
             type: 'POST',
+            url: 'https://djsartport.com/wp-json/api/search-wts',
+            contentType: 'application/json; charset=utf-8',
             data: {wts: form_wts,find_gender:find_gender},
-            // dataType: "json",
-            // contentType: 'application/json',
-            // data: 'json',
+            // dataType: 'json', //**** REMOVE THIS LINE ****//
+            cache: false,
             success: function (found)
             {
-                    if(found)
-                    {
-                        $('.msg ,.info-block-1').fadeOut(0);
-                    }
-                    else{
-                        $('.msg').fadeIn(200);
-                    }
+                console.log(found);
+                    // if(found)
+                    // {
+                    //     $('.msg ,.info-block-1').fadeOut(0);
+                    // }
+                    // else{
+                    //     $('.msg').fadeIn(200);
+                    // }
             },
             error: function (error)
             {
@@ -60,6 +60,32 @@ $(function(){
                 // just error callback
             }
         });
+
+        // alert(find_gender)
+
+        // $.ajax({
+        //     url: 'https://djsartport.com/wp-json/api/search-wts',
+        //     type: 'POST',
+        //     data: {wts: form_wts,find_gender:find_gender},
+        //     // dataType: "json",
+        //     // contentType: 'application/json',
+        //     // data: 'json',
+            // success: function (found)
+            // {
+            //         if(found)
+            //         {
+            //             $('.msg ,.info-block-1').fadeOut(0);
+            //         }
+            //         else{
+            //             $('.msg').fadeIn(200);
+            //         }
+            // },
+            // error: function (error)
+            // {
+            //     console.log(error);
+            //     // just error callback
+            // }
+        // });
 
 
 
