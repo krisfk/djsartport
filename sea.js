@@ -52,8 +52,9 @@ $(function(){
                         $('.msg').fadeIn(200);
                     }
             },
-            error: function ()
+            error: function (error)
             {
+                console.log(error);
                 // just error callback
             }
         });
