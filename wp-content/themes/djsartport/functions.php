@@ -733,7 +733,7 @@ function search_wts($request)
 {
 	
 	$found=0;
-	$wts = $request['wts'];
+	$form_wts = $request['form_wts'];
 	$find_gender = $request['find_gender'];
 
 	// echo $find_gender;
@@ -744,7 +744,7 @@ function search_wts($request)
 		'meta_query' => array(
 			'0' => array(
 				'key' => 'whatsapp',
-				'value' => $wts,
+				'value' => $form_wts,
 				'compare' => '=',
 			),
 		),
