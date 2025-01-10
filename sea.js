@@ -41,7 +41,7 @@ $(function(){
             url: 'https://djsartport.com/wp-json/api/search-wts',
             type: 'POST',
             data: {wts: form_wts,find_gender:find_gender},
-            dataType: 'json',
+            // data: 'json',
             success: function (found)
             {
                     if(found)
