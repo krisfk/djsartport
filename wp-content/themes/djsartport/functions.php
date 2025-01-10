@@ -763,7 +763,7 @@ function search_wts($request)
 			'post_type' => 'sea_member',
 			'meta_query' => array(
 				'0' => array(
-					'key' => 'find_gender',
+					'key' => 'gender',
 					'value' => $find_gender,
 					'compare' => '=',
 				),
