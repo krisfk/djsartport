@@ -46,7 +46,7 @@ $(function(){
             type: "POST",
             url: "https://djsartport.com/wp-json/api/search-wts",
             data: formData,
-            dataType: "json",
+            dataType: "text",
             encode: true,
           }).done(function (data) {
             console.log(data);
