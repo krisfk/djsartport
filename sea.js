@@ -50,6 +50,9 @@ $(function(){
             encode: true,
           }).done(function (data) {
             console.log(data);
+          }).error(function(e){
+            console.log(e);
+
           });
 
 
