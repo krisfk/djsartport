@@ -31,32 +31,53 @@ $(function(){
 
     })
 
+    // dataType: 'json'
     $('.submit-btn').click(function(){
         var form_wts = $('.form-wts').val();
         var find_gender = $('.find-gender').val();
         // alert(find_gender)
 
-        $.post("https://djsartport.com/wp-json/api/search-wts",
-              {
-                wts: form_wts,
-                find_gender:123
-              },
-
-              function(found,status){
-                console.log(found);
-                console.log(status);
-
-                // alert(found);
-                  if(found)
+        $.ajax({
+            url: 'https://djsartport.com/wp-json/api/search-wts',
+            type: 'POST',
+            data: {wts: form_wts,find_gender:find_gender},
+            dataType: 'json',
+            success: function (found)
+            {
+                    if(found)
                     {
                         $('.msg ,.info-block-1').fadeOut(0);
-                        console.log(found);
                     }
                     else{
                         $('.msg').fadeIn(200);
                     }
+            },
+            error: function ()
+            {
+                // just error callback
+            }
+        });
+
+
+
+        // $.ajax("https://djsartport.com/wp-json/api/search-wts",
+        //       {
+        //         wts: form_wts,
+        //         find_gender:123
+        //       },
+
+        //       function(found,status){
+
+        //           if(found)
+        //             {
+        //                 $('.msg ,.info-block-1').fadeOut(0);
+        //                 console.log(found);
+        //             }
+        //             else{
+        //                 $('.msg').fadeIn(200);
+        //             }
                     
-              });
+        //       });
             
               
             
