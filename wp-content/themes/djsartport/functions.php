@@ -756,22 +756,23 @@ function search_wts($request)
 		
 
 
-		// $query_args2 = array(
-		// 	'post_type' => 'find_gender',
-		// 	'meta_query' => array(
-		// 		'0' => array(
-		// 			'key' => 'find_gender',
-		// 			'value' => $find_gender,
-		// 			'compare' => '=',
-		// 		),
-		// 	),
-		// );
+		$query_args2 = array(
+			'post_type' => 'sea_member',
+			'meta_query' => array(
+				'0' => array(
+					'key' => 'find_gender',
+					'value' => $find_gender,
+					'compare' => '=',
+				),
+			),
+		);
 
-		// $the_query2 = new WP_Query( $query_args2 );
-		// $the_query2->the_post();
+		$the_query2 = new WP_Query( $query_args2 );
+		$the_query2->the_post();
 
+		echo $the_query2->get_the_ID();
 
-		echo 999;
+		// echo 999;
 		
 	}
 
