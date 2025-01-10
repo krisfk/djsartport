@@ -752,26 +752,27 @@ function search_wts($request)
 	
 	// The Loop
 	if ( $the_query->have_posts() ) {
-		// $found=1;
+		
+		
 
 
+		// $query_args2 = array(
+		// 	'post_type' => 'find_gender',
+		// 	'meta_query' => array(
+		// 		'0' => array(
+		// 			'key' => 'find_gender',
+		// 			'value' => $find_gender,
+		// 			'compare' => '=',
+		// 		),
+		// 	),
+		// );
 
-		$query_args2 = array(
-			'post_type' => 'find_gender',
-			'meta_query' => array(
-				'0' => array(
-					'key' => 'find_gender',
-					'value' => $find_gender,
-					'compare' => '=',
-				),
-			),
-		);
+		// $the_query2 = new WP_Query( $query_args2 );
+		// $the_query2->the_post();
 
-		$the_query2 = new WP_Query( $query_args2 );
-		$the_query2->the_post();
 
-		echo get_the_ID();
-
+		echo 999;
+		
 	}
 
 	echo $found;
