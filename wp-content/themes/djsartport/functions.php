@@ -724,48 +724,9 @@ function djsartport_route() {
 
 	register_rest_route( 'api', '/search-wts/', array(
 		'methods'  => 'POST',
-		'callback' => 'search_wts'))
-
-// 	register_rest_route( 'api', '/draw-bottom/', array(
-// 			'methods'  => 'POST',
-// 			'callback' => 'draw_bottle'
-// )
-// );
+		'callback' => 'search_wts'));
 }
 
-// function draw_bottle($request)
-// {
-// 	$find_gender = $request['find_gender'];
-// 	$wts = $request['wts'];
-
-
-// 	// 'orderby' => 'rand',
-//     // 'order' => 'DESC',
-	
-// 	$query_args = array(
-// 		'post_type' => 'sea_member',
-// 		'orderby' => 'rand',
-// 	    'order' => 'DESC',
-// 		'meta_query' => array(
-// 			'0' => array(
-// 				'key' => 'find_gender',
-// 				'value' => $find_gender,
-// 				'compare' => '=',
-// 			),
-// 		),
-// 	);
-// 	// The Query
-// 	$the_query = new WP_Query( $query_args );
-	
-// 	// The Loop
-// 	if ( $the_query->have_posts() ) {
-// 		$the_query->the_post();
-// 		echo get_the_ID();
-// 	//	$found=1;
-// 	}
-
-	
-// }
 
 
 function search_wts($request)
