@@ -44,6 +44,7 @@ $(function(){
               function(found,status){
 
             
+                alert(found);
                   if(found)
                     {
                         $('.msg ,.info-block-1').fadeOut(0);
