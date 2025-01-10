@@ -39,7 +39,7 @@ $(function(){
         $.post("https://djsartport.com/wp-json/api/search-wts",
               {
                 wts: form_wts,
-                find_gender:'女'
+                find_gender:'F'
               },
 
               function(found,status){
