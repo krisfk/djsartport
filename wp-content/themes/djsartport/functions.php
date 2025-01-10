@@ -772,7 +772,7 @@ function search_wts($request)
 
 		$the_query2 = new WP_Query( $query_args2 );
 		$the_query2->the_post();
-		echo $the_query2->get_the_ID();
+		echo get_the_ID();
 
 		
 	}
