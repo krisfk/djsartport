@@ -736,6 +736,7 @@ function search_wts($request)
 	$wts = $request['wts'];
 	$find_gender = $request['find_gender'];
 
+	echo $find_gender;
 
 	$query_args = array(
 		'post_type' => 'sea_member',
@@ -754,7 +755,7 @@ function search_wts($request)
 	if ( $the_query->have_posts() ) {
 		
 		// echo 123;
-		echo $find_gender;
+		// echo $find_gender;
 
 		// $query_args2 = array(
 		// 	'post_type' => 'sea_member',
