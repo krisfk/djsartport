@@ -734,7 +734,7 @@ function search_wts($request)
 	
 	$found=0;
 	$wts = $request['wts'];
-	$find_gender = $request['gender'];
+	$find_gender = $request['find_gender'];
 
 	echo $find_gender;
 
