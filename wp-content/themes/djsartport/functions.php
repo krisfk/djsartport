@@ -736,7 +736,7 @@ function search_wts($request)
 	$wts = $request['wts'];
 	$find_gender = $request['find_gender'];
 
-	echo $find_gender;
+	// echo $find_gender;
 	// echo 111;
 
 	$query_args = array(
@@ -755,6 +755,7 @@ function search_wts($request)
 	// The Loop
 	if ( $the_query->have_posts() ) {
 		
+		echo 999;
 		// echo 123;
 		// echo $find_gender;
 
