@@ -75,6 +75,8 @@ $(function(){
                                 $('.result-bottle-2 .idx').html(found);
                             }
 
+                            $('.bottle-idx').html(found);
+
                     }
 
                     
