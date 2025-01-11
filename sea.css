@@ -180,3 +180,6 @@ width: 60%;
 .result-bottle .bottle-img{
     width: 100px;
 }
+.result-bottle{
+    display:inline-block;
+}
