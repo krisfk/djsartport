@@ -58,8 +58,8 @@
                 <img class="bottle-img mb-3" src="https://djsartport.com/red-bottle.png" alt="">
                 <div>女(<span class="idx"></span>)</div>
             </div>
-            
 
+            <h5>我們會在24小時內聯絡你打開瓶<span class="bottle-idx"></span>的內容。</h5>
         </div>
 
 
