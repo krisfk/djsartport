@@ -48,8 +48,14 @@
 
         <div class="">
 
-        <div class="result-bottle result-bottle-1"> <img class="bottle-img" src="https://djsartport.com/blue-bottle.png" alt="">
-        </div><div class="result-bottle result-bottle-2"> <img class="bottle-img" src="https://djsartport.com/red-bottle.png" alt="">
+        <div class="result-bottle result-bottle-1"> 
+            <img class="bottle-img" src="https://djsartport.com/blue-bottle.png" alt="">
+            <div>男</div>
+        </div>
+        
+        <div class="result-bottle result-bottle-2">
+            <img class="bottle-img" src="https://djsartport.com/red-bottle.png" alt="">
+            <div>女</div>
         </div>
         </div>
 
