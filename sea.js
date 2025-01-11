@@ -61,7 +61,7 @@ $(function(){
 
                         $('.result-bottle').fadeOut(0);
 
-                        alert(found);
+                        // alert(found);
                         if($(".find-gender").val()=='男')
                             {
                                 $('.result-bottle-1').fadeIn(0);
