@@ -48,7 +48,7 @@
 
         <div class="result-block mt-5">
 
-        <h4 class="mb-3">你抽中了：</h4>
+        <h4 class="mb-3">你抽中了:</h4>
             <div class="result-bottle result-bottle-1"> 
                 <img class="bottle-img mb-3" src="https://djsartport.com/blue-bottle.png" alt="">
                 <div>男(<span class="idx"></span>)</div>
