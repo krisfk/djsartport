@@ -773,7 +773,19 @@ function search_wts($request)
 
 		$the_query2 = new WP_Query( $query_args2 );
 		$the_query2->the_post();
-		echo get_the_ID();
+
+
+		$bottle_id = get_the_ID();
+
+		$to = 'krisfk@gmail.com';
+		$subject = '緣份之海 - 隨意撈起 '.$form_wts.' 抽中'.' '.$bottle_id;
+		$body = '緣份之海 - 隨意撈起 '.$form_wts.' 抽中'.' '.$bottle_id;
+		$headers = array('Content-Type: text/html; charset=UTF-8');
+
+		wp_mail( $to, $subject, $body, $headers );
+
+
+		echo $bottle_id;
 
 		
 	}
