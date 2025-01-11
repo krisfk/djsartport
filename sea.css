@@ -176,3 +176,7 @@ width: 60%;
 .msg{
     display: none;
 }
+
+.result-bottle .bottle-img{
+    width: 100px;
+}
