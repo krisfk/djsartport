@@ -64,14 +64,14 @@ $(function(){
                         alert(found);
                         if($(".find-gender").val()=='男')
                             {
-                                $('.result-bottle-1').fadeIn(0).
+                                $('.result-bottle-1').fadeIn(0);
                                 $('.result-bottle-1 .idx').html(found);
                             }
                         
 
                         if($(".find-gender").val()=='女')
                             {
-                                $('.result-bottle-2').fadeIn(0).
+                                $('.result-bottle-2').fadeIn(0);
                                 $('.result-bottle-2 .idx').html(found);
                             }
 
