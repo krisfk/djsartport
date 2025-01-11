@@ -56,6 +56,7 @@ $(function(){
                     }
                     else
                     {
+                        $('.result-block').fadeIn(200);
 
                         $('.msg ,.info-block-1').fadeOut(0);
 

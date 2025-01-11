@@ -187,3 +187,6 @@ width: 60%;
     border-radius: 1rem;
     margin-bottom: 2rem;
 }
+.result-block{
+    display: none;
+}
