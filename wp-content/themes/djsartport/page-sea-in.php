@@ -55,7 +55,7 @@
         
         <div class="result-bottle result-bottle-2">
             <img class="bottle-img" src="https://djsartport.com/red-bottle.png" alt="">
-            <div>女<span class="idx"></span></div>
+            <div>女(<span class="idx"></span>)</div>
         </div>
         </div>
 
