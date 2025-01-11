@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>緣份之海</title>
@@ -9,84 +9,64 @@
     <link rel="stylesheet" href="https://djsartport.com/sea.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://djsartport.com/sea.js"></script>
-</head>
+  </head>
+  <style type="text/css"></style>
+  <body>
+    <div class="container main-container g-0 position-relative">
+      <div class="sea-lightbox text-center">
+        <a href="javascript:void(0);" class="close-btn-a">
+          <img src="https://djsartport.com/close-btn.png" alt="">
+        </a>
+        <h1 class="mt-5">B: 隨意撈起</h1>
+        <div class="small">注意：必須完成 <a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">[A: 製作飄流瓶]</a> 才可參加這活動 </div>
+        <div class="info-block info-block-1">
+          <h4 class="mt-4">想抽的對象性別:</h4>
+          <ul class="gender-ul">
+            <li>
+              <a href="javascript:void(0);" class="gender-a gender-a-1">
+                <img class="bottle-img" src="https://djsartport.com/blue-bottle.png" alt="">
+                <div>男</div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" class="gender-a gender-a-2">
+                <img class="bottle-img" src="https://djsartport.com/red-bottle.png" alt="">
+                <div>女</div>
+              </a>
+            </li>
+          </ul>
+          <div class="small">請輸入你的whatsapp號碼(**省去852/853和space位):</div>
+          <div class="small">(我們會在24小時內會send結果給你)</div>
+          <input type="text" name="" class="form-control mt-2 form-wts">
+          <input type="hidden" name="find_gender" class="find-gender">
+          <button class="submit-btn" role="button">💞 隨機一抽 🫶🏻</button>
+          <div class="small mt-2">(一星期只可抽一次)</div>
+          <div class="msg mt-4 text-warning">這個wts號碼沒有用作登記[A: 製作飄流瓶] <br>
+            <a class="text-warning" href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">請先完成A步驟</a>(24小時內完成認証)
+          </div>
+        </div>
 
-<style type="text/css">
-    
-</style>
-<body>
-    
+        <div class="">
 
-<div class="container main-container g-0 position-relative">
-
-<div class="sea-lightbox text-center">
-
-<a href="javascript:void(0);" class="close-btn-a">
-    <img src="https://djsartport.com/close-btn.png" alt="">
-    </a>
-<h1 class="mt-5">B: 隨意撈起</h1>
-<div class="small">注意：必須完成  <a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">[A: 製作飄流瓶]</a> 才可參加這活動</div>
-
-<div class="info-block info-block-1">
-
-<h4 class="mt-4">想抽的對象性別:</h4>
-<ul class="gender-ul">
-<li>
-<a href="javascript:void(0);" class="gender-a gender-a-1">
-<img class="bottle-img" src="https://djsartport.com/blue-bottle.png" alt="">
-<div>男</div>
-</a>
-</li>
-<li>
-<a href="javascript:void(0);" class="gender-a gender-a-2">
-<img class="bottle-img" src="https://djsartport.com/red-bottle.png" alt="">
-<div>女</div>
-</a>
-
-
-</li>
-</ul>
-
-
-<div class="small">請輸入你的whatsapp號碼(**省去852/853和space位):</div>
-<div class="small">(我們會在24小時內會send結果給你)</div>
-
-
-
-<input type="text" name="" class="form-control mt-2 form-wts" >
-
-<input type="hidden" name="find_gender" class="find-gender">
-
-<button class="submit-btn" role="button">💞 隨機一抽 🫶🏻</button>
-<div class="small mt-2">(一星期只可抽一次)</div>
-
-
-<div class="msg mt-4 text-warning">這個wts號碼沒有用作登記[A: 製作飄流瓶] <br>
-<a class="text-warning" href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">請先完成A步驟</a>(24小時內完成認証)</div>
-
-
-</div>
-
-</div>
-
-
-<video src="https://djsartport.com/sea.mp4" autoplay  muted playsinline></video>
-
-
-<div class="bottom-div">
-
-<ul>
-<li> <a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank"> A: 製作飄流瓶</a></li>
-<li> <a href="javascript:void(0);" class="b-btn"> B: 隨意撈起</a></li>
-</ul>
+        <div class="result-bottle result-bottle-1"> <img class="bottle-img" src="https://djsartport.com/blue-bottle.png" alt="">
+        </div><div class="result-bottle result-bottle-2"> <img class="bottle-img" src="https://djsartport.com/red-bottle.png" alt="">
+        </div>
+        </div>
 
 
 
-
-
-
-
-</div>
-</div>
-</body>
+      </div>
+      <video src="https://djsartport.com/sea.mp4" autoplay muted playsinline></video>
+      <div class="bottom-div">
+        <ul>
+          <li>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank"> A: 製作飄流瓶</a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" class="b-btn"> B: 隨意撈起</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>

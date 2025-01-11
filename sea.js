@@ -56,8 +56,8 @@ $(function(){
                     }
                     else
                     {
-                        // alert(found);
                         $('.msg ,.info-block-1').fadeOut(0);
+                        
                     }
 
                     
