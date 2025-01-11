@@ -59,7 +59,9 @@
                 <div>女(<span class="idx"></span>)</div>
             </div>
 
-            <h6>我們會在24小時內聯絡你打開瓶(<span class="bottle-idx"></span>)的內容。</h6>
+            <h6>我們會在24小時內聯絡你打開瓶(<span class="bottle-idx"></span>)的內容。<br>
+                如你在一星期內抽多過一次，此抽將會無效。
+        </h6>
         </div>
 
 
