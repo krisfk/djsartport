@@ -56,8 +56,22 @@ $(function(){
                     }
                     else
                     {
+
                         $('.msg ,.info-block-1').fadeOut(0);
+
+                        $('.result-bottle').fadeOut(0);
+
+                        if($(".find-gender").val()=='男')
+                            {
+                                $('.result-bottle-1 .idx').html(found);
+                            }
                         
+
+                        if($(".find-gender").val()=='女')
+                            {
+                                $('.result-bottle-2 .idx').html(found);
+                            }
+
                     }
 
                     
