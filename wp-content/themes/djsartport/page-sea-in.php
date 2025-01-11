@@ -60,7 +60,7 @@
             </div>
 
             <h6>我們會在24小時內聯絡你打開瓶(<span class="bottle-idx"></span>)的內容。<br>
-                如你在一星期內抽多過一次，此抽將會無效。
+               <span class="small">如你在一星期內已抽多過一次，此抽將當作無效。</span>
         </h6>
         </div>
 
