@@ -19,23 +19,50 @@
     <div class="text-center">          
 
 
-    <div>
-       <div class="result-bottle result-bottle-1"> 
+     <div class="info-group">
+
+
+     <?php if( get_field('gender') =='男')
+     {
+      ?>
+     
+     <div class="result-bottle result-bottle-1"> 
                 <img class="bottle-img mb-3" src="https://djsartport.com/blue-bottle.png" alt="">
                 <div>男(<span class="idx"></span>)</div>
             </div>
-            
-            <div class="result-bottle result-bottle-2">
+     <?php
+     }
+
+     else
+     {
+      ?>
+     
+     <div class="result-bottle result-bottle-2">
                 <img class="bottle-img mb-3" src="https://djsartport.com/red-bottle.png" alt="">
                 <div>女(<span class="idx"></span>)</div>
             </div>
-            </div>
+             
+     <?php
+     }
+      ?>
+         
+            
+         
+          
+     </div>
+
+
+
    
             </div>
 
     
     
-  </div>
-  
+ 
+ 
+ 
+     </div>
+
+
 </body>
 </html>
