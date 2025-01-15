@@ -112,9 +112,10 @@
      </div>
 
 
-     <div>
+     <div class="mt-3">
       <a href="javascript:void(0);" class="open-bottle-btn">打開瓶(<?php echo get_the_ID();?>)</a>
      </div>
+
      <div class="info-group mt-3">
      <b>對你的心底話:</b>
      <?php echo get_field('first_say');?>
