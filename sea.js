@@ -29,6 +29,7 @@ $(function(){
         $(this).html('你打開了這個飄流瓶⋯⋯');
         $(this).attr('class','opened-txt');
 
+        $('.secret-div').fadeIn(500);
         
     })
 
