@@ -105,10 +105,6 @@
      <?php echo get_field('hobby');?>
      </div>
 
-     <div class="info-group mt-3">
-     <b>IG:</b>
-     <?php echo get_field('instagram');?>
-     </div>
 
      <div class="info-group mt-3">
      <b>住邊區:</b>
@@ -121,9 +117,17 @@
      </div>
 
      <div class="info-group mt-3">
+     <b>IG:</b>
+     <?php echo get_field('instagram');?>
+     </div>
+
+     <div class="info-group mt-3">
      <b>whatsapp:</b>
      <?php echo get_field('whatsapp');?>
      </div>
+
+
+
 
 
 
