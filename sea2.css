@@ -73,7 +73,9 @@ display: block;
 
 .secret-div{
     opacity: 0;
-    background: #2f407c;
+    background: #1b3283;
     padding: 1rem;
+    display: inline-block;
     margin: 1rem 0 0 0;
+    border-radius: 1rem;
 }
