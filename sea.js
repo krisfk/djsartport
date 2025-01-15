@@ -23,6 +23,15 @@ $(function(){
         $('.sea-lightbox').fadeOut(200);
     })
 
+
+    $('.open-bottle-btn').click(function(){
+
+        $(this).html('打開了飄流瓶⋯⋯');
+        $(this).attr('class','ddd');
+
+        
+    })
+
     $('.b-btn').click(function(){
         $('.sea-lightbox').fadeIn(200);
         $('body,html').animate({
