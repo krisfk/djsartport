@@ -91,6 +91,12 @@
      </div>
 
 
+     <div class="info-group mt-3">
+     <b>星座:</b>
+     <?php echo get_field('zodiac');?>
+     </div>
+
+
 
 
    
