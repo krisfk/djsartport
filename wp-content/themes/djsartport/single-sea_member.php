@@ -52,13 +52,13 @@
 
 
      <div class="info-group mt-3">
-     <b>稱呼</b>
+     <b>稱呼:</b>
      <?php echo get_field('nickname');?>
      </div>
 
 
      <div class="info-group mt-3">
-     <b>性別</b>
+     <b>性別:</b>
      <?php echo get_field('gender');?>
      </div>
 
@@ -66,14 +66,14 @@
 
 
      <div class="info-group mt-3">
-     <b>年齡</b>
+     <b>年齡:</b>
      <?php echo get_field('age');?>
      </div>
 
 
 
      <div class="info-group mt-3">
-     <b>高度(cm)</b>
+     <b>高度(cm):</b>
      <?php echo get_field('height');?>
      </div>
 
