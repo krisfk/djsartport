@@ -54,7 +54,7 @@
 
      <div class="info-group">
 
-     <h4>稱呼</h4>
+     <h5>稱呼</h5>
      <?php echo get_field('nickname');?>
 
      </div>
