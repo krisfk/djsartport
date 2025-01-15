@@ -96,6 +96,23 @@
      <?php echo get_field('zodiac');?>
      </div>
 
+     <div class="info-group mt-3">
+     <b>MBTI:</b>
+     <?php echo get_field('mbti');?>
+     </div>
+
+
+     <div class="info-group mt-3">
+     <b>擇偶條件:</b>
+     <?php echo get_field('criteria');?>
+     </div>
+
+     <div class="info-group mt-3">
+     <b>興趣:</b>
+     <?php echo get_field('hobby');?>
+     </div>
+
+
 
 
 
