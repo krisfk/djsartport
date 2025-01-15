@@ -87,7 +87,7 @@
 
      <div class="info-group mt-3">
      <b>職業:</b>
-     <?php echo get_field('job');?>
+     <?php echo get_field('career');?>
      </div>
 
 
