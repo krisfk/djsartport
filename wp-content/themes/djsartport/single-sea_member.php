@@ -118,7 +118,7 @@
 
 
      <div class="secret-div">
-     <div class="info-group mt-3">
+     <div class="info-group mt-0">
      <b>對你的心底話:</b>
      
      <?php echo get_field('first_say');?>

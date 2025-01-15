@@ -73,4 +73,7 @@ display: block;
 
 .secret-div{
     opacity: 0;
+    background: #2f407c;
+    padding: 1rem;
+    margin: 1rem 0 0 0;
 }
