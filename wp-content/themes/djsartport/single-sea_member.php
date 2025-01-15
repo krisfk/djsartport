@@ -110,6 +110,23 @@
      <?php echo get_field('instagram');?>
      </div>
 
+     <div class="info-group mt-3">
+     <b>住邊區:</b>
+     <?php echo get_field('live_where');?>
+     </div>
+
+     <div class="info-group mt-3">
+     <b>對你的心底話:</b>
+     <?php echo get_field('first_say');?>
+     </div>
+
+     <div class="info-group mt-3">
+     <b>whatsapp:</b>
+     <?php echo get_field('whatsapp');?>
+     </div>
+
+
+
 
 
 
