@@ -131,10 +131,10 @@
 
      <?php
      
-     if(get_field('reveal_whatsapp'))
+     if(get_field('reveal_whatsapp')=='Y')
      {
       ?>
-     
+    
      <div class="info-group mt-3">
      <b>whatsapp:</b>
      <?php echo get_field('whatsapp');?>
