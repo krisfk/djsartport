@@ -15,6 +15,4 @@
     /* border-radius: 1rem; */
     /* margin-bottom: 2rem; */
 }
-.open-bottle-btn{
-
-}
+.open-bottle-btn{display: inline-block;color: #432222;background: #ffde00;padding: 0.5rem 1rem;border-radius: 0.5rem;text-decoration: none;}
