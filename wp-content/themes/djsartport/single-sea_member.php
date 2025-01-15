@@ -18,7 +18,7 @@
 
     <div class="text-center">          
 
-    <h1>緣份之海：瓶(<?php echo get_the_ID();?>)</h1>
+    <h1 class="mt-4">緣份之海：瓶(<?php echo get_the_ID();?>)</h1>
 
      <div class="info-group pt-5">
 
