@@ -39,7 +39,6 @@
      
      <div class="result-bottle result-bottle-2">
                 <img class="bottle-img mb-3" src="https://djsartport.com/red-bottle.png" alt="">
-                <!-- <div>女(<span class="idx"></span>)</div> -->
             </div>
              
      <?php
@@ -53,11 +52,31 @@
 
 
      <div class="info-group mt-3">
-
      <h5>稱呼</h5>
      <?php echo get_field('nickname');?>
-
      </div>
+
+
+     <div class="info-group mt-3">
+     <h5>性別</h5>
+     <?php echo get_field('gender');?>
+     </div>
+
+
+
+
+     <div class="info-group mt-3">
+     <h5>年齡</h5>
+     <?php echo get_field('age');?>
+     </div>
+
+
+
+     <div class="info-group mt-3">
+     <h5>高度(cm)</h5>
+     <?php echo get_field('height');?>
+     </div>
+
 
 
 
