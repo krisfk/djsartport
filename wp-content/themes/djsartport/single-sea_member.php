@@ -19,7 +19,7 @@
     <div class="text-center">          
 
 
-     <div class="info-group mt-5">
+     <div class="info-group pt-5">
 
 
      <?php if( get_field('gender') =='男')
