@@ -60,3 +60,11 @@
   .open-bottle-btn:hover{
       opacity: 0.9;
   }
+
+
+  .opened-txt{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    
+  }

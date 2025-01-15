@@ -27,7 +27,7 @@ $(function(){
     $('.open-bottle-btn').click(function(){
 
         $(this).html('打開了飄流瓶⋯⋯');
-        $(this).attr('class','ddd');
+        $(this).attr('class','opened-txt');
 
         
     })
