@@ -19,7 +19,7 @@
     <div class="text-center">          
 
 
-     <div class="info-group">
+     <div class="info-group mt-5">
 
 
      <?php if( get_field('gender') =='男')
@@ -52,7 +52,7 @@
      </div>
 
 
-     <div class="info-group">
+     <div class="info-group mt-3">
 
      <h5>稱呼</h5>
      <?php echo get_field('nickname');?>
