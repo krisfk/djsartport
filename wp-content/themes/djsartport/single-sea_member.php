@@ -39,7 +39,7 @@
      
      <div class="result-bottle result-bottle-2">
                 <img class="bottle-img mb-3" src="https://djsartport.com/red-bottle.png" alt="">
-                <div>女(<span class="idx"></span>)</div>
+                <!-- <div>女(<span class="idx"></span>)</div> -->
             </div>
              
      <?php
@@ -49,6 +49,14 @@
             
          
           
+     </div>
+
+
+     <div class="info-group">
+
+     <h4>稱呼</h4>
+     <?php echo get_field('nickname');?>
+
      </div>
 
 
