@@ -16,7 +16,10 @@
     
     
 
-    <div>          
+    <div class="text-center">          
+
+
+    <div>
        <div class="result-bottle result-bottle-1"> 
                 <img class="bottle-img mb-3" src="https://djsartport.com/blue-bottle.png" alt="">
                 <div>男(<span class="idx"></span>)</div>
@@ -28,10 +31,11 @@
             </div>
             </div>
    
-
+            </div>
 
     
     
   </div>
-  </body>
+  
+</body>
 </html>
