@@ -105,6 +105,13 @@
      <?php echo get_field('hobby');?>
      </div>
 
+     <div class="info-group mt-3">
+     <b>IG:</b>
+     <?php echo get_field('instagram');?>
+     </div>
+
+
+
 
 
 
