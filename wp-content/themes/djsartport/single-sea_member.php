@@ -12,13 +12,13 @@
   </head>
   <style type="text/css"></style>
   <body>
-    <div class="container main-container g-0 position-relative">
+    <div class="container main-container g-0 position-relative pt-4 pb-4">
     
     
 
     <div class="text-center">          
 
-    <h1 class="pt-4">緣份之海：瓶(<?php echo get_the_ID();?>)</h1>
+    <h1 class="">緣份之海：瓶(<?php echo get_the_ID();?>)</h1>
 
      <div class="info-group pt-5">
 
