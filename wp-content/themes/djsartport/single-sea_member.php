@@ -78,6 +78,19 @@
      </div>
 
 
+     <div class="info-group mt-3">
+     <b>高度(cm):</b>
+     <?php echo get_field('height');?>
+     </div>
+
+
+
+     <div class="info-group mt-3">
+     <b>職業:</b>
+     <?php echo get_field('job');?>
+     </div>
+
+
 
 
    
