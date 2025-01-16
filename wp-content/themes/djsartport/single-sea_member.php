@@ -26,9 +26,11 @@ echo $reader_tel;
 print_r($allow_readers_arr);
 // $os = array("Mac", "NT", "Irix", "Linux");
 
+echo in_array($reader_tel, $allow_readers_arr);
 if (in_array($reader_tel, $allow_readers_arr)) {
+
   $allow=true;
-  echo 4324;
+ 
 }
 else if(!$reader_tel)
 {
