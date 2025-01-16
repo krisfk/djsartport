@@ -26,7 +26,7 @@ $(function(){
 
     $('.open-bottle-btn').click(function(){
 
-        $(this).html('你打開了這個飄流瓶⋯⋯');
+        $(this).html('你打開了這個飄流瓶⋯⋯<br>和對方打招呼時記得保持禮貌=]');
         $(this).attr('class','opened-txt');
 
         $('.secret-div').animate({'opacity':'1'},200);

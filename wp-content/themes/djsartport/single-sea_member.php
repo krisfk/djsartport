@@ -21,13 +21,6 @@
     $reader_tel=$_GET['reader'];
     $allow=false;
 
-
-// echo $reader_tel;
-// print_r($allow_readers_arr);
-// $os = array("Mac", "NT", "Irix", "Linux");
-
-// echo in_array($reader_tel, $allow_readers_arr);
-
 if (in_array($reader_tel, $allow_readers_arr)) {
   $allow=true; 
 }
@@ -39,7 +32,6 @@ else
  <?php
  exit;
 }
-
 
     ?>
 
