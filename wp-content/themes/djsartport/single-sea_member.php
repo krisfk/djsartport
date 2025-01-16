@@ -27,12 +27,11 @@
 // $os = array("Mac", "NT", "Irix", "Linux");
 
 echo in_array($reader_tel, $allow_readers_arr);
-if (in_array($reader_tel, $allow_readers_arr)) {
 
-  $allow=true;
- 
+if (in_array($reader_tel, $allow_readers_arr)) {
+  $allow=true; 
 }
-else if(!$reader_tel)
+else 
 {
   $allow=false;
   ?>
