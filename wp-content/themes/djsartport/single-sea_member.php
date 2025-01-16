@@ -19,21 +19,23 @@
     $allow_readers=get_field('allow_readers');
     $allow_readers_arr = explode(",", $allow_readers);
     $reader_tel=$_GET['reader'];
+    $allow=false;
 
 
 // echo $reader_tel;
 
 // $os = array("Mac", "NT", "Irix", "Linux");
 if (in_array($reader_tel, $allow_readers_arr)) {
-    echo "got value";
+  $allow=true;
+  ?>
+ 
+ <h1>網址輸入錯誤⋯如有任何問題可whatsapp 51936670查詢。</h1>
+ <?php
 }
 else
 {
-  echo "n got value";
-
+  $allow=false;
 }
-
-
 
 
     ?>
