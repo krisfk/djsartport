@@ -28,7 +28,7 @@
 if (in_array($reader_tel, $allow_readers_arr)) {
   $allow=true;
 }
-else
+else if(!$reader_tel)
 {
   $allow=false;
   ?>
