@@ -146,7 +146,7 @@ else
 
      <div class="secret-div">
      <div class="info-group mt-0">
-     <b>對你的心底話:</b>
+     <b>對你的心底話:</b><br>
      
      <?php echo get_field('first_say');?>
      </div>
