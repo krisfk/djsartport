@@ -21,6 +21,14 @@
     $reader_tel=$_GET['reader'];
     $allow=false;
 
+    if(!$allow_readers)
+    {
+      ?>
+      <h1>網址輸入錯誤⋯如有任何問題可whatsapp 51936670查詢。</h1>
+     <?php
+     exit;
+    }
+
 if (in_array($reader_tel, $allow_readers_arr)) {
   $allow=true; 
 }
