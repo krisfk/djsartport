@@ -14,7 +14,17 @@
   <body>
     <div class="container main-container g-0 position-relative pt-4 pb-4">
     
+    <?php
     
+    $allow_readers=get_field('allow_readers');
+    $allow_readers_arr = explode(",", $allow_readers);
+    $reader_tel=$_GET['reader'];
+
+
+echo $reader_tel;
+
+
+    ?>
 
     <div class="text-center">          
 
