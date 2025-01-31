@@ -59,6 +59,17 @@
                 <div>女(<span class="idx"></span>)</div>
             </div>
 
+
+
+
+            <div class="d-none">
+            <h4 class="mb-3">最後步驟:(發佈結果前..我們會檢查🙏🏻)</h4>
+            1. IG follow 我們: <a href="https://www.instagram.com/djs_artport" target="_blank">djs_artport</a> <br>
+            2. Share 這個ig post to story (<a href="https://www.instagram.com/p/DE3-ePKSs_i/" target="_blank">連結在此</a>)<br> 
+            <img src="https://djsartport.com/sea-screenshot.jpg" alt="">
+             </div>
+
+
             <h6>我們會在24小時內聯絡你打開瓶(<span class="bottle-idx"></span>)的內容。<br>
                <span class="small">(如你在一星期內已抽多過一次，此抽將當作無效。)</span>
         </h6>
