@@ -39,7 +39,7 @@
           <div class="small">(我們會在24小時內會send結果給你)</div>
           <input type="text" name="" class="form-control mt-2 form-wts">
           <input type="hidden" name="find_gender" class="find-gender">
-         <div class="submit-btn-div text-center">
+         <div class="submit-btn-div text-center mt-3">
           <button class="submit-btn" role="button">💞 隨機一抽 🫶🏻</button>
           </div>
           <div class="small mt-2">(一星期只可抽一次)</div>
