@@ -46,7 +46,7 @@
           </div>
         </div>
 
-        <div class="result-block mt-5">
+        <div class="result-block mt-3">
 
         <h4 class="mb-3">你抽中了:</h4>
             <div class="result-bottle result-bottle-1"> 
