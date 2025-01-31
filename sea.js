@@ -46,6 +46,8 @@ $(function(){
         var form_wts = $('.form-wts').val();
         var find_gender = $('.find-gender').val();
 
+        $('.submit-btn-div').html('請稍等..loading..⏳');
+
 
         var formData = {
             form_wts: $(".form-wts").val(),
