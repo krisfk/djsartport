@@ -70,7 +70,7 @@
              </div>
 
 
-            <h6>完成「最後步驟」後，我們會在24小時內聯絡你打開瓶(<span class="bottle-idx"></span>)的內容。<br>
+            <h6>完成「最後步驟」後，<br>我們會在24小時內聯絡你打開瓶(<span class="bottle-idx"></span>)的內容。<br>
                <span class="small">(如你在一星期內已抽多過一次，此抽將當作無效。)</span>
         </h6>
         </div>
