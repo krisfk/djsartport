@@ -6,8 +6,9 @@
 }
 
 .result-bottle .bottle-img{
-    width: 100px;
+    width: 80px;
 }
+
 .result-bottle{
     display:inline-block;
     /* background: #7381d2; */
