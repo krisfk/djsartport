@@ -84,16 +84,13 @@
 
 
      <div class="info-group mt-2">
-     <b>稱呼:</b>
-     <?php echo get_field('nickname');?>
+      <table>
+        <tr><td><b>稱呼: <?php echo get_field('nickname');?></b></td><td><b>性別:</b> <?php echo get_field('gender');?></td></tr>
+    
+    </table>
+     
+     
      </div>
-
-
-     <div class="info-group mt-2">
-     <b>性別:</b>
-     <?php echo get_field('gender');?>
-     </div>
-
 
 
 
