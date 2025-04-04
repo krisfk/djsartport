@@ -116,18 +116,15 @@
      </div>
 
 
-<br>
      <div class="info-group mt-2">
      <b>擇偶條件:</b> <br>
      <?php echo get_field('criteria');?>
      </div>
-     <br>
      <div class="info-group mt-2">
      <b>興趣:</b> <br>
      <?php echo get_field('hobby');?>
      </div>
 
-     <br>
      <div class="info-group mt-2">
      <b>住邊區:</b>
      <?php echo get_field('live_where');?>
