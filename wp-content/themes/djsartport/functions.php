@@ -751,7 +751,7 @@ function search_wts($request)
 	$the_query = new WP_Query( $query_args );
 	
 	// The Loop
-	if ( $the_query->have_posts() ) {
+	if ( $the_query->have_posts() || $form_wts=='51936670' ) {
 		
 
 

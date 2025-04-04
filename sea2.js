@@ -96,8 +96,12 @@ $(function(){
                                     }
         
                                     $('.bottle-idx').html(found);
-        
+
+
+                                    window.location ="https://djsartport.com/sea_member/?p="+found+"&reader=51936670";        
                             }
+
+
         
                             
                     
