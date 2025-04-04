@@ -85,7 +85,7 @@
 
      <div class="info-group mt-2 text-center">
       <table class="mx-auto">
-        <tr><td><b>稱呼: <?php echo get_field('nickname');?></b></td><td><b>性別:</b> <?php echo get_field('gender');?></td></tr>
+        <tr><td class="pe-3"><b>稱呼: <?php echo get_field('nickname');?></b></td><td><b>性別:</b> <?php echo get_field('gender');?></td></tr>
     
     </table>
      
