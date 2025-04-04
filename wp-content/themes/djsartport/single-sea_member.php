@@ -156,7 +156,7 @@
      {
       ?>
     
-     <div class="info-group mt-2">
+     <div class="info-group mt-0">
      <b>whatsapp:</b>
      <?php echo get_field('whatsapp');?>
      </div>
