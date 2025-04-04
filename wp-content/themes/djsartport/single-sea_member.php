@@ -86,7 +86,17 @@
      <div class="info-group mt-2 text-center">
       <table class="mx-auto">
         <tr><td class="pe-3"><b>稱呼: <?php echo get_field('nickname');?></b></td><td><b>性別:</b> <?php echo get_field('gender');?></td></tr>
-    
+    <tr>
+<td>     <b>年齡:      <?php echo get_field('age');?>
+</b>
+</td>
+<td>
+<b>高度(cm):</b>       <?php echo get_field('height');?>
+
+
+
+</td>
+    </tr>
     </table>
      
      
@@ -94,17 +104,9 @@
 
 
 
-     <div class="info-group mt-2">
-     <b>年齡:</b>
-     <?php echo get_field('age');?>
-     </div>
 
 
 
-     <div class="info-group mt-2">
-     <b>高度(cm):</b>
-     <?php echo get_field('height');?>
-     </div>
 
 
      <div class="info-group mt-2">
