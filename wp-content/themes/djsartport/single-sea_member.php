@@ -133,8 +133,7 @@
      <?php echo get_field('live_where');?>
      </div>
 
-     <br>
-     <div class="mt-2">
+     <div class="mt-0">
       <a href="javascript:void(0);" class="open-bottle-btn">打開瓶(<?php echo get_the_ID();?>)</a>
      </div>
 
