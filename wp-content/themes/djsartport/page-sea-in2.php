@@ -11,7 +11,7 @@
     <script type="text/javascript" src="https://djsartport.com/sea.js"></script>
   </head>
   <style type="text/css"></style>
-  <body>
+  <body class="sea2">
     <div class="container main-container g-0 position-relative">
       <div class="sea-lightbox text-center">
         <a href="javascript:void(0);" class="close-btn-a">
