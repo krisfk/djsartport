@@ -736,8 +736,6 @@ function search_wts($request)
 	$form_wts = $request['form_wts'];
 	$find_gender = $request['find_gender'];
 
-	// echo $find_gender;
-	// echo 111;
 
 	$query_args = array(
 		'post_type' => 'sea_member',
