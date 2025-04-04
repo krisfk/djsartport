@@ -42,7 +42,7 @@
          <div class="submit-btn-div text-center mt-3">
           <button class="submit-btn" role="button">💞 隨機一抽 🫶🏻</button>
           </div>
-          <div class="small mt-2">(一星期只可抽一次)</div>
+          <!-- <div class="small mt-2">(一星期只可抽一次)</div> -->
           <div class="msg mt-4 text-warning">這個wts號碼沒有用作登記[A: 製作飄流瓶] <br>
             <a class="text-warning" href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank">請先完成A步驟</a>(24小時內完成認証)
           </div>
