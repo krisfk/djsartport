@@ -85,7 +85,10 @@
 }
 
 .sea-table{
+}
+.sea-table-outer{
   padding: 2rem;
   background: #00DDEB;
   border-radius: 1rem;
+
 }
