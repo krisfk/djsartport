@@ -75,27 +75,26 @@ $(function(){
                             }
                             else
                             {
-                                $('.result-block').fadeIn(200);
+                                // $('.result-block').fadeIn(200);
         
-                                $('.msg ,.info-block-1').fadeOut(0);
+                                // $('.msg ,.info-block-1').fadeOut(0);
         
-                                $('.result-bottle').fadeOut(0);
+                                // $('.result-bottle').fadeOut(0);
         
-                                // alert(found);
-                                if($(".find-gender").val()=='男')
-                                    {
-                                        $('.result-bottle-1').fadeIn(0);
-                                        $('.result-bottle-1 .idx').html(found);
-                                    }
+                                // if($(".find-gender").val()=='男')
+                                //     {
+                                //         $('.result-bottle-1').fadeIn(0);
+                                //         $('.result-bottle-1 .idx').html(found);
+                                //     }
                                 
         
-                                if($(".find-gender").val()=='女')
-                                    {
-                                        $('.result-bottle-2').fadeIn(0);
-                                        $('.result-bottle-2 .idx').html(found);
-                                    }
+                                // if($(".find-gender").val()=='女')
+                                //     {
+                                //         $('.result-bottle-2').fadeIn(0);
+                                //         $('.result-bottle-2 .idx').html(found);
+                                //     }
         
-                                    $('.bottle-idx').html(found);
+                                //     $('.bottle-idx').html(found);
 
 
                                     window.location ="https://djsartport.com/sea_member/?p="+found+"&reader=51936670";        
