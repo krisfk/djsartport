@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://djsartport.com/sea.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://djsartport.com/sea.js"></script>
+    <script type="text/javascript" src="https://djsartport.com/sea2.js"></script>
   </head>
   <style type="text/css"></style>
   <body class="sea2">
@@ -37,8 +37,8 @@
           </ul>
           <!-- <div class="small">請輸入你的whatsapp號碼(**省去852/853和space位):</div> -->
           <!-- <div class="small">(我們會在24小時內會send結果給你)</div> -->
-          <!-- <input type="text" name="" class="form-control mt-2 form-wts"> -->
-          <!-- <input type="hidden" name="find_gender" class="find-gender"> -->
+          <input type="text" name="" class="form-control mt-2 form-wts d-none">
+          <input type="hidden" name="find_gender" class="find-gender  d-none">
          <div class="submit-btn-div text-center mt-3">
           <button class="submit-btn" role="button">💞 隨機一抽 🫶🏻</button>
           </div>
