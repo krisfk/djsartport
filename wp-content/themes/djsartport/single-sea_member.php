@@ -84,7 +84,7 @@
 
 
      <div class="info-group mt-2">
-      <table class="mx-auto">
+      <table class="mx-auto text-start">
         <tr><td class="pe-3"><b>稱呼: <?php echo get_field('nickname');?></b></td><td><b>性別:</b> <?php echo get_field('gender');?></td></tr>
     <tr>
 <td>     <b>年齡:      <?php echo get_field('age');?>
@@ -92,11 +92,19 @@
 </td>
 <td>
 <b>高度(cm):</b>       <?php echo get_field('height');?>
-
-
-
 </td>
     </tr>
+
+    <tr>
+      <td>     <b>職業:</b> <?php echo get_field('career');?>
+      </td>
+      <td> 
+      <b>星座:</b>      <?php echo get_field('zodiac');?>
+
+    
+      </td>
+    </tr>
+   
     </table>
      
      
@@ -104,21 +112,6 @@
 
 
 
-
-
-
-
-
-     <div class="info-group mt-2">
-     <b>職業:</b>
-     <?php echo get_field('career');?>
-     </div>
-
-
-     <div class="info-group mt-2">
-     <b>星座:</b>
-     <?php echo get_field('zodiac');?>
-     </div>
 
      <div class="info-group mt-2">
      <b>MBTI:</b>
