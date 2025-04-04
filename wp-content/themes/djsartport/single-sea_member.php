@@ -52,7 +52,7 @@
 
     <h1 class="">緣份之海：瓶(<?php echo get_the_ID();?>)</h1>
 
-     <div class="info-group pt-5">
+     <div class="info-group pt-3">
 
 
      <?php if( get_field('gender') =='男')
