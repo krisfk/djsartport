@@ -104,6 +104,11 @@
     
       </td>
     </tr>
+    <tr>
+      <td>     <b>MBTI:</b>      <?php echo get_field('mbti');?>
+
+      </td>
+  <td></td></tr>
    
     </table>
      
@@ -112,20 +117,13 @@
 
 
 
-
      <div class="info-group mt-2">
-     <b>MBTI:</b>
-     <?php echo get_field('mbti');?>
-     </div>
-
-
-     <div class="info-group mt-2">
-     <b>擇偶條件:</b>
+     <b>擇偶條件:</b> <br>
      <?php echo get_field('criteria');?>
      </div>
 
      <div class="info-group mt-2">
-     <b>興趣:</b>
+     <b>興趣:</b> <br>
      <?php echo get_field('hobby');?>
      </div>
 
