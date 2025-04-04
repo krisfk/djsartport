@@ -2,6 +2,13 @@ video{
     width: 100%;
 }
 
+.sea2 .bottom-div{
+    position: absolute;
+    /* height: 100px; */
+    width: 100%;
+    z-index: 100;
+    bottom: 3rem;
+}
 .bottom-div{
     position: absolute;
     /* height: 100px; */
