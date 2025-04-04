@@ -50,7 +50,6 @@
 
     <div class="text-center">          
 
-    <h1 class="">緣份之海：瓶(<?php echo get_the_ID();?>)</h1>
 
      <div class="info-group pt-3">
 
@@ -83,6 +82,9 @@
      </div>
 
 
+     <h1 class="">緣份之海：瓶(<?php echo get_the_ID();?>)</h1>
+
+     
      <div class="info-group mt-2">
       <table class="mx-auto text-start">
         <tr><td class="pe-3"><b>稱呼: <?php echo get_field('nickname');?></b></td><td><b>性別:</b> <?php echo get_field('gender');?></td></tr>
