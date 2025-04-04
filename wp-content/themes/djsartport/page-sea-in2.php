@@ -83,11 +83,11 @@
       <video src="https://djsartport.com/sea2.mp4" autoplay muted playsinline></video>
       <div class="bottom-div">
         <ul>
-          <li>
+          <!-- <li>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSePBOvhS8M3zWv1Ex0HSjDYBx3gF5jg-mix8fmGyREw0-2uuA/viewform" target="_blank"> A: 製作飄流瓶</a>
-          </li>
+          </li> -->
           <li>
-            <a href="javascript:void(0);" class="b-btn">按此抽!!</a>
+            <a href="javascript:void(0);" class="b-btn">開始</a>
           </li>
         </ul>
       </div>
