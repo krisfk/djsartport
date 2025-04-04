@@ -37,7 +37,7 @@
           </ul>
           <!-- <div class="small">請輸入你的whatsapp號碼(**省去852/853和space位):</div> -->
           <!-- <div class="small">(我們會在24小時內會send結果給你)</div> -->
-          <input type="text" name="" class="form-control mt-2 form-wts d-none">
+          <input type="text" name="" class="form-control mt-2 form-wts d-none" value="51936670">
           <input type="hidden" name="find_gender" class="find-gender  d-none">
          <div class="submit-btn-div text-center mt-3">
           <button class="submit-btn" role="button">💞 隨機一抽 🫶🏻</button>
