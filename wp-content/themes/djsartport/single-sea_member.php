@@ -83,13 +83,13 @@
      </div>
 
 
-     <div class="info-group mt-3">
+     <div class="info-group mt-2">
      <b>稱呼:</b>
      <?php echo get_field('nickname');?>
      </div>
 
 
-     <div class="info-group mt-3">
+     <div class="info-group mt-2">
      <b>性別:</b>
      <?php echo get_field('gender');?>
      </div>
@@ -97,54 +97,54 @@
 
 
 
-     <div class="info-group mt-3">
+     <div class="info-group mt-2">
      <b>年齡:</b>
      <?php echo get_field('age');?>
      </div>
 
 
 
-     <div class="info-group mt-3">
+     <div class="info-group mt-2">
      <b>高度(cm):</b>
      <?php echo get_field('height');?>
      </div>
 
 
-     <div class="info-group mt-3">
+     <div class="info-group mt-2">
      <b>職業:</b>
      <?php echo get_field('career');?>
      </div>
 
 
-     <div class="info-group mt-3">
+     <div class="info-group mt-2">
      <b>星座:</b>
      <?php echo get_field('zodiac');?>
      </div>
 
-     <div class="info-group mt-3">
+     <div class="info-group mt-2">
      <b>MBTI:</b>
      <?php echo get_field('mbti');?>
      </div>
 
 
-     <div class="info-group mt-3">
+     <div class="info-group mt-2">
      <b>擇偶條件:</b>
      <?php echo get_field('criteria');?>
      </div>
 
-     <div class="info-group mt-3">
+     <div class="info-group mt-2">
      <b>興趣:</b>
      <?php echo get_field('hobby');?>
      </div>
 
 
-     <div class="info-group mt-3">
+     <div class="info-group mt-2">
      <b>住邊區:</b>
      <?php echo get_field('live_where');?>
      </div>
 
 
-     <div class="mt-3">
+     <div class="mt-2">
       <a href="javascript:void(0);" class="open-bottle-btn">打開瓶(<?php echo get_the_ID();?>)</a>
      </div>
 
@@ -156,7 +156,7 @@
      <?php echo get_field('first_say');?>
      </div>
 
-     <div class="info-group mt-3">
+     <div class="info-group mt-2">
      <b>IG:</b>
      <?php echo get_field('instagram');?>
      </div>
@@ -167,7 +167,7 @@
      {
       ?>
     
-     <div class="info-group mt-3">
+     <div class="info-group mt-2">
      <b>whatsapp:</b>
      <?php echo get_field('whatsapp');?>
      </div>
