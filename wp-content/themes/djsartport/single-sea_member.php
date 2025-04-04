@@ -84,9 +84,9 @@
 
      <h1 class="">緣份之海：瓶(<?php echo get_the_ID();?>)</h1>
 
-     
+
      <div class="info-group mt-2">
-      <table class="mx-auto text-start">
+      <table class="mx-auto text-start sea-table">
         <tr><td class="pe-3"><b>稱呼: <?php echo get_field('nickname');?></b></td><td><b>性別:</b> <?php echo get_field('gender');?></td></tr>
     <tr>
 <td>     <b>年齡:      <?php echo get_field('age');?>

@@ -83,3 +83,9 @@
 .info-group{
   padding:  0 2rem 0 2rem;
 }
+
+.sea-table{
+  padding: 2rem;
+  background: #00DDEB;
+  border-radius: 1rem;
+}
