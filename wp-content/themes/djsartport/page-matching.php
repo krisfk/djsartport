@@ -10,7 +10,7 @@
 <body>
 
     <script type="text/javascript">
-    window.location = 'https://docs.google.com/forms/d/1cWGDu90OOmDeulxqC0ExEO-m2SE63D2i8pixHS2GxtI';
+    window.location = 'https://docs.google.com/forms/d/e/1FAIpQLSdlBiXHkzlRabaCDd9y97WGxx6J8OwkCLGgY9ed9emfBB4WRw/viewform';
     </script>
 </body>
 
