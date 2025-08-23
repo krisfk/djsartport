@@ -16,10 +16,7 @@
 
 get_header(); ?>
 
-<script type="text/javascript">
-    
-    window.location.href = "https://www.instagram.com/djs_artport";
-</script>
+
 
 <div class="video-bg-div-outer mt-3">
     <div class="video-bg-div">

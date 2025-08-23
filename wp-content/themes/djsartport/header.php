@@ -55,9 +55,12 @@
     <script src="<?php echo get_template_directory_uri();?>/lightbox.js"></script>
 
 
-
+    
     <script type="text/javascript">
-    function reizeWin() {
+    window.location.href = "https://www.instagram.com/djs_artport";
+
+
+function reizeWin() {
         if ($(window).width() >= 991) {
 
             $('.mobile-menu-btn').removeClass('opened');
